@@ -1,12 +1,20 @@
 {
-  "title": "Tsallis-INF: An Optimal Algorithm for Stochastic and Adversarial Bandits",
-  "abstract": "We derive an algorithm that achieves the optimal (within constants) pseudo-regret in both adversarial and stochastic multi-armed bandits without prior knowledge of the regime and time horizon. The algorithm is based on online mirror descent (OMD) with Tsallis entropy regularization with power $\\alpha=1/2$ and reduced-variance loss estimators. More generally, we define an adversarial regime with a self-bounding constraint, which includes stochastic regime, stochastically constrained adversarial regime, and stochastic regime with adversarial corruptions as special cases, and show that the algorithm achieves logarithmic regret guarantee in this regime and all of its special cases simultaneously with the optimal regret guarantee in the adversarial regime. The algorithm also achieves adversarial and stochastic optimality in the utility-based dueling bandit setting. We provide empirical evaluation of the algorithm demonstrating that it significantly outperforms UCB1 and EXP3 in stochastic environments. We also provide examples of adversarial environments, where UCB1 and Thompson Sampling exhibit almost linear regret, whereas our algorithm suffers only logarithmic regret. To the best of our knowledge, this is the first example demonstrating vulnerability of Thompson Sampling in adversarial environments. Last but not least, we present a general stochastic analysis and a general adversarial analysis of OMD algorithms with Tsallis entropy regularization for $\\alpha\\in[0,1]$ and explain the reason why $\\alpha=1/2$ works best.",
-  "authors": [
-    "Julian Zimmert",
-    "Yevgeny Seldin"
-  ],
-  "emails": [
-    "zimmert@google.com",
-    "seldin@di.ku.dk"
-  ]
+    "abstract": "We derive an algorithm that achieves the optimal (within constants) pseudo-regret in both adversarial and stochastic multi-armed bandits without prior knowledge of the regime and time horizon. The algorithm is based on online mirror descent (OMD) with Tsallis entropy regularization with power $\\alpha=1/2$ and reduced-variance loss estimators. More generally, we define an adversarial regime with a self-bounding constraint, which includes stochastic regime, stochastically constrained adversarial regime, and stochastic regime with adversarial corruptions as special cases, and show that the algorithm achieves logarithmic regret guarantee in this regime and all of its special cases simultaneously with the optimal regret guarantee in the adversarial regime. The algorithm also achieves adversarial and stochastic optimality in the utility-based dueling bandit setting. We provide empirical evaluation of the algorithm demonstrating that it significantly outperforms UCB1 and EXP3 in stochastic environments. We also provide examples of adversarial environments, where UCB1 and Thompson Sampling exhibit almost linear regret, whereas our algorithm suffers only logarithmic regret. To the best of our knowledge, this is the first example demonstrating vulnerability of Thompson Sampling in adversarial environments. Last but not least, we present a general stochastic analysis and a general adversarial analysis of OMD algorithms with Tsallis entropy regularization for $\\alpha\\in[0,1]$ and explain the reason why $\\alpha=1/2$ works best.",
+    "authors": [
+        "Julian Zimmert",
+        "Yevgeny Seldin"
+    ],
+    "emails": [
+        "zimmert@google.com",
+        "seldin@di.ku.dk"
+    ],
+    "id": "19-753",
+    "issue": 28,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Tsallis-INF: An Optimal Algorithm for Stochastic and Adversarial Bandits",
+    "volume": 22,
+    "year": 2021
 }

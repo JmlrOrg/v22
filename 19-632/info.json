@@ -1,16 +1,24 @@
 {
-  "title": "A Two-Level Decomposition Framework Exploiting First and Second Order Information for SVM Training Problems",
-  "abstract": "In this work we present a novel way to solve the sub-problems that originate when using decomposition algorithms to train Support Vector Machines (SVMs). State-of-the-art Sequential Minimization Optimization (SMO) solvers reduce the original problem to a sequence of sub-problems of two variables for which the solution is analytical. Although considering more than two variables at a time usually results in a lower number of iterations needed to train an SVM model, solving the sub-problem becomes much harder and the overall computational gains are limited, if any. We propose to apply the two-variables decomposition method to solve the sub-problems themselves and experimentally show that it is a viable and efficient way to deal with sub-problems of up to 50 variables. As a second contribution we explore different ways to select the working set and its size, combining first-order and second-order working set selection rules together with a strategy for exploiting cached elements of the Hessian matrix. An extensive numerical comparison shows that the method performs considerably better than state-of-the-art software.",
-  "authors": [
-    "Giulio Galvan",
-    "Matteo Lapucci",
-    "Chih-Jen Lin",
-    "Marco Sciandrone"
-  ],
-  "emails": [
-    "giulio.galvan@unifi.it",
-    "matteo.lapucci@unifi.it",
-    "cjlin@csie.ntu.edu.tw",
-    "marco.sciandrone@unifi.it"
-  ]
+    "abstract": "In this work we present a novel way to solve the sub-problems that originate when using decomposition algorithms to train Support Vector Machines (SVMs). State-of-the-art Sequential Minimization Optimization (SMO) solvers reduce the original problem to a sequence of sub-problems of two variables for which the solution is analytical. Although considering more than two variables at a time usually results in a lower number of iterations needed to train an SVM model, solving the sub-problem becomes much harder and the overall computational gains are limited, if any. We propose to apply the two-variables decomposition method to solve the sub-problems themselves and experimentally show that it is a viable and efficient way to deal with sub-problems of up to 50 variables. As a second contribution we explore different ways to select the working set and its size, combining first-order and second-order working set selection rules together with a strategy for exploiting cached elements of the Hessian matrix. An extensive numerical comparison shows that the method performs considerably better than state-of-the-art software.",
+    "authors": [
+        "Giulio Galvan",
+        "Matteo Lapucci",
+        "Chih-Jen Lin",
+        "Marco Sciandrone"
+    ],
+    "emails": [
+        "giulio.galvan@unifi.it",
+        "matteo.lapucci@unifi.it",
+        "cjlin@csie.ntu.edu.tw",
+        "marco.sciandrone@unifi.it"
+    ],
+    "id": "19-632",
+    "issue": 23,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "A Two-Level Decomposition Framework Exploiting First and Second Order Information for SVM Training Problems",
+    "volume": 22,
+    "year": 2021
 }

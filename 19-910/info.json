@@ -1,14 +1,22 @@
 {
-  "title": "Asynchronous Online Testing of Multiple Hypotheses",
-  "abstract": "We consider the problem of asynchronous online testing, aimed at providing control of the false discovery rate (FDR) during a continual stream of data collection and testing, where each test may be a sequential test that can start and stop at arbitrary times. This setting increasingly characterizes real-world applications in science and industry, where teams of researchers across large organizations may conduct tests of hypotheses in a decentralized manner. The overlap in time and space also tends to induce dependencies among test statistics, a challenge for classical methodology, which either assumes (overly optimistically) independence or (overly pessimistically) arbitrary dependence between test statistics. We present a general framework that addresses both of these issues via a unified computational abstraction that we refer to as “conflict sets.” We show how this framework yields algorithms with formal FDR guarantees under a more intermediate, local notion of dependence. We illustrate our algorithms in simulations by comparing to existing algorithms for online FDR control.",
-  "authors": [
-    "Tijana Zrnic",
-    "Aaditya Ramdas",
-    "Michael I. Jordan"
-  ],
-  "emails": [
-    "tijana.zrnic@berkeley.edu",
-    "aramdas@cmu.edu",
-    "jordan@cs.berkeley.edu"
-  ]
+    "abstract": "We consider the problem of asynchronous online testing, aimed at providing control of the false discovery rate (FDR) during a continual stream of data collection and testing, where each test may be a sequential test that can start and stop at arbitrary times. This setting increasingly characterizes real-world applications in science and industry, where teams of researchers across large organizations may conduct tests of hypotheses in a decentralized manner. The overlap in time and space also tends to induce dependencies among test statistics, a challenge for classical methodology, which either assumes (overly optimistically) independence or (overly pessimistically) arbitrary dependence between test statistics. We present a general framework that addresses both of these issues via a unified computational abstraction that we refer to as \u201cconflict sets.\u201d We show how this framework yields algorithms with formal FDR guarantees under a more intermediate, local notion of dependence. We illustrate our algorithms in simulations by comparing to existing algorithms for online FDR control.",
+    "authors": [
+        "Tijana Zrnic",
+        "Aaditya Ramdas",
+        "Michael I. Jordan"
+    ],
+    "emails": [
+        "tijana.zrnic@berkeley.edu",
+        "aramdas@cmu.edu",
+        "jordan@cs.berkeley.edu"
+    ],
+    "id": "19-910",
+    "issue": 33,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Asynchronous Online Testing of Multiple Hypotheses",
+    "volume": 22,
+    "year": 2021
 }

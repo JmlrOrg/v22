@@ -1,24 +1,32 @@
 {
-  "title": "Domain Generalization by Marginal Transfer Learning",
-  "abstract": "In the problem of domain generalization (DG), there are labeled training data sets from several related prediction problems, and the goal is to make accurate predictions on future unlabeled data sets that are not known to the learner. This problem arises in several applications where data distributions fluctuate because of environmental, technical, or other sources of variation. We introduce a formal framework for DG, and argue that it can be viewed as a kind of supervised learning problem by augmenting the original feature space with the marginal distribution of feature vectors. While our framework has several connections to conventional analysis of supervised learning algorithms, several unique aspects of DG require new methods of analysis. This work lays the learning theoretic foundations of domain generalization, building on our earlier conference paper where the problem of DG was introduced. We present two formal models of data generation, corresponding notions of risk, and distribution-free generalization error analysis. By focusing our attention on kernel methods, we also provide more quantitative results and a universally consistent algorithm. An efficient implementation is provided for this algorithm, which is experimentally compared to a pooling strategy on one synthetic and three real-world data sets.",
-  "extra_links": [
-    [
-      "code",
-      "https://github.com/aniketde/DomainGeneralizationMarginal"
-    ]
-  ],
-  "authors": [
-    "Gilles Blanchard",
-    "Aniket Anand Deshmukh",
-    "Urun Dogan",
-    "Gyemin Lee",
-    "Clayton Scott"
-  ],
-  "emails": [
-    "blanchard@universite-paris-saclay.fr",
-    "aniketde@umich.edu",
-    "urundogan@gmail.com",
-    "gyemin@seoultech.ac.kr",
-    "clayscot@umich.edu"
-  ]
+    "abstract": "In the problem of domain generalization (DG), there are labeled training data sets from several related prediction problems, and the goal is to make accurate predictions on future unlabeled data sets that are not known to the learner. This problem arises in several applications where data distributions fluctuate because of environmental, technical, or other sources of variation. We introduce a formal framework for DG, and argue that it can be viewed as a kind of supervised learning problem by augmenting the original feature space with the marginal distribution of feature vectors. While our framework has several connections to conventional analysis of supervised learning algorithms, several unique aspects of DG require new methods of analysis. This work lays the learning theoretic foundations of domain generalization, building on our earlier conference paper where the problem of DG was introduced. We present two formal models of data generation, corresponding notions of risk, and distribution-free generalization error analysis. By focusing our attention on kernel methods, we also provide more quantitative results and a universally consistent algorithm. An efficient implementation is provided for this algorithm, which is experimentally compared to a pooling strategy on one synthetic and three real-world data sets.",
+    "authors": [
+        "Gilles Blanchard",
+        "Aniket Anand Deshmukh",
+        "Urun Dogan",
+        "Gyemin Lee",
+        "Clayton Scott"
+    ],
+    "emails": [
+        "blanchard@universite-paris-saclay.fr",
+        "aniketde@umich.edu",
+        "urundogan@gmail.com",
+        "gyemin@seoultech.ac.kr",
+        "clayscot@umich.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/aniketde/DomainGeneralizationMarginal"
+        ]
+    ],
+    "id": "17-679",
+    "issue": 2,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Domain Generalization by Marginal Transfer Learning",
+    "volume": 22,
+    "year": 2021
 }

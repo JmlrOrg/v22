@@ -1,12 +1,20 @@
 {
-  "title": "Risk-Averse Learning by Temporal Difference Methods with Markov Risk Measures",
-  "abstract": "We propose a novel reinforcement learning methodology where the system performance is evaluated by a Markov coherent dynamic risk measure with the use of linear value function approximations. We construct projected risk-averse dynamic programming equations and study their properties. We propose new risk-averse counterparts of the basic and multi-step methods of temporal differences and we prove their convergence with probability one. We also perform an empirical study on a complex transportation problem.",
-  "authors": [
-    "Umit Köse",
-    "Andrzej Ruszczyński"
-  ],
-  "emails": [
-    "uek1@rutgers.edu",
-    "rusz@rutgers.edu"
-  ]
+    "abstract": "We propose a novel reinforcement learning methodology where the system performance is evaluated by a Markov coherent dynamic risk measure with the use of linear value function approximations. We construct projected risk-averse dynamic programming equations and study their properties. We propose new risk-averse counterparts of the basic and multi-step methods of temporal differences and we prove their convergence with probability one. We also perform an empirical study on a complex transportation problem.",
+    "authors": [
+        "Umit K\u00f6se",
+        "Andrzej Ruszczy\u0144ski"
+    ],
+    "emails": [
+        "uek1@rutgers.edu",
+        "rusz@rutgers.edu"
+    ],
+    "id": "20-168",
+    "issue": 38,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Risk-Averse Learning by Temporal Difference Methods with Markov Risk Measures",
+    "volume": 22,
+    "year": 2021
 }

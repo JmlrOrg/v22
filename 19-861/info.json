@@ -1,20 +1,28 @@
 {
-  "title": "Learning interaction kernels in heterogeneous systems of agents from multiple trajectories",
-  "abstract": "Systems of interacting particles, or agents, have wide applications in many disciplines, including Physics, Chemistry, Biology and Economics.  These systems are governed by interaction laws, which are often unknown: estimating them from observation data is a fundamental task that can provide meaningful insights and accurate predictions of the behaviour of the agents. In this paper, we consider the inverse problem of learning interaction laws given data  from multiple trajectories, in a nonparametric fashion, when the interaction kernels depend on pairwise distances. We establish a condition for learnability of interaction kernels, and construct an estimator based on the minimization of a suitably regularized least squares functional, that is guaranteed to converge, in a suitable $L^2$ space, at the optimal min-max rate for 1-dimensional nonparametric regression.  We propose an efficient learning algorithm to construct such estimator,  which can be implemented in parallel for multiple trajectories and is therefore well-suited for the high dimensional, big data regime.  Numerical simulations on a variety examples, including opinion dynamics, predator-prey and swarm dynamics and heterogeneous particle dynamics, suggest that the learnability condition is satisfied in models used in practice, and the rate of convergence of our estimator is consistent with the theory. These simulations also suggest that our estimators are robust to noise in the observations, and can produce accurate predictions of trajectories in large time intervals, even when they are learned from observations in short time intervals.",
-  "extra_links": [
-    [
-      "code",
-      "https://github.com/MingZhongCodes/LearningDynamics.git"
-    ]
-  ],
-  "authors": [
-    "Fei Lu",
-    "Mauro Maggioni",
-    "Sui Tang"
-  ],
-  "emails": [
-    "feilu@math.jhu.edu",
-    "mauromaggionijhu@icould.com",
-    "suitang@math.ucsb.edu"
-  ]
+    "abstract": "Systems of interacting particles, or agents, have wide applications in many disciplines, including Physics, Chemistry, Biology and Economics.  These systems are governed by interaction laws, which are often unknown: estimating them from observation data is a fundamental task that can provide meaningful insights and accurate predictions of the behaviour of the agents. In this paper, we consider the inverse problem of learning interaction laws given data  from multiple trajectories, in a nonparametric fashion, when the interaction kernels depend on pairwise distances. We establish a condition for learnability of interaction kernels, and construct an estimator based on the minimization of a suitably regularized least squares functional, that is guaranteed to converge, in a suitable $L^2$ space, at the optimal min-max rate for 1-dimensional nonparametric regression.  We propose an efficient learning algorithm to construct such estimator,  which can be implemented in parallel for multiple trajectories and is therefore well-suited for the high dimensional, big data regime.  Numerical simulations on a variety examples, including opinion dynamics, predator-prey and swarm dynamics and heterogeneous particle dynamics, suggest that the learnability condition is satisfied in models used in practice, and the rate of convergence of our estimator is consistent with the theory. These simulations also suggest that our estimators are robust to noise in the observations, and can produce accurate predictions of trajectories in large time intervals, even when they are learned from observations in short time intervals.",
+    "authors": [
+        "Fei Lu",
+        "Mauro Maggioni",
+        "Sui Tang"
+    ],
+    "emails": [
+        "feilu@math.jhu.edu",
+        "mauromaggionijhu@icould.com",
+        "suitang@math.ucsb.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/MingZhongCodes/LearningDynamics.git"
+        ]
+    ],
+    "id": "19-861",
+    "issue": 32,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "Learning interaction kernels in heterogeneous systems of agents from multiple trajectories",
+    "volume": 22,
+    "year": 2021
 }

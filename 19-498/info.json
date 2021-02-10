@@ -1,16 +1,24 @@
 {
-  "title": "A Unified Sample Selection Framework for Output Noise Filtering: An Error-Bound Perspective",
-  "abstract": "The existence of output noise will bring difficulties to supervised learning. Noise filtering, aiming to detect and remove polluted samples, is one of the main ways to deal with the noise on outputs. However, most of the filters are heuristic and could not explain the filtering influence on the generalization error (GE) bound. The hyper-parameters in various filters are specified manually or empirically, and they are usually unable to adapt to the data environment. The filter with an improper hyper-parameter may overclean, leading to a weak generalization ability. This paper proposes a unified framework of optimal sample selection (OSS) for the output noise filtering from the perspective of error bound. The covering distance filter (CDF) under the framework is presented to deal with noisy outputs in regression and ordinal classification problems. Firstly, two necessary and sufficient conditions for a fixed goodness of fit in regression are deduced from the perspective of GE bound. They provide the unified theoretical framework for determining the filtering effectiveness and optimizing the size of removed samples. The optimal sample size has the adaptability to the environmental changes in the sample size, the noise ratio, and noise variance. It offers a choice of tuning the hyper-parameter and could prevent filters from overcleansing. Meanwhile, the OSS framework can be integrated with any noise estimator and produces a new filter. Then the covering interval is proposed to separate low-noise and high-noise samples, and the effectiveness is proved in regression. The covering distance is introduced as an unbiased estimator of high noises. Further, the CDF algorithm is designed by integrating the cover distance with the OSS framework. Finally, it is verified that the CDF not only recognizes noise labels correctly but also brings down the prediction errors on real apparent age data set. Experimental results on benchmark regression and ordinal classification data sets demonstrate that the CDF outperforms the state-of-the-art filters in terms of prediction ability, noise recognition, and efficiency.",
-  "authors": [
-    "Gaoxia Jiang",
-    "Wenjian Wang",
-    "Yuhua Qian",
-    "Jiye Liang"
-  ],
-  "emails": [
-    "jianggaoxia@sxu.edu.cn",
-    "wjwang@sxu.edu.cn",
-    "jinchengqyh@126.com",
-    "ljy@sxu.edu.cn"
-  ]
+    "abstract": "The existence of output noise will bring difficulties to supervised learning. Noise filtering, aiming to detect and remove polluted samples, is one of the main ways to deal with the noise on outputs. However, most of the filters are heuristic and could not explain the filtering influence on the generalization error (GE) bound. The hyper-parameters in various filters are specified manually or empirically, and they are usually unable to adapt to the data environment. The filter with an improper hyper-parameter may overclean, leading to a weak generalization ability. This paper proposes a unified framework of optimal sample selection (OSS) for the output noise filtering from the perspective of error bound. The covering distance filter (CDF) under the framework is presented to deal with noisy outputs in regression and ordinal classification problems. Firstly, two necessary and sufficient conditions for a fixed goodness of fit in regression are deduced from the perspective of GE bound. They provide the unified theoretical framework for determining the filtering effectiveness and optimizing the size of removed samples. The optimal sample size has the adaptability to the environmental changes in the sample size, the noise ratio, and noise variance. It offers a choice of tuning the hyper-parameter and could prevent filters from overcleansing. Meanwhile, the OSS framework can be integrated with any noise estimator and produces a new filter. Then the covering interval is proposed to separate low-noise and high-noise samples, and the effectiveness is proved in regression. The covering distance is introduced as an unbiased estimator of high noises. Further, the CDF algorithm is designed by integrating the cover distance with the OSS framework. Finally, it is verified that the CDF not only recognizes noise labels correctly but also brings down the prediction errors on real apparent age data set. Experimental results on benchmark regression and ordinal classification data sets demonstrate that the CDF outperforms the state-of-the-art filters in terms of prediction ability, noise recognition, and efficiency.",
+    "authors": [
+        "Gaoxia Jiang",
+        "Wenjian Wang",
+        "Yuhua Qian",
+        "Jiye Liang"
+    ],
+    "emails": [
+        "jianggaoxia@sxu.edu.cn",
+        "wjwang@sxu.edu.cn",
+        "jinchengqyh@126.com",
+        "ljy@sxu.edu.cn"
+    ],
+    "id": "19-498",
+    "issue": 18,
+    "pages": [
+        1,
+        66
+    ],
+    "title": "A Unified Sample Selection Framework for Output Noise Filtering: An Error-Bound Perspective",
+    "volume": 22,
+    "year": 2021
 }

@@ -1,14 +1,22 @@
 {
-  "title": "On the Optimality of Kernel-Embedding Based Goodness-of-Fit Tests",
-  "abstract": "The reproducing kernel Hilbert space (RKHS) embedding of distributions offers a general and flexible framework for testing problems in arbitrary domains and has attracted considerable amount of attention in recent years. To gain insights into their operating characteristics, we study here the statistical performance of such approaches within a minimax framework. Focusing on the case of goodness-of-fit tests, our analyses show that a vanilla version of the kernel embedding based test could be minimax suboptimal, {when considering $\\chi^2$ distance as the separation metric}. Hence we suggest a simple remedy by moderating the embedding. We prove that the moderated approach provides optimal tests for a wide range of deviations from the null and can also be made adaptive over a large collection of interpolation spaces. Numerical experiments are presented to further demonstrate the merits of our approach.",
-  "authors": [
-    "Krishnakumar Balasubramanian",
-    "Tong Li",
-    "Ming Yuan"
-  ],
-  "emails": [
-    "kbala@ucdavis.edu",
-    "tong.li@columbia.edu",
-    "ming.yuan@columbia.edu"
-  ]
+    "abstract": "The reproducing kernel Hilbert space (RKHS) embedding of distributions offers a general and flexible framework for testing problems in arbitrary domains and has attracted considerable amount of attention in recent years. To gain insights into their operating characteristics, we study here the statistical performance of such approaches within a minimax framework. Focusing on the case of goodness-of-fit tests, our analyses show that a vanilla version of the kernel embedding based test could be minimax suboptimal, {when considering $\\chi^2$ distance as the separation metric}. Hence we suggest a simple remedy by moderating the embedding. We prove that the moderated approach provides optimal tests for a wide range of deviations from the null and can also be made adaptive over a large collection of interpolation spaces. Numerical experiments are presented to further demonstrate the merits of our approach.",
+    "authors": [
+        "Krishnakumar Balasubramanian",
+        "Tong Li",
+        "Ming Yuan"
+    ],
+    "emails": [
+        "kbala@ucdavis.edu",
+        "tong.li@columbia.edu",
+        "ming.yuan@columbia.edu"
+    ],
+    "id": "17-570",
+    "issue": 1,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "On the Optimality of Kernel-Embedding Based Goodness-of-Fit Tests",
+    "volume": 22,
+    "year": 2021
 }

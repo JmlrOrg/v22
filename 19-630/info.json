@@ -1,14 +1,22 @@
 {
-  "title": "When random initializations help: a study of variational inference for community detection",
-  "abstract": "Variational approximation has been widely used in large-scale Bayesian inference recently, the simplest kind of which involves imposing a mean field assumption to approximate complicated latent structures. Despite the computational scalability of mean field, theoretical studies of its loss function surface and the convergence behavior of iterative updates for optimizing the loss are far from complete. In this paper, we focus on the problem of community detection for a simple two-class Stochastic Blockmodel (SBM) with equal class sizes. Using batch co-ordinate ascent (BCAVI) for updates, we show different convergence behavior with respect to different initializations. When the parameters are known or estimated within a reasonable range and held fixed, we characterize conditions under which an initialization can converge to the ground truth. On the other hand, when the parameters need to be estimated iteratively, a random initialization will converge to an uninformative local optimum.",
-  "authors": [
-    "Purnamrita Sarkar",
-    "Y. X. Rachel Wang",
-    "Soumendu S. Mukherjee"
-  ],
-  "emails": [
-    "purna.sarkar@austin.utexas.edu",
-    "rachel.wang@sydney.edu.au",
-    "soumendu041@gmail.com"
-  ]
+    "abstract": "Variational approximation has been widely used in large-scale Bayesian inference recently, the simplest kind of which involves imposing a mean field assumption to approximate complicated latent structures. Despite the computational scalability of mean field, theoretical studies of its loss function surface and the convergence behavior of iterative updates for optimizing the loss are far from complete. In this paper, we focus on the problem of community detection for a simple two-class Stochastic Blockmodel (SBM) with equal class sizes. Using batch co-ordinate ascent (BCAVI) for updates, we show different convergence behavior with respect to different initializations. When the parameters are known or estimated within a reasonable range and held fixed, we characterize conditions under which an initialization can converge to the ground truth. On the other hand, when the parameters need to be estimated iteratively, a random initialization will converge to an uninformative local optimum.",
+    "authors": [
+        "Purnamrita Sarkar",
+        "Y. X. Rachel Wang",
+        "Soumendu S. Mukherjee"
+    ],
+    "emails": [
+        "purna.sarkar@austin.utexas.edu",
+        "rachel.wang@sydney.edu.au",
+        "soumendu041@gmail.com"
+    ],
+    "id": "19-630",
+    "issue": 22,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "When random initializations help: a study of variational inference for community detection",
+    "volume": 22,
+    "year": 2021
 }

@@ -1,22 +1,30 @@
 {
-  "title": "An Empirical Study of Bayesian Optimization: Acquisition Versus Partition",
-  "abstract": "Bayesian optimization (BO) is a popular framework for black-box optimization. Two classes of BO approaches have shown promising empirical performance while providing strong theoretical guarantees. The first class optimizes an acquisition function to select points, which is typically computationally expensive and can only be done approximately. The second class of algorithms use systematic space partitioning, which is much cheaper computationally but the selection is typically less informed. This points to a potential trade-off between the computational complexity and empirical performance of these algorithms. The current literature, however, only provides a sparse sampling of empirical comparison points, giving little insight into this trade-off. The primary contribution of this work is to conduct a comprehensive, repeatable evaluation within a common software framework, which we provide as an open-source package. Our results give strong evidence about the relative performance of these methods and reveal a consistent top performer, even when accounting for overall computation time.",
-  "extra_links": [
-    [
-      "code",
-      "https://github.com/Eiii/opt_cmp"
-    ]
-  ],
-  "authors": [
-    "Erich Merrill",
-    "Alan Fern",
-    "Xiaoli Fern",
-    "Nima Dolatnia"
-  ],
-  "emails": [
-    "merriler@oregonstate.edu",
-    "alan.fern@oregonstate.edu",
-    "xfern@oregonstate.edu",
-    "dolatnin@oregonstate.edu"
-  ]
+    "abstract": "Bayesian optimization (BO) is a popular framework for black-box optimization. Two classes of BO approaches have shown promising empirical performance while providing strong theoretical guarantees. The first class optimizes an acquisition function to select points, which is typically computationally expensive and can only be done approximately. The second class of algorithms use systematic space partitioning, which is much cheaper computationally but the selection is typically less informed. This points to a potential trade-off between the computational complexity and empirical performance of these algorithms. The current literature, however, only provides a sparse sampling of empirical comparison points, giving little insight into this trade-off. The primary contribution of this work is to conduct a comprehensive, repeatable evaluation within a common software framework, which we provide as an open-source package. Our results give strong evidence about the relative performance of these methods and reveal a consistent top performer, even when accounting for overall computation time.",
+    "authors": [
+        "Erich Merrill",
+        "Alan Fern",
+        "Xiaoli Fern",
+        "Nima Dolatnia"
+    ],
+    "emails": [
+        "merriler@oregonstate.edu",
+        "alan.fern@oregonstate.edu",
+        "xfern@oregonstate.edu",
+        "dolatnin@oregonstate.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Eiii/opt_cmp"
+        ]
+    ],
+    "id": "18-220",
+    "issue": 4,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "An Empirical Study of Bayesian Optimization: Acquisition Versus Partition",
+    "volume": 22,
+    "year": 2021
 }

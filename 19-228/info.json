@@ -1,14 +1,22 @@
 {
-  "title": "On Multi-Armed Bandit Designs for Dose-Finding Trials",
-  "abstract": "We study the problem of finding the optimal dosage in early stage clinical trials through the multi-armed bandit lens. We advocate the use of the Thompson Sampling principle, a flexible algorithm that can accommodate different types of monotonicity assumptions on the toxicity and efficacy of the doses. For the simplest version of Thompson Sampling, based on a uniform prior distribution for each dose, we provide finite-time upper bounds on the number of sub-optimal dose selections, which is unprecedented for dose-finding algorithms. Through a large simulation study, we then show that variants of Thompson Sampling based on more sophisticated prior distributions outperform state-of-the-art dose identification algorithms in different types of dose-finding studies that occur in phase I or phase I/II trials.",
-  "authors": [
-    "Maryam Aziz",
-    "Emilie Kaufmann",
-    "Marie-Karelle Riviere"
-  ],
-  "emails": [
-    "maryama@spotify.com",
-    "emilie.kaufmann@univ-lille.fr",
-    "eldamjh@gmail.com"
-  ]
+    "abstract": "We study the problem of finding the optimal dosage in early stage clinical trials through the multi-armed bandit lens. We advocate the use of the Thompson Sampling principle, a flexible algorithm that can accommodate different types of monotonicity assumptions on the toxicity and efficacy of the doses. For the simplest version of Thompson Sampling, based on a uniform prior distribution for each dose, we provide finite-time upper bounds on the number of sub-optimal dose selections, which is unprecedented for dose-finding algorithms. Through a large simulation study, we then show that variants of Thompson Sampling based on more sophisticated prior distributions outperform state-of-the-art dose identification algorithms in different types of dose-finding studies that occur in phase I or phase I/II trials.",
+    "authors": [
+        "Maryam Aziz",
+        "Emilie Kaufmann",
+        "Marie-Karelle Riviere"
+    ],
+    "emails": [
+        "maryama@spotify.com",
+        "emilie.kaufmann@univ-lille.fr",
+        "eldamjh@gmail.com"
+    ],
+    "id": "19-228",
+    "issue": 14,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "On Multi-Armed Bandit Designs for Dose-Finding Trials",
+    "volume": 22,
+    "year": 2021
 }

@@ -1,18 +1,26 @@
 {
-  "title": "Single and Multiple Change-Point Detection with Differential Privacy",
-  "abstract": "The change-point detection problem seeks to identify distributional changes at an unknown change-point $k^*$ in a stream of data. This problem appears in many important practical settings involving personal data, including biosurveillance,  fault detection, finance, signal detection, and security systems. The field of differential privacy offers data analysis tools that provide powerful worst-case privacy guarantees. We study the statistical problem of change-point detection through the lens of differential privacy. We give private algorithms for both online and offline change-point detection, analyze these algorithms theoretically, and provide empirical validation of our results.",
-  "authors": [
-    "Wanrong Zhang",
-    "Sara Krehbiel",
-    "Rui Tuo",
-    "Yajun Mei",
-    "Rachel Cummings"
-  ],
-  "emails": [
-    "wanrongz@gatech.edu",
-    "skrehbiel@scu.edu",
-    "ruituo@tamu.edu",
-    "ymei3@gatech.edu",
-    "rachelc@gatech.edu"
-  ]
+    "abstract": "The change-point detection problem seeks to identify distributional changes at an unknown change-point $k^*$ in a stream of data. This problem appears in many important practical settings involving personal data, including biosurveillance,  fault detection, finance, signal detection, and security systems. The field of differential privacy offers data analysis tools that provide powerful worst-case privacy guarantees. We study the statistical problem of change-point detection through the lens of differential privacy. We give private algorithms for both online and offline change-point detection, analyze these algorithms theoretically, and provide empirical validation of our results.",
+    "authors": [
+        "Wanrong Zhang",
+        "Sara Krehbiel",
+        "Rui Tuo",
+        "Yajun Mei",
+        "Rachel Cummings"
+    ],
+    "emails": [
+        "wanrongz@gatech.edu",
+        "skrehbiel@scu.edu",
+        "ruituo@tamu.edu",
+        "ymei3@gatech.edu",
+        "rachelc@gatech.edu"
+    ],
+    "id": "19-770",
+    "issue": 29,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Single and Multiple Change-Point Detection with Differential Privacy",
+    "volume": 22,
+    "year": 2021
 }

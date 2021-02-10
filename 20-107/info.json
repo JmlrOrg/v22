@@ -1,22 +1,30 @@
 {
-  "title": "Multi-class Gaussian Process Classification with Noisy Inputs",
-  "abstract": "It is a common practice in the machine learning community to assume that the observed data are noise-free in the input attributes. Nevertheless, scenarios with input noise are common in real problems, as measurements are never perfectly accurate. If this input noise is not taken into account, a supervised machine learning method is expected to perform sub-optimally. In this paper, we focus on multi-class classification problems and use Gaussian processes (GPs) as the underlying classifier. Motivated by a data set coming from the astrophysics domain, we hypothesize that the observed data may contain noise in the inputs. Therefore, we devise several multi-class GP classifiers that can account for input noise. Such classifiers can be efficiently trained using variational inference to approximate the posterior distribution of the latent variables of the model. Moreover, in some situations, the amount of noise can be known before-hand. If this is the case, it can be readily introduced in the proposed methods. This prior information is expected to lead to better performance results. We have evaluated the proposed methods by carrying out several experiments, involving synthetic and real data. These include several data sets from the UCI repository, the MNIST data set and a data set coming from astrophysics. The results obtained show that, although the classification error is similar across methods, the predictive distribution of the proposed methods is better, in terms of the test log-likelihood, than the predictive distribution of a classifier based on GPs that ignores input noise.",
-  "extra_links": [
-    [
-      "code",
-      "https://github.com/cvillacampa/GPInputNoise"
-    ]
-  ],
-  "authors": [
-    "Carlos Villacampa-Calvo",
-    "Bryan Zaldívar",
-    "Eduardo C. Garrido-Merchán",
-    "Daniel Hernández-Lobato"
-  ],
-  "emails": [
-    "carlos.villacampa@uam.es",
-    "bryan.zaldivarm@uam.es",
-    "eduardo.garrido@uam.es",
-    "daniel.hernandez@uam.es"
-  ]
+    "abstract": "It is a common practice in the machine learning community to assume that the observed data are noise-free in the input attributes. Nevertheless, scenarios with input noise are common in real problems, as measurements are never perfectly accurate. If this input noise is not taken into account, a supervised machine learning method is expected to perform sub-optimally. In this paper, we focus on multi-class classification problems and use Gaussian processes (GPs) as the underlying classifier. Motivated by a data set coming from the astrophysics domain, we hypothesize that the observed data may contain noise in the inputs. Therefore, we devise several multi-class GP classifiers that can account for input noise. Such classifiers can be efficiently trained using variational inference to approximate the posterior distribution of the latent variables of the model. Moreover, in some situations, the amount of noise can be known before-hand. If this is the case, it can be readily introduced in the proposed methods. This prior information is expected to lead to better performance results. We have evaluated the proposed methods by carrying out several experiments, involving synthetic and real data. These include several data sets from the UCI repository, the MNIST data set and a data set coming from astrophysics. The results obtained show that, although the classification error is similar across methods, the predictive distribution of the proposed methods is better, in terms of the test log-likelihood, than the predictive distribution of a classifier based on GPs that ignores input noise.",
+    "authors": [
+        "Carlos Villacampa-Calvo",
+        "Bryan Zald\u00edvar",
+        "Eduardo C. Garrido-Merch\u00e1n",
+        "Daniel Hern\u00e1ndez-Lobato"
+    ],
+    "emails": [
+        "carlos.villacampa@uam.es",
+        "bryan.zaldivarm@uam.es",
+        "eduardo.garrido@uam.es",
+        "daniel.hernandez@uam.es"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/cvillacampa/GPInputNoise"
+        ]
+    ],
+    "id": "20-107",
+    "issue": 36,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Multi-class Gaussian Process Classification with Noisy Inputs",
+    "volume": 22,
+    "year": 2021
 }

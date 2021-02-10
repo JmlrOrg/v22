@@ -1,18 +1,26 @@
 {
-  "title": "High-Order Langevin Diffusion Yields an Accelerated MCMC Algorithm",
-  "abstract": "We propose a Markov chain Monte Carlo (MCMC) algorithm based on third-order Langevin dynamics for sampling from distributions with smooth, log-concave densities.  The higher-order dynamics allow for more flexible discretization schemes, and we develop a specific method that combines splitting with more accurate integration.  For a broad class of $d$-dimensional distributions arising from generalized linear models, we prove that the resulting third-order algorithm produces samples from a distribution that is at most $\\varepsilon > 0$ in Wasserstein distance from the target distribution in $O\\left(\\frac{d^{1/4}}{ \\varepsilon^{1/2}} \\right)$ steps. This result requires only Lipschitz conditions on the gradient.  For general strongly convex potentials with $\\alpha$-th order smoothness, we prove that the mixing time scales as $O \\left( \\frac{d^{1/4}}{\\varepsilon^{1/2}} + \\frac{d^{1/2}}{ \\varepsilon^{1/(\\alpha - 1)}} \\right)$.",
-  "authors": [
-    "Wenlong Mou",
-    "Yi-An Ma",
-    "Martin J. Wainwright",
-    "Peter L. Bartlett",
-    "Michael I. Jordan"
-  ],
-  "emails": [
-    "wmou@berkeley.edu",
-    "yianma@ucsd.edu",
-    "wainwrig@berkeley.edu",
-    "peter@berkeley.edu",
-    "jordan@cs.berkeley.edu"
-  ]
+    "abstract": "We propose a Markov chain Monte Carlo (MCMC) algorithm based on third-order Langevin dynamics for sampling from distributions with smooth, log-concave densities.  The higher-order dynamics allow for more flexible discretization schemes, and we develop a specific method that combines splitting with more accurate integration.  For a broad class of $d$-dimensional distributions arising from generalized linear models, we prove that the resulting third-order algorithm produces samples from a distribution that is at most $\\varepsilon > 0$ in Wasserstein distance from the target distribution in $O\\left(\\frac{d^{1/4}}{ \\varepsilon^{1/2}} \\right)$ steps. This result requires only Lipschitz conditions on the gradient.  For general strongly convex potentials with $\\alpha$-th order smoothness, we prove that the mixing time scales as $O \\left( \\frac{d^{1/4}}{\\varepsilon^{1/2}} + \\frac{d^{1/2}}{ \\varepsilon^{1/(\\alpha - 1)}} \\right)$.",
+    "authors": [
+        "Wenlong Mou",
+        "Yi-An Ma",
+        "Martin J. Wainwright",
+        "Peter L. Bartlett",
+        "Michael I. Jordan"
+    ],
+    "emails": [
+        "wmou@berkeley.edu",
+        "yianma@ucsd.edu",
+        "wainwrig@berkeley.edu",
+        "peter@berkeley.edu",
+        "jordan@cs.berkeley.edu"
+    ],
+    "id": "20-576",
+    "issue": 42,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "High-Order Langevin Diffusion Yields an Accelerated MCMC Algorithm",
+    "volume": 22,
+    "year": 2021
 }

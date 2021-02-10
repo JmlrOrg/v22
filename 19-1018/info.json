@@ -1,14 +1,22 @@
 {
-  "title": "Homogeneity Structure Learning in Large-scale Panel Data with Heavy-tailed Errors",
-  "abstract": "Large-scale panel data is ubiquitous in many modern data science applications. Conventional panel data analysis methods fail to address the new challenges, like individual impacts of covariates, endogeneity, embedded low-dimensional structure, and heavy-tailed errors, arising from the innovation of data collection platforms on which applications operate. In response to these challenges, this paper studies large-scale panel data with an interactive effects model. This model takes into account the individual impacts of covariates on each spatial node and removes the exogenous condition by allowing latent factors to affect both covariates and errors. Besides, we waive the sub-Gaussian assumption and allow the errors to be heavy-tailed. Further, we propose a data-driven procedure to learn a parsimonious yet flexible homogeneity structure embedded in high-dimensional individual impacts of covariates. The homogeneity structure assumes that there exists a partition of regression coefficients where the coefficients are the same within each group but different between the groups. The homogeneity structure is flexible as it contains many widely assumed low-dimensional structures (sparsity, global impact, etc.) as its special cases. Non-asymptotic properties are established to justify the proposed learning procedure. Extensive numerical experiments demonstrate the advantage of the proposed learning procedure over conventional methods especially when the data are generated from heavy-tailed distributions.",
-  "authors": [
-    "Xiao Di",
-    "Yuan Ke",
-    "Runze Li"
-  ],
-  "emails": [
-    "di.xiao@uga.edu",
-    "yuan.ke@uga.edu",
-    "ril4@psu.edu"
-  ]
+    "abstract": "Large-scale panel data is ubiquitous in many modern data science applications. Conventional panel data analysis methods fail to address the new challenges, like individual impacts of covariates, endogeneity, embedded low-dimensional structure, and heavy-tailed errors, arising from the innovation of data collection platforms on which applications operate. In response to these challenges, this paper studies large-scale panel data with an interactive effects model. This model takes into account the individual impacts of covariates on each spatial node and removes the exogenous condition by allowing latent factors to affect both covariates and errors. Besides, we waive the sub-Gaussian assumption and allow the errors to be heavy-tailed. Further, we propose a data-driven procedure to learn a parsimonious yet flexible homogeneity structure embedded in high-dimensional individual impacts of covariates. The homogeneity structure assumes that there exists a partition of regression coefficients where the coefficients are the same within each group but different between the groups. The homogeneity structure is flexible as it contains many widely assumed low-dimensional structures (sparsity, global impact, etc.) as its special cases. Non-asymptotic properties are established to justify the proposed learning procedure. Extensive numerical experiments demonstrate the advantage of the proposed learning procedure over conventional methods especially when the data are generated from heavy-tailed distributions.",
+    "authors": [
+        "Xiao Di",
+        "Yuan Ke",
+        "Runze Li"
+    ],
+    "emails": [
+        "di.xiao@uga.edu",
+        "yuan.ke@uga.edu",
+        "ril4@psu.edu"
+    ],
+    "id": "19-1018",
+    "issue": 13,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Homogeneity Structure Learning in Large-scale Panel Data with Heavy-tailed Errors",
+    "volume": 22,
+    "year": 2021
 }

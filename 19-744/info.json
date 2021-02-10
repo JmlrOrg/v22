@@ -1,20 +1,28 @@
 {
-  "title": "Inference In High-dimensional Single-Index Models Under Symmetric Designs",
-  "abstract": "The problem of statistical inference for regression coefficients in a high-dimensional single-index model is considered. Under elliptical symmetry, the single index model can be reformulated as a proxy linear model whose regression parameter is identifiable. We construct estimates of the regression coefficients of interest that are similar to the debiased lasso estimates in the standard linear model and exhibit similar properties: $\\sqrt{n}$-consistency and asymptotic normality. The procedure completely bypasses the estimation of the unknown link function, which can be extremely challenging depending on the underlying structure of the problem. Furthermore, under Gaussianity, we propose more efficient estimates of the coefficients by expanding the link function in the Hermite polynomial basis. Finally, we illustrate our approach via carefully designed simulation experiments.",
-  "extra_links": [
-    [
-      "code",
-      "https://github.com/ehamid/sim_debiasing"
-    ]
-  ],
-  "authors": [
-    "Hamid Eftekhari",
-    "Moulinath Banerjee",
-    "Ya'acov Ritov"
-  ],
-  "emails": [
-    "hamidef@umich.edu",
-    "moulib@umich.edu",
-    "yritov@umich.edu"
-  ]
+    "abstract": "The problem of statistical inference for regression coefficients in a high-dimensional single-index model is considered. Under elliptical symmetry, the single index model can be reformulated as a proxy linear model whose regression parameter is identifiable. We construct estimates of the regression coefficients of interest that are similar to the debiased lasso estimates in the standard linear model and exhibit similar properties: $\\sqrt{n}$-consistency and asymptotic normality. The procedure completely bypasses the estimation of the unknown link function, which can be extremely challenging depending on the underlying structure of the problem. Furthermore, under Gaussianity, we propose more efficient estimates of the coefficients by expanding the link function in the Hermite polynomial basis. Finally, we illustrate our approach via carefully designed simulation experiments.",
+    "authors": [
+        "Hamid Eftekhari",
+        "Moulinath Banerjee",
+        "Ya'acov Ritov"
+    ],
+    "emails": [
+        "hamidef@umich.edu",
+        "moulib@umich.edu",
+        "yritov@umich.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ehamid/sim_debiasing"
+        ]
+    ],
+    "id": "19-744",
+    "issue": 27,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Inference In High-dimensional Single-Index Models Under Symmetric Designs",
+    "volume": 22,
+    "year": 2021
 }

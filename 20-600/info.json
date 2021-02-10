@@ -1,18 +1,26 @@
 {
-  "title": "RaSE: Random Subspace Ensemble Classification",
-  "abstract": "We propose a flexible ensemble classification framework, Random Subspace Ensemble (RaSE), for sparse classification. In the RaSE algorithm, we aggregate many weak learners, where each weak learner is a base classifier trained in a subspace optimally selected from a collection of random subspaces. To conduct subspace selection, we propose a new criterion, ratio information criterion (RIC), based on weighted Kullback-Leibler divergence. The theoretical analysis includes the risk and Monte-Carlo variance of the RaSE classifier, establishing the screening consistency and weak consistency of RIC, and providing an upper bound for the misclassification rate of the RaSE classifier. In addition, we show that in a high-dimensional framework, the number of random subspaces needs to be very large to guarantee that a subspace covering signals is selected. Therefore, we propose an iterative version of the RaSE algorithm and prove that under some specific conditions, a smaller number of generated random subspaces are needed to find a desirable subspace through iteration. An array of simulations under various models and real-data applications demonstrate the effectiveness and robustness of the RaSE classifier and its iterative version in terms of low misclassification rate and accurate feature ranking. The RaSE algorithm is implemented in the R package RaSEn on CRAN.",
-  "extra_links": [
-    [
-      "code",
-      "https://cran.r-project.org/web/packages/RaSEn/index.html"
-    ]
-  ],
-  "authors": [
-    "Ye Tian",
-    "Yang Feng"
-  ],
-  "emails": [
-    "ye.t@columbia.edu",
-    "yang.feng@nyu.edu"
-  ]
+    "abstract": "We propose a flexible ensemble classification framework, Random Subspace Ensemble (RaSE), for sparse classification. In the RaSE algorithm, we aggregate many weak learners, where each weak learner is a base classifier trained in a subspace optimally selected from a collection of random subspaces. To conduct subspace selection, we propose a new criterion, ratio information criterion (RIC), based on weighted Kullback-Leibler divergence. The theoretical analysis includes the risk and Monte-Carlo variance of the RaSE classifier, establishing the screening consistency and weak consistency of RIC, and providing an upper bound for the misclassification rate of the RaSE classifier. In addition, we show that in a high-dimensional framework, the number of random subspaces needs to be very large to guarantee that a subspace covering signals is selected. Therefore, we propose an iterative version of the RaSE algorithm and prove that under some specific conditions, a smaller number of generated random subspaces are needed to find a desirable subspace through iteration. An array of simulations under various models and real-data applications demonstrate the effectiveness and robustness of the RaSE classifier and its iterative version in terms of low misclassification rate and accurate feature ranking. The RaSE algorithm is implemented in the R package RaSEn on CRAN.",
+    "authors": [
+        "Ye Tian",
+        "Yang Feng"
+    ],
+    "emails": [
+        "ye.t@columbia.edu",
+        "yang.feng@nyu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://cran.r-project.org/web/packages/RaSEn/index.html"
+        ]
+    ],
+    "id": "20-600",
+    "issue": 45,
+    "pages": [
+        1,
+        93
+    ],
+    "title": "RaSE: Random Subspace Ensemble Classification",
+    "volume": 22,
+    "year": 2021
 }
