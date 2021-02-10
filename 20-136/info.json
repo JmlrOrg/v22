@@ -1,0 +1,14 @@
+{
+  "title": "A Bayesian Contiguous Partitioning Method for Learning Clustered Latent Variables",
+  "abstract": "This article develops a Bayesian partitioning prior model from spanning trees of a graph, by first assigning priors on spanning trees, and then the number and the positions of removed edges given a spanning tree. The proposed method guarantees contiguity in clustering and allows to detect clusters with arbitrary shapes and sizes, whereas most existing partition models such as binary trees and Voronoi tessellations do not possess such properties. We embed this partition model within a hierarchical modeling framework to detect a clustered pattern in latent variables.  We focus on illustrating the method through a clustered regression coefficient model for spatial data and propose extensions to other hierarchical models. We prove Bayesian posterior concentration results under an asymptotic framework with random graphs. We design an efficient collapsed Reversible Jump Markov chain Monte Carlo (RJ-MCMC) algorithm to estimate the clustered coefficient values and their uncertainty measures. Finally, we illustrate the performance of the model with simulation studies and a real data analysis of detecting the temperature-salinity relationship from  water masses in the Atlantic Ocean.",
+  "authors": [
+    "Zhao Tang Luo",
+    "Huiyan Sang",
+    "Bani Mallick"
+  ],
+  "emails": [
+    "ztluo@stat.tamu.edu",
+    "huiyan@stat.tamu.edu",
+    "bmallick@stat.tamu.edu"
+  ]
+}

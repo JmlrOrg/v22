@@ -1,0 +1,12 @@
+{
+  "title": "Mixing Time of Metropolis-Hastings for Bayesian Community Detection",
+  "abstract": "We study the computational complexity of a Metropolis-Hastings algorithm for Bayesian community detection. We first establish a posterior strong consistency result for a natural prior distribution on stochastic block models under the optimal signal-to-noise ratio condition in the literature. We then give a set of conditions that guarantee rapidly mixing of a simple Metropolis-Hastings algorithm. The mixing time analysis is based on a careful study of posterior ratios and a canonical path argument to control the spectral gap of the Markov chain.",
+  "authors": [
+    "Bumeng Zhuo",
+    "Chao Gao"
+  ],
+  "emails": [
+    "bumengzhuo@uchicago.edu",
+    "chaogao@galton.uchicago.edu"
+  ]
+}

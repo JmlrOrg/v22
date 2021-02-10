@@ -1,0 +1,14 @@
+{
+  "title": "Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit",
+  "abstract": "Algorithms based on the hard thresholding principle have been well studied with sounding theoretical guarantees in the compressed sensing and more general sparsity-constrained optimization. It is widely observed in existing empirical studies that when a restricted Newton step was used (as the debiasing step),  the hard-thresholding algorithms tend to meet halting conditions in a significantly low number of iterations and are very efficient. Hence, the thus obtained Newton hard-thresholding algorithms call for stronger theoretical guarantees than for their simple hard-thresholding counterparts. This paper provides a theoretical justification for the use of the restricted Newton step. We build our theory and algorithm, Newton Hard-Thresholding Pursuit (NHTP), for the sparsity-constrained optimization. Our main result shows that NHTP is quadratically convergent under the standard assumption of restricted strong convexity and smoothness. We also establish its global convergence to a stationary point under a weaker assumption. In the special case of the compressive sensing, NHTP effectively reduces to some of the existing hard-thresholding algorithms with a Newton step.  Consequently, our fast convergence result justifies why those algorithms perform better than without the Newton step. The efficiency of NHTP was demonstrated on both synthetic and real data in compressed sensing and sparse logistic regression.",
+  "authors": [
+    "Shenglong Zhou",
+    "Naihua Xiu",
+    "Hou-Duo Qi"
+  ],
+  "emails": [
+    "shenglong.zhou@soton.ac.uk",
+    "nhxiu@bjtu.edu.cn",
+    "hdqi@soton.ac.uk"
+  ]
+}

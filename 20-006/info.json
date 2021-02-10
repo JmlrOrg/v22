@@ -1,0 +1,12 @@
+{
+  "title": "Learning and Planning for Time-Varying MDPs Using Maximum Likelihood Estimation",
+  "abstract": "This paper proposes a formal approach to online learning and planning for agents operating in a priori unknown, time-varying environments. The proposed method computes the maximally likely model of the environment, given the observations about the environment made by an agent earlier in the system run and assuming knowledge of a bound on the maximal rate of change of system dynamics. Such an approach generalizes the estimation method commonly used in learning algorithms for unknown Markov decision processes with time-invariant transition probabilities, but is also able to quickly and correctly identify the system dynamics following a change. Based on the proposed method, we generalize the exploration bonuses used in learning for time-invariant Markov decision processes by introducing a notion of uncertainty in a learned time-varying model, and develop a control policy for time-varying Markov decision processes based on the exploitation and exploration trade-off. We demonstrate the proposed methods on four numerical examples: a patrolling task with a change in system dynamics, a two-state MDP with periodically changing outcomes of actions, a wind flow estimation task, and a multi-armed bandit problem with periodically changing probabilities of different rewards.",
+  "authors": [
+    "Melkior Ornik",
+    "Ufuk Topcu"
+  ],
+  "emails": [
+    "mornik@illinois.edu",
+    "utopcu@utexas.edu"
+  ]
+}

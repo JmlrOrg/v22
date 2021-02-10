@@ -1,0 +1,10 @@
+{
+  "title": "Simple and Fast Algorithms for Interactive Machine Learning with Random Counter-examples",
+  "abstract": "This work describes simple and efficient algorithms for interactively learning non-binary concepts in the learning from random counter-examples (LRC) model. Here, learning takes place from random counter-examples that the learner receives in response to their proper equivalence queries, and the learning time is the number of counter-examples needed by the learner to identify the target concept. Such learning is particularly suited for online ranking, classification, clustering, etc., where machine learning models must be used before they are fully trained. We provide two simple LRC algorithms, deterministic and randomized, for exactly learning concepts from any concept class $H$. We show that both these algorithms have an $\\mathcal{O}(\\log{}|H|)$ asymptotically optimal average learning time. This solves an open problem on the existence of an efficient LRC randomized algorithm while also simplifying previous results and improving their computational efficiency. We also show that the expected learning time of any Arbitrary LRC algorithm can be upper bounded by $\\mathcal{O}(\\frac{1}{\\epsilon}\\log{\\frac{|H|}{\\delta}})$, where $\\epsilon$ and $\\delta$ are the allowed learning error and failure probability respectively. This shows that LRC interactive learning is at least as efficient as non-interactive Probably Approximately Correct (PAC) learning. Our simulations also show that these algorithms outperform their theoretical bounds.",
+  "authors": [
+    "Jagdeep Singh Bhatia"
+  ],
+  "emails": [
+    "jagdeep@mit.edu"
+  ]
+}

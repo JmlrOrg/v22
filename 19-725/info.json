@@ -1,0 +1,14 @@
+{
+  "title": "Finite Time LTI System Identification",
+  "abstract": "We address the problem of learning the parameters of a stable linear time invariant (LTI) system with unknown latent space dimension, or order, from a single time--series of noisy input-output data. We focus on learning the best lower order approximation allowed by finite data. Motivated by subspace algorithms in systems theory, where the doubly infinite system Hankel matrix captures both order and good lower order approximations, we construct a Hankel-like matrix from noisy finite data using ordinary least squares. This circumvents the non-convexities that arise in system identification, and allows accurate estimation of the underlying LTI system. Our results rely on careful analysis of self-normalized martingale difference terms that helps bound identification error up to logarithmic factors of the lower bound. We provide a data-dependent scheme for order selection and find an accurate realization of system parameters, corresponding to that order, by an approach that is closely related to the Ho-Kalman subspace algorithm. We demonstrate that the proposed model order selection procedure is not overly conservative, i.e., for the given data length it is not possible to estimate higher order models or find higher order approximations with reasonable accuracy.",
+  "authors": [
+    "Tuhin Sarkar",
+    "Alexander Rakhlin",
+    "Munther A. Dahleh"
+  ],
+  "emails": [
+    "tuhin91@gmail.com",
+    "rakhlin@mit.edu",
+    "dahleh@mit.edu"
+  ]
+}

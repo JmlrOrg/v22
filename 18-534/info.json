@@ -1,0 +1,16 @@
+{
+  "title": "Consistent estimation of small masses in feature sampling",
+  "abstract": "Consider an (observable) random sample of size $n$ from an infinite population of individuals, each individual being endowed with a finite set of features from a collection of features $(F_{j})_{j\\geq1}$ with unknown probabilities $(p_{j})_{j \\geq 1}$, i.e., $p_{j}$ is the probability that an individual displays feature $F_{j}$. Under this feature sampling  framework, in recent years there has been a growing interest in estimating the sum of the probability masses $p_{j}$'s of features observed with frequency $r\\geq0$ in the sample, here denoted by $M_{n,r}$. This is the natural feature sampling counterpart of the classical problem of estimating small probabilities in the species sampling framework, where each individual is endowed with only one feature (or ``species\"). In this paper we study the problem of consistent estimation of the small mass $M_{n,r}$. We first show that there do not exist universally consistent estimators, in the multiplicative sense, of the missing mass $M_{n,0}$. Then, we introduce an estimator of $M_{n,r}$ and identify sufficient conditions under which the estimator is consistent. In particular, we propose a nonparametric estimator $\\hat{M}_{n,r}$  of $M_{n,r}$ which has the same analytic form of the celebrated Good--Turing estimator for small probabilities, with the sole difference that the two estimators have different ranges (supports).  Then, we show that $\\hat{M}_{n,r}$ is strongly consistent, in the multiplicative sense, under the assumption that  $(p_{j})_{j\\geq1}$ has regularly varying heavy tails.",
+  "authors": [
+    "Fadhel Ayed",
+    "Marco Battiston",
+    "Federico Camerlenghi",
+    "Stefano Favaro"
+  ],
+  "emails": [
+    "fadhel.ayed@some.ox.ac.uk",
+    "m.battiston@lancaster.ac.uk",
+    "federico.camerlenghi@unimib.it",
+    "stefano.favaro@unito.it"
+  ]
+}

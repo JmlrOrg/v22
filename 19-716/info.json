@@ -1,0 +1,14 @@
+{
+  "title": "Generalization Performance of Multi-pass Stochastic Gradient Descent with Convex Loss Functions",
+  "abstract": "Stochastic gradient descent (SGD) has become the method of choice to tackle large-scale datasets due to its low computational cost and good practical performance. Learning rate analysis, either capacity-independent or capacity-dependent, provides a unifying viewpoint to study the computational and statistical properties of SGD, as well as the implicit regularization by tuning the number of passes. Existing capacity-independent learning rates require a nontrivial bounded subgradient assumption and a smoothness assumption to be optimal. Furthermore, existing capacity-dependent learning rates are only established for the specific least squares loss with a special structure. In this paper, we provide both optimal capacity-independent and capacity-dependent learning rates for SGD with general convex loss functions. Our results require neither bounded subgradient assumptions nor smoothness assumptions, and are stated with high probability. We achieve this improvement by a refined estimate on the norm of SGD iterates based on a careful martingale analysis and concentration inequalities on empirical processes.",
+  "authors": [
+    "Yunwen Lei",
+    "Ting Hu",
+    "Ke Tang"
+  ],
+  "emails": [
+    "y.lei@bham.ac.uk",
+    "tinghu@whu.edu.cn",
+    "tangk3@sustech.edu.cn"
+  ]
+}

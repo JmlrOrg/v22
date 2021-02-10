@@ -1,0 +1,14 @@
+{
+  "title": "Ranking and synchronization from pairwise measurements via SVD",
+  "abstract": "Given a measurement graph $G= (V,E)$ and an unknown signal $r \\in \\mathbb{R}^n$, we investigate algorithms for recovering $r$ from pairwise measurements of the form $r_i - r_j$; $\\{i,j\\} \\in E$. This problem arises in a variety of applications, such as ranking teams in sports data and time synchronization of distributed networks. Framed in the context of ranking, the task is to  recover the ranking of $n$ teams (induced by $r$) given a small subset of noisy pairwise rank offsets. We propose a simple SVD-based algorithmic pipeline for both the problem of time synchronization and ranking. We provide a detailed theoretical analysis in terms of robustness against both sampling sparsity and noise perturbations with outliers, using results from matrix perturbation and random matrix theory. Our theoretical findings are complemented by a detailed set of numerical experiments on both synthetic and real data, showcasing the competitiveness of our proposed algorithms with other  state-of-the-art methods.",
+  "authors": [
+    "Alexandre d'Aspremont",
+    "Mihai Cucuringu",
+    "Hemant Tyagi"
+  ],
+  "emails": [
+    "aspremon@ens.fr",
+    "mihai.cucuringu@stats.ox.ac.uk",
+    "hemant.tyagi@inria.fr"
+  ]
+}

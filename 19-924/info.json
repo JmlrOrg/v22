@@ -1,0 +1,22 @@
+{
+  "title": "Neighborhood Structure Assisted Non-negative Matrix Factorization and Its Application in Unsupervised Point-wise Anomaly Detection",
+  "abstract": "Dimensionality reduction is considered as an important step for ensuring competitive performance in unsupervised learning such as anomaly detection. Non-negative matrix factorization (NMF) is a widely used method to accomplish this goal. But NMF do not have the provision to include the neighborhood structure information and, as a result, may fail to provide satisfactory performance in presence of nonlinear manifold structure. To address this shortcoming, we propose to consider the neighborhood structural similarity information within the NMF framework and do so by modeling the data through a minimum spanning tree. We label the resulting method as the neighborhood structure-assisted NMF. We further develop both offline and online algorithms for implementing the proposed method. Empirical comparisons using twenty benchmark data sets as well as an industrial data set extracted from a hydropower plant demonstrate the superiority of the neighborhood structure-assisted NMF. Looking closer into the formulation and properties of the proposed NMF method and comparing it with several NMF variants reveal that inclusion of the MST-based neighborhood structure plays a key role in attaining the enhanced performance in anomaly detection.",
+  "extra_links": [
+    [
+      "code",
+      "https://urldefense.com/v3/__https://tamucs-my.sharepoint.com/:u:/g/personal/yu-ding_tamu_edu/EdeIKFF07H1KlB0vIeGxtrABbs9DcQnL8Bf8_cNjNQeR3g?e=exOuZm__;!!KwNVnqRv!VnN480fumwOmmgvIA_xcK58wt1ax4nXdi2iYfu_pqjzo3-xnLb955YhS_HGh5pFUyQ$"
+    ]
+  ],
+  "authors": [
+    "Imtiaz Ahmed",
+    "Xia Ben Hu",
+    "Mithun P. Acharya",
+    "Yu Ding"
+  ],
+  "emails": [
+    "imtiazavi@tamu.edu",
+    "hu@cse.tamu.edu",
+    "mithun@totvs.com",
+    "yuding@tamu.edu"
+  ]
+}

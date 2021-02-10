@@ -1,0 +1,18 @@
+{
+  "title": "Wasserstein barycenters can be computed in polynomial time in fixed dimension",
+  "abstract": "Computing Wasserstein barycenters is a fundamental geometric problem with widespread applications in machine learning, statistics, and computer graphics. However, it is unknown whether Wasserstein barycenters can be computed in polynomial time, either exactly or to high precision (i.e., with $\\textrm{polylog}(1/\\varepsilon)$ runtime dependence). This paper answers these questions in the affirmative for any fixed dimension. Our approach is to solve an exponential-size linear programming formulation by efficiently implementing the corresponding separation oracle using techniques from computational geometry.",
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/eboix/high_precision_barycenters"
+    ]
+  ],
+  "authors": [
+    "Jason M Altschuler",
+    "Enric Boix-Adsera"
+  ],
+  "emails": [
+    "jasonalt@mit.edu",
+    "eboix@mit.edu"
+  ]
+}

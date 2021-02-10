@@ -1,0 +1,14 @@
+{
+  "title": "Aggregated Hold-Out",
+  "abstract": "Aggregated hold-out (agghoo) is a method which averages learning rules selected by hold-out (that is, cross-validation with a single split). We provide the first theoretical guarantees on agghoo, ensuring that it can be used safely: Agghoo performs at worst like the hold-out when the risk is convex. The same holds true in classification with the 0--1 risk, with an additional constant factor. For the hold-out, oracle inequalities are known for bounded losses, as in binary classification. We show that similar results can be proved, under appropriate assumptions, for other risk-minimization problems. In particular, we obtain an oracle inequality for regularized kernel regression with a Lipschitz loss, without requiring that the $Y$ variable or the regressors be bounded. Numerical experiments show that aggregation brings a significant improvement over the hold-out and that agghoo is competitive with cross-validation.",
+  "authors": [
+    "Guillaume Maillard",
+    "Sylvain Arlot",
+    "Matthieu Lerasle"
+  ],
+  "emails": [
+    "guillaume.maillard@uni.lu",
+    "sylvain.arlot@universite-paris-saclay.fr",
+    "matthieu.lerasle@universite-paris-saclay.fr"
+  ]
+}

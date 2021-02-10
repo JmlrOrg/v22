@@ -1,0 +1,25 @@
+{
+  "title": "Pykg2vec: A Python Library for Knowledge Graph Embedding",
+  "abstract": "Pykg2vec is a Python library for learning the representations of the entities and relations in knowledge graphs. Pykg2vec's flexible and modular software architecture currently implements 25 state-of-the-art knowledge graph embedding algorithms, and is designed to easily incorporate new algorithms.The goal of pykg2vec is to provide a practical and educational platform to accelerate research in knowledge graph representation learning. Pykg2vec is built on top of PyTorch and Python's multiprocessing framework and provides modules for batch generation, Bayesian hyperparameter optimization, evaluation of KGE tasks, embedding, and result visualization. Pykg2vec is released under the MIT License and is also available in the Python Package Index (PyPI). The source code of pykg2vec is available at https://github.com/Sujit-O/pykg2vec.",
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/Sujit-O/pykg2vec"
+    ]
+  ],
+  "special_issue": "MLOSS",
+  "authors": [
+    "Shih-Yuan Yu",
+    "Sujit Rokka Chhetri",
+    "Arquimedes Canedo",
+    "Palash Goyal",
+    "Mohammad Abdullah Al Faruque"
+  ],
+  "emails": [
+    "shihyuay@uci.edu",
+    "schhetri@uci.edu",
+    "arquimedes.canedo@siemens.com",
+    "palashgo@usc.edu",
+    "alfaruqu@uci.edu"
+  ]
+}

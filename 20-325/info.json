@@ -1,0 +1,31 @@
+{
+  "title": "giotto-tda: : A Topological Data Analysis Toolkit for Machine Learning and Data Exploration",
+  "abstract": "We introduce giotto-tda, a Python library that integrates high-performance topological data analysis with machine learning via a scikit-learn-compatible API and state-of-the-art C++ implementations. The library's ability to handle various types of data is rooted in a wide range of preprocessing techniques, and its strong focus on data exploration and interpretability is aided by an intuitive plotting API. Source code, binaries, examples, and documentation can be found at https://github.com/giotto-ai/giotto-tda.",
+  "extra_links": [
+    [
+      "code",
+      "https://github.com/giotto-ai/giotto-tda"
+    ]
+  ],
+  "special_issue": "MLOSS",
+  "authors": [
+    "Guillaume Tauzin",
+    "Umberto Lupo",
+    "Lewis Tunstall",
+    "Julian Burella Pérez",
+    "Matteo Caorsi",
+    "Anibal M. Medina-Mardones",
+    "Alberto Dassatti",
+    "Kathryn Hess"
+  ],
+  "emails": [
+    "gtauzin@prontonmail.com",
+    "umberto.lupo@gmail.com",
+    "lewis.c.tunstall@gmail.com",
+    "julian.burellaperez@heig-vd.ch",
+    "m.caorsi@l2f.ch",
+    "anibal.medinamardones@epfl.ch",
+    "alberto.dassatti@heig-vd.ch",
+    "kathryn.hess@epfl.ch"
+  ]
+}

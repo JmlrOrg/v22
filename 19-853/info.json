@@ -1,0 +1,22 @@
+{
+  "title": "FLAME: A Fast Large-scale Almost Matching Exactly Approach to Causal Inference",
+  "abstract": "A classical problem in causal inference is that of matching, where treatment units need to be matched to control units based on covariate information. In this work, we propose a method that computes high quality almost-exact matches for high-dimensional categorical datasets. This method, called FLAME (Fast Large-scale Almost Matching Exactly), learns a distance metric for matching using a hold-out  training data set. In order to perform matching efficiently for large datasets, FLAME leverages techniques that are natural for query processing in the area of database management, and two implementations of FLAME are provided: the first uses SQL queries and the second uses bit-vector techniques. The algorithm starts by constructing matches of the highest quality (exact matches on all covariates), and successively eliminates variables in order to match exactly on as many variables as possible, while still maintaining interpretable high-quality matches and balance between treatment and control groups. We leverage these  high quality matches to estimate conditional average treatment effects (CATEs).   Our experiments show that FLAME scales to huge datasets with millions of observations where existing state-of-the-art methods fail, and that it achieves significantly better performance than other matching methods.",
+  "authors": [
+    "Tianyu Wang",
+    "Marco Morucci",
+    "M. Usaid Awan",
+    "Yameng Liu",
+    "Sudeepa Roy",
+    "Cynthia Rudin",
+    "Alexander Volfovsky"
+  ],
+  "emails": [
+    "tianyu@cs.duke.edu",
+    "marco.morucci@duke.edu",
+    "muhammad.awan@duke.edu",
+    "yameng.liu@duke.edu",
+    "sudeepa@cs.duke.edu",
+    "cynthia@cs.duke.edu",
+    "alexander.volfovsky@duke.edu"
+  ]
+}
