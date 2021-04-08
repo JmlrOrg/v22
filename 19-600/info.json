@@ -1,0 +1,22 @@
+{
+    "abstract": "Conditional independence tests play a crucial role in many machine learning procedures such as feature selection, causal discovery, and  structure learning of dependence networks. They are used in   most of the  existing algorithms for Markov Blanket discovery such as Grow-Shrink or Incremental Association Markov Blanket. One of the most frequently used tests for categorical variables is based on the conditional mutual information ($CMI$) and its asymptotic distribution. However, it is known that the power of such test dramatically decreases when the size of the conditioning set grows, i.e. the test fails to detect true significant variables, when the set of already selected variables is large. To overcome this drawback for discrete data, we propose to replace the conditional mutual information by  Short Expansion of Conditional Mutual Information (called $SECMI$), obtained by truncating the M\u00f6bius representation of $CMI$. We prove that the distribution of $SECMI$ converges to  either a  normal distribution  or to a distribution of some quadratic form in  normal  random variables. This property is crucial for the construction of a novel  test of conditional independence which uses one of these distributions, chosen in a data dependent way, as a reference under the null hypothesis. The proposed methods have significantly larger power  for discrete data than the standard asymptotic tests of conditional independence based on  $CMI$ while retaining  control  of the probability of  type I error.",
+    "authors": [
+        "Mariusz Kubkowski",
+        "Jan Mielniczuk",
+        "Pawe\u0142 Teisseyre"
+    ],
+    "emails": [
+        "mariusz.kubkowski@ipipan.waw.pl",
+        "jan.mielniczuk@ipipan.waw.pl",
+        "pawel.teisseyre@ipipan.waw.pl"
+    ],
+    "id": "19-600",
+    "issue": 62,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "How to Gain on Power: Novel  Conditional Independence Tests Based on Short Expansion of Conditional Mutual Information",
+    "volume": 22,
+    "year": 2021
+}

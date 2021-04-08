@@ -1,0 +1,26 @@
+{
+    "abstract": "This paper considers a decentralized online submodular maximization problem over time-varying networks, where each agent only utilizes its own information and the received information from its neighbors. To address the problem, we propose a decentralized Meta-Frank-Wolfe online learning method in the adversarial online setting by using local communication and local computation. Moreover, we show that an expected regret bound of $O(\\sqrt{T})$ is achieved with $(1-1/e)$ approximation guarantee, where $T$ is a time horizon. In addition, we also propose a decentralized one-shot Frank-Wolfe online learning method in the stochastic online setting. Furthermore, we also show that an expected regret bound $O(T^{2/3})$ is obtained with $(1-1/e)$ approximation guarantee. Finally, we confirm the theoretical results via various experiments on different datasets.",
+    "authors": [
+        "Junlong Zhu",
+        "Qingtao Wu",
+        "Mingchuan Zhang",
+        "Ruijuan Zheng",
+        "Keqin Li"
+    ],
+    "emails": [
+        "jlzhu@haust.edu.cn",
+        "wqt8921@haust.edu.cn",
+        "zhang_mch@haust.edu.cn",
+        "zhengruijuan@haust.edu.cn",
+        "lik@newpaltz.edu"
+    ],
+    "id": "18-407",
+    "issue": 51,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Projection-free Decentralized Online Learning for Submodular Maximization over Time-Varying Networks",
+    "volume": 22,
+    "year": 2021
+}

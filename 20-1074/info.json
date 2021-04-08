@@ -1,0 +1,26 @@
+{
+    "abstract": "The partial copula provides a method for describing the dependence between two random variables $X$ and $Y$ conditional on a third random vector $Z$ in terms of nonparametric residuals $U_1$ and $U_2$. This paper develops a nonparametric test for conditional independence by combining the partial copula with a quantile regression based method for estimating the nonparametric residuals. We consider a test statistic based on generalized correlation between $U_1$ and $U_2$ and derive its large sample properties under consistency assumptions on the quantile regression procedure. We demonstrate through a simulation study that the resulting test is sound under complicated data generating distributions. Moreover, in the examples considered the test is competitive to other state-of-the-art conditional independence tests in terms of level and power, and it has superior power in cases with conditional variance heterogeneity of $X$ and $Y$ given $Z$.",
+    "authors": [
+        "Lasse Petersen",
+        "Niels Richard Hansen"
+    ],
+    "emails": [
+        "lp@math.ku.dk",
+        "niels.r.hansen@math.ku.dk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/lassepetersen/partial-copula-CI-test"
+        ]
+    ],
+    "id": "20-1074",
+    "issue": 70,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Testing Conditional Independence via Quantile Regression Based Partial Copulas",
+    "volume": 22,
+    "year": 2021
+}

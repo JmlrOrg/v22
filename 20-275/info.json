@@ -1,0 +1,33 @@
+{
+    "abstract": "The KeOps library provides a fast and memory-efficient GPU support for tensors whose entries are given by a mathematical formula, such as kernel and distance matrices. KeOps alleviates the main bottleneck of tensor-centric libraries for kernel and geometric applications: memory consumption. It also supports automatic differentiation and outperforms standard GPU baselines, including PyTorch CUDA tensors or the Halide and TVM libraries. KeOps combines optimized C++/CUDA schemes with binders for high-level languages: Python (Numpy and PyTorch), Matlab and GNU R. As a result, high-level \u201cquadratic\u201d codes can now scale up to large data sets with millions of samples processed in seconds. KeOps brings graphics-like performances for kernel methods and is freely available on standard repositories (PyPi, CRAN). To showcase its versatility, we provide tutorials in a wide range of settings online at www.kernel-operations.io.",
+    "authors": [
+        "Benjamin Charlier",
+        "Jean Feydy",
+        "Joan Alexis Glaun\u00e8s",
+        "Fran\u00e7ois-David Collin",
+        "Ghislain Durif"
+    ],
+    "emails": [
+        "benjamin.charlier@umontpellier.fr",
+        "jean.feydy@ens.fr",
+        "alexis.glaunes@parisdescartes.fr",
+        "francois-david.collin@umontpellier.fr",
+        "ghislain.durif@umontpellier.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/getkeops/keops/"
+        ]
+    ],
+    "id": "20-275",
+    "issue": 74,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "Kernel Operations on the GPU, with Autodiff, without Memory Overflows",
+    "volume": 22,
+    "year": 2021
+}

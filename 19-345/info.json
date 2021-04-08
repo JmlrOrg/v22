@@ -1,0 +1,28 @@
+{
+    "abstract": "Stratified models are models that depend in an arbitrary way on a set of selected categorical features, and depend linearly on  the other features. In a basic and traditional formulation a separate model is fit for each value of the categorical feature, using only the data that has the specific categorical value. To this formulation we add Laplacian regularization, which encourages the model parameters for neighboring categorical values to be similar. Laplacian regularization allows us to specify one or more weighted graphs on the stratification feature values. For example, stratifying over the days of the week, we can specify that the Sunday model parameter should be close to the Saturday and Monday model parameters. The regularization improves the performance of the model over the traditional stratified model, since the model for each value of the categorical `borrows strength' from its neighbors. In particular, it produces a model even for categorical values that did not appear in the training data set. We propose an efficient distributed method for fitting stratified models, based on the alternating direction method of multipliers (ADMM).  When the fitting loss functions are convex, the stratified model  fitting problem is convex, and our method computes  the global minimizer of the loss plus regularization;  in other cases it computes a local minimizer. The method is very efficient, and naturally scales to large data sets or numbers of stratified feature values. We illustrate our method with a variety of examples.",
+    "authors": [
+        "Jonathan Tuck",
+        "Shane Barratt",
+        "Stephen Boyd"
+    ],
+    "emails": [
+        "jonathantuck@stanford.edu",
+        "sbarratt@stanford.edu",
+        "boyd@stanford.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/cvxgrp/strat_models"
+        ]
+    ],
+    "id": "19-345",
+    "issue": 60,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "A Distributed Method for Fitting Laplacian Regularized Stratified Models",
+    "volume": 22,
+    "year": 2021
+}

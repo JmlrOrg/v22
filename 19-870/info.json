@@ -1,0 +1,22 @@
+{
+    "abstract": "Many machine learning models involve solving optimization problems. Thus, it is important to address  a large-scale optimization problem in big data applications.  Recently, subsampled Newton methods have emerged to attract much attention due to their efficiency at each iteration, rectified a weakness in the ordinary Newton method of suffering a high cost in each iteration while commanding a high convergence rate.   Other efficient stochastic second order methods have been also proposed.  However, the convergence properties of these methods are still not well understood. There are also several important gaps between the current convergence theory and the empirical performance in real applications. In this paper, we aim to fill these gaps. We propose a unifying framework to analyze both local and global convergence properties of second order methods. Accordingly, we present our theoretical results which match the empirical performance in real applications well.",
+    "authors": [
+        "Haishan Ye",
+        "Luo Luo",
+        "Zhihua Zhang"
+    ],
+    "emails": [
+        "yehaishan@xjtu.edu.cn",
+        "luoluo@ust.hk",
+        "zhzhang@math.pku.edu.cn"
+    ],
+    "id": "19-870",
+    "issue": 66,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Approximate Newton Methods",
+    "volume": 22,
+    "year": 2021
+}

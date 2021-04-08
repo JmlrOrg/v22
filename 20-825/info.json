@@ -1,0 +1,30 @@
+{
+    "abstract": "Recently, knowledge graph embeddings (KGEs) have received significant attention, and several software libraries have been developed for training and evaluation. While each of them addresses specific needs, we report on a  community effort to a re-design and re-implementation of  PyKEEN, one of the early KGE libraries.  PyKEEN 1.0 enables users to compose knowledge graph embedding models based on a wide range of interaction models, training approaches, loss functions, and permits the explicit modeling of inverse relations. It allows users to measure each component's influence individually on the model's performance. Besides, an automatic memory optimization has been realized in order to optimally exploit the provided hardware. Through the integration of Optuna, extensive hyper-parameter optimization (HPO) functionalities are provided.",
+    "authors": [
+        "Mehdi Ali",
+        "Max Berrendorf",
+        "Charles Tapley Hoyt",
+        "Laurent Vermue",
+        "Sahand Sharifzadeh",
+        "Volker Tresp",
+        "Jens Lehmann"
+    ],
+    "emails": [
+        "mehdi.ali@cs.uni-bonn.de",
+        "berrendorf@dbs.ifi.lmu.de",
+        "charles.hoyt@envedatx.com",
+        "lauve@dtu.dk",
+        "sharifzadeh@dbs.ifi.lmu.de",
+        "volker.tresp@siemens.com",
+        "jens.lehmann@cs.uni-bonn.de"
+    ],
+    "id": "20-825",
+    "issue": 82,
+    "pages": [
+        1,
+        6
+    ],
+    "title": "PyKEEN 1.0: A Python Library for Training and Evaluating Knowledge Graph Embeddings",
+    "volume": 22,
+    "year": 2021
+}

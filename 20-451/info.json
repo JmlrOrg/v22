@@ -1,0 +1,67 @@
+{
+    "abstract": "Optimal  transport  has  recently  been  reintroduced  to  the  machine  learning  community thanks in part to novel efficient optimization procedures allowing for medium to large scale applications.  We propose a Python toolbox that implements several key optimal transport ideas  for  the  machine  learning  community.   The  toolbox  contains  implementations  of  a number  of  founding  works  of  OT  for  machine  learning  such  as  Sinkhorn  algorithm  and Wasserstein barycenters, but also provides generic solvers that can be used for conducting novel fundamental research.  This toolbox, named POT for Python Optimal Transport, is open source with an MIT license.",
+    "authors": [
+        "R\u00e9mi Flamary",
+        "Nicolas Courty",
+        "Alexandre Gramfort",
+        "Mokhtar Z. Alaya",
+        "Aur\u00e9lie Boisbunon",
+        "Stanislas Chambon",
+        "Laetitia Chapel",
+        "Adrien Corenflos",
+        "Kilian Fatras",
+        "Nemo Fournier",
+        "L\u00e9o Gautheron",
+        "Nathalie T.H. Gayraud",
+        "Hicham Janati",
+        "Alain Rakotomamonjy",
+        "Ievgen Redko",
+        "Antoine Rolet",
+        "Antony Schutz",
+        "Vivien Seguy",
+        "Danica J. Sutherland",
+        "Romain Tavenard",
+        "Alexander Tong",
+        "Titouan Vayer"
+    ],
+    "emails": [
+        "remi.flamary@polytechnique.edu",
+        "courty@univ-ubs.fr",
+        "alexandre.gramfort@inria.fr",
+        "mokhtarzahdi.alaya@gmail.com",
+        "abb@mydatamodels.com",
+        "schambon@therapixel.com",
+        "laetitia.chapel@irisa.fr",
+        "adrien.corenflos@aalto.fi",
+        "kilian.fatras@irisa.fr",
+        "nemo.fournier@ens-lyon.org",
+        "leo.gautheron@univ-st-etienne.fr",
+        "nathaliethg@fb.com",
+        "hicham.janati@inria.fr",
+        "a.rakotomamonjy@criteo.com",
+        "ievgen.redko@univ-st-etienne.fr",
+        "antoine.rolet@iip.ist.i.kyoto-u.ac.jp",
+        "antony.schutz@unice.fr",
+        "vivienseguy@gmail.com",
+        "dsuth@cs.ubc.ca",
+        "romain.tavenard@univ-rennes2.fr",
+        "alexander.tong@yale.edu",
+        "titouan.vayer@ens-lyon.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/PythonOT/POT"
+        ]
+    ],
+    "id": "20-451",
+    "issue": 78,
+    "pages": [
+        1,
+        8
+    ],
+    "special_issue": "MLOSS",
+    "title": "POT: Python Optimal Transport",
+    "volume": 22,
+    "year": 2021
+}

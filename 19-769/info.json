@@ -1,0 +1,28 @@
+{
+    "abstract": "Tensors are becoming prevalent in modern applications such as medical imaging and digital marketing. In this paper, we propose a sparse tensor additive regression (STAR) that models a scalar response as a flexible nonparametric function of tensor covariates. The proposed model effectively exploits the sparse and low-rank structures in the tensor additive regression. We formulate the parameter estimation as a non-convex optimization problem, and propose an efficient penalized alternating minimization algorithm. We establish a non-asymptotic error bound for the estimator obtained from each iteration of the proposed algorithm, which reveals an interplay between the optimization error and the statistical rate of convergence. We demonstrate the efficacy of STAR through extensive comparative simulation studies, and an application to the click-through-rate prediction in online advertising.",
+    "authors": [
+        "Botao Hao",
+        "Boxiang Wang",
+        "Pengyuan Wang",
+        "Jingfei Zhang",
+        "Jian Yang",
+        "Will Wei Sun"
+    ],
+    "emails": [
+        "haobotao000@gmail.com",
+        "boxiang-wang@uiowa.edu",
+        "pengyuan@uga.edu",
+        "ezhang@bus.miami.edu",
+        "jianyang@verizonmedia.com",
+        "sun244@purdue.edu"
+    ],
+    "id": "19-769",
+    "issue": 64,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Sparse Tensor Additive Regression",
+    "volume": 22,
+    "year": 2021
+}

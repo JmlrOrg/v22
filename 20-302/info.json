@@ -1,0 +1,22 @@
+{
+    "abstract": "Alternatives to recurrent neural networks, in particular, architectures based on self-attention,  are gaining momentum for processing input sequences. In spite of their relevance, the computational properties of such networks have not yet been fully explored.We study the computational power of the Transformer, one of the most paradigmatic architectures exemplifying self-attention. We show that the Transformer with hard-attention is Turing complete exclusively based on their capacity to compute and access internal dense representations of the data.Our study also reveals some minimal sets of elements needed to obtain this completeness result.",
+    "authors": [
+        "Jorge P\u00e9rez",
+        "Pablo Barcel\u00f3",
+        "Javier Marinkovic"
+    ],
+    "emails": [
+        "jperez@dcc.uchile.cl",
+        "pbarcelo@uc.cl",
+        "jmarinkovic@dcc.uchile.cl"
+    ],
+    "id": "20-302",
+    "issue": 75,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Attention is Turing-Complete",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "A sketch of a large data set captures vital properties of the original data while typically occupying much less space. In this paper, we consider the problem of computing a sketch of a massive data  matrix $A\\in\\mathbb{R}^{n\\times d}$ that is distributed across $s$ machines.   Our goal is to output a matrix $B\\in\\mathbb{R}^{\\ell\\times d}$ which is significantly smaller than but still approximates $A$ well in terms of {covariance error}, i.e., $\\|{A^TA-B^TB}\\|_2$. Such a matrix $B$ is called a covariance sketch of $A$.  We are mainly focused on minimizing the communication cost, which is arguably the most valuable resource in distributed computations. We show that there is a nontrivial gap between deterministic and randomized communication complexity for computing a covariance sketch. More specifically, we first prove an almost tight deterministic communication lower bound, then provide a new randomized algorithm with communication cost smaller than the deterministic lower bound.   Based on a well-known connection between covariance sketch and approximate principle component analysis, we obtain better communication bounds for the distributed PCA problem. Moreover, we also give an improved distributed PCA algorithm for sparse input matrices, which uses our distributed sketching algorithm as a key building block.",
+    "authors": [
+        "Zengfeng Huang",
+        "Xuemin Lin",
+        "Wenjie Zhang",
+        "Ying Zhang"
+    ],
+    "emails": [
+        "huangzf@fudan.edu.cn",
+        "lxue@cse.unsw.edu.au",
+        "zhangw@cse.unsw.edu.au",
+        "Ying.Zhang@uts.edu.au"
+    ],
+    "id": "20-705",
+    "issue": 80,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Communication-Efficient Distributed Covariance Sketch, with Application to Distributed PCA",
+    "volume": 22,
+    "year": 2021
+}

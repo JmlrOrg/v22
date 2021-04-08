@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper develops an efficient distributed inference algorithm,  which is robust against a moderate fraction of Byzantine nodes, namely arbitrary and possibly adversarial machines in a distributed learning system. In robust statistics, the median-of-means (MOM) has been a popular approach to hedge against Byzantine failures due to its ease of implementation and computational efficiency. However, the MOM estimator has the shortcoming in terms of statistical efficiency. The first main contribution of the paper is to propose a variance reduced median-of-means (VRMOM) estimator, which improves the statistical efficiency over the vanilla MOM estimator and is computationally as efficient as the MOM. Based on the proposed VRMOM estimator, we develop a general distributed inference algorithm that is robust against Byzantine failures.  Theoretically, our distributed algorithm achieves a fast convergence rate with only a constant number of rounds of communications. We also provide the asymptotic normality result for the purpose of statistical inference. To the best of our knowledge, this is the first normality result in the setting of Byzantine-robust distributed learning. The simulation results are also presented to illustrate the effectiveness of our method.",
+    "authors": [
+        "Jiyuan Tu",
+        "Weidong Liu",
+        "Xiaojun Mao",
+        "Xi Chen"
+    ],
+    "emails": [
+        "tujy.19@gmail.com",
+        "weidongl@sjtu.edu.cn",
+        "maoxj@fudan.edu.cn",
+        "xc13@stern.nyu.edu"
+    ],
+    "id": "20-950",
+    "issue": 84,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "Variance Reduced Median-of-Means Estimator for Byzantine-Robust Distributed Inference",
+    "volume": 22,
+    "year": 2021
+}

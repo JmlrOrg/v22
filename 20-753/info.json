@@ -1,0 +1,22 @@
+{
+    "abstract": "We develop conformal prediction methods for constructing valid predictive  confidence sets in multiclass and multilabel problems without assumptions on the data generating distribution. A challenge here is that typical conformal prediction methods---which give marginal validity (coverage) guarantees---provide uneven coverage, in that they address easy examples at the expense of essentially ignoring difficult examples.  By leveraging ideas from quantile regression, we build methods that always guarantee correct coverage but additionally provide (asymptotically consistent) conditional coverage for both multiclass and multilabel prediction problems. To address the potential challenge of exponentially large confidence sets in multilabel prediction, we build tree-structured classifiers that efficiently account for interactions between labels.  Our methods can be bolted on top of any classification model---neural network, random forest, boosted tree---to guarantee its validity.  We also provide an empirical evaluation, simultaneously providing new validation methods, that suggests the more robust coverage of our confidence sets.",
+    "authors": [
+        "Maxime Cauchois",
+        "Suyash Gupta",
+        "John C. Duchi"
+    ],
+    "emails": [
+        "maxcauch@stanford.edu",
+        "suyash28@stanford.edu",
+        "jduchi@stanford.edu"
+    ],
+    "id": "20-753",
+    "issue": 81,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Knowing what You Know: valid and validated confidence sets in multiclass and multilabel prediction",
+    "volume": 22,
+    "year": 2021
+}

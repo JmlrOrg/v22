@@ -1,0 +1,22 @@
+{
+    "abstract": "Signal estimation problems with smoothness and sparsity priors can be naturally modeled as quadratic optimization with $\\ell_0$-``norm'' constraints. Since such problems are non-convex and hard-to-solve, the standard approach is, instead, to tackle their convex surrogates based on $\\ell_1$-norm relaxations. In this paper, we propose new iterative (convex) conic quadratic relaxations that exploit not only the $\\ell_0$-``norm'' terms, but also the fitness and smoothness functions. The iterative convexification approach substantially closes the gap between the $\\ell_0$-``norm'' and its $\\ell_1$ surrogate. These stronger relaxations lead to significantly better estimators than $\\ell_1$-norm approaches and also allow one to utilize affine sparsity priors. In addition, the parameters of the model and the resulting estimators are easily interpretable. Experiments with a tailored Lagrangian decomposition method indicate that the proposed iterative convex relaxations yield solutions within 1\\% of the exact $\\ell_0$-approach, and can tackle instances with up to 100,000 variables under one minute.",
+    "authors": [
+        "Alper Atamturk",
+        "Andres Gomez",
+        "Shaoning Han"
+    ],
+    "emails": [
+        "atamturk@berkeley.edu",
+        "gomezand@usc.edu",
+        "shaoning@usc.edu"
+    ],
+    "id": "18-745",
+    "issue": 52,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Sparse and Smooth Signal Estimation: Convexification of L0-Formulations",
+    "volume": 22,
+    "year": 2021
+}

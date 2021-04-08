@@ -1,0 +1,31 @@
+{
+    "abstract": "In this paper, we introduce ChainerRL, an open-source deep reinforcement learning (DRL) library built using Python and the Chainer deep learning framework. ChainerRL implements a comprehensive set of DRL algorithms and techniques drawn from state-of-the-art research in the field. To foster reproducible research, and for instructional purposes, ChainerRL provides scripts that closely replicate the original papers' experimental settings and reproduce published benchmark results for several algorithms. Lastly, ChainerRL offers a visualization tool that enables the qualitative inspection of trained agents. The ChainerRL source code can be found on GitHub: https://github.com/chainer/chainerrl.",
+    "authors": [
+        "Yasuhiro Fujita",
+        "Prabhat Nagarajan",
+        "Toshiki Kataoka",
+        "Takahiro Ishikawa"
+    ],
+    "emails": [
+        "fujita@preferred.jp",
+        "prabhat@preferred.jp",
+        "kataoka@preferred.jp",
+        "sykwer@g.ecc.u-tokyo.ac.jp"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/chainer/chainerrl"
+        ]
+    ],
+    "id": "20-376",
+    "issue": 77,
+    "pages": [
+        1,
+        14
+    ],
+    "special_issue": "MLOSS",
+    "title": "ChainerRL: A Deep Reinforcement Learning Library",
+    "volume": 22,
+    "year": 2021
+}

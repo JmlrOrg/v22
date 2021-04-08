@@ -1,0 +1,24 @@
+{
+    "abstract": "Recommender systems have been extensively used by the entertainment industry, business marketing and the biomedical industry. In addition to its capacity of providing preference based recommendations as an unsupervised learning methodology, it has been also proven useful in sales forecasting, product introduction and other production related businesses. Since some consumers and companies need a recommendation or prediction for future budget, labor and supply chain coordination, dynamic recommender systems for precise forecasting have become extremely necessary. In this article, we propose a new recommendation method, namely the dynamic tensor recommender system (DTRS), which aims particularly at forecasting future recommendation. The proposed method utilizes a tensor-valued function of time to integrate time and contextual information, and creates a time-varying coefficient model for temporal tensor factorization through a polynomial spline approximation. Major advantages of the proposed method include competitive future recommendation predictions and effective prediction interval estimations. In theory, we establish the convergence rate of the proposed tensor factorization and asymptotic normality of the spline coefficient estimator. The proposed method is applied to simulations, IRI marketing data and Last.fm data. Numerical studies demonstrate that the proposed method outperforms existing methods in terms of future time forecasting.",
+    "authors": [
+        "Yanqing Zhang",
+        "Xuan Bi",
+        "Niansheng Tang",
+        "Annie Qu"
+    ],
+    "emails": [
+        "zhangyanqing@ynu.edu.cn",
+        "xbi@umn.edu",
+        "nstang@ynu.edu.cn",
+        "aqu2@uci.edu"
+    ],
+    "id": "19-792",
+    "issue": 65,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Dynamic Tensor Recommender Systems",
+    "volume": 22,
+    "year": 2021
+}

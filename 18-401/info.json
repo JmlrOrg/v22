@@ -1,0 +1,20 @@
+{
+    "abstract": "Mainly motivated by the problem of modelling biological processes underlying the basic functions of a cell -that typically involve complex  interactions between genes- we present a new algorithm, called PC-LPGM, for learning the structure of undirected graphical models over discrete variables. We prove theoretical consistency of PC-LPGM in the limit of infinite observations and discuss its robustness to model misspecification. To evaluate the performance of PC-LPGM in recovering the true structure of the graphs in situations where relatively moderate sample sizes are available, extensive simulation studies are conducted, that also allow  to compare our proposal with its main competitors. A biological validation of the algorithm is presented through the analysis of two real data sets.",
+    "authors": [
+        "Nguyen Thi Kim Hue",
+        "Monica Chiogna"
+    ],
+    "emails": [
+        "nguyen@stat.unipd.it",
+        "monica.chiogna2@unibo.it"
+    ],
+    "id": "18-401",
+    "issue": 50,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Structure Learning of Undirected Graphical Models for Count Data",
+    "volume": 22,
+    "year": 2021
+}

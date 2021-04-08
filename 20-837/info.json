@@ -1,0 +1,20 @@
+{
+    "abstract": "In the Tensor PCA problem introduced by Richard and Montanari (2014), one is given a dataset consisting of $n$ samples $\\mathbf{T}_{1:n}$ of i.i.d. Gaussian tensors of order $k$ with the promise that $\\mathbb{E}\\mathbf{T}_1$ is a rank-1 tensor and $\\|\\mathbb{E} \\mathbf{T}_1\\| = 1$. The goal is to estimate $\\mathbb{E} \\mathbf{T}_1$. This problem exhibits a large conjectured hard phase when $k>2$: When $d \\lesssim n \\ll d^{\\frac{k}{2}}$ it is information theoretically possible to estimate $\\mathbb{E} \\mathbf{T}_1$, but no polynomial time estimator is known. We provide a sharp analysis of the optimal sample complexity in the Statistical Query (SQ) model and show that SQ algorithms with polynomial query complexity not only fail to solve Tensor PCA in the conjectured hard phase, but also have a strictly sub-optimal sample complexity compared to some polynomial time estimators such as the Richard-Montanari spectral estimator. Our analysis reveals that the optimal sample complexity in the SQ model depends on whether $\\mathbb{E} \\mathbf{T}_1$ is symmetric or not. For symmetric, even order tensors, we also isolate a sample size regime in which it is possible to test if $\\mathbb{E} \\mathbf{T}_1 = \\mathbf{0}$ or $\\mathbb{E}\\mathbf{T}_1 \\neq \\mathbf{0}$ with polynomially many queries but not estimate $\\mathbb{E}\\mathbf{T}_1$. Our proofs rely on the Fourier analytic approach of Feldman, Perkins and Vempala (2018) to prove sharp SQ lower bounds.",
+    "authors": [
+        "Rishabh Dudeja",
+        "Daniel Hsu"
+    ],
+    "emails": [
+        "rd2714@columbia.edu",
+        "djhsu@cs.columbia.edu"
+    ],
+    "id": "20-837",
+    "issue": 83,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Statistical Query Lower Bounds for Tensor PCA",
+    "volume": 22,
+    "year": 2021
+}

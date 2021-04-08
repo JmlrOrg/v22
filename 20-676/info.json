@@ -1,0 +1,24 @@
+{
+    "abstract": "Deep neural networks (DNNs) generalise remarkably well in the overparameterised regime, suggesting a strong inductive bias towards functions with low generalisation error. We empirically investigate this bias by calculating, for a range of architectures and datasets, the probability $P_{SGD}(f\\mid S)$ that an overparameterised DNN, trained with stochastic gradient descent (SGD) or one of its variants, converges on a function $f$ consistent with a training set $S$. We also use Gaussian processes to estimate the Bayesian posterior probability $P_{B}(f\\mid S)$ that the DNN expresses $f$ upon random sampling of its parameters, conditioned on $S$. Our main findings are that $P_{SGD}(f\\mid S)$ correlates remarkably well with $P_{B}(f\\mid S)$ and that $P_{B}(f\\mid S)$ is strongly biased towards low-error and low complexity functions. These results imply that strong inductive bias in the parameter-function map (which determines $P_{B}(f\\mid S)$), rather than a special property of SGD, is the primary explanation for why DNNs generalise so well in the overparameterised regime. While our results suggest that the Bayesian posterior $P_{B}(f\\mid S)$ is the first order determinant of $P_{SGD}(f\\mid S)$, there remain second order differences that are sensitive to hyperparameter tuning. A function probability picture, based on $P_{SGD}(f\\mid S)$ and/or $P_{B}(f\\mid S)$, can shed light on the way that variations in architecture or hyperparameter settings such as batch size, learning rate, and optimiser choice, affect DNN performance.",
+    "authors": [
+        "Chris Mingard",
+        "Guillermo Valle-P\u00e9rez",
+        "Joar Skalse",
+        "Ard A. Louis"
+    ],
+    "emails": [
+        "christopher.mingard@chem.ox.ac.uk",
+        "guillermo.valle@dtc.ox.ac.uk",
+        "joar.skalse@cs.ox.ac.uk",
+        "ard.louis@physics.ox.ac.uk"
+    ],
+    "id": "20-676",
+    "issue": 79,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "Is SGD a Bayesian sampler? Well, almost",
+    "volume": 22,
+    "year": 2021
+}

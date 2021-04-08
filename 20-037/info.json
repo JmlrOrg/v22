@@ -1,0 +1,22 @@
+{
+    "abstract": "We propose to estimate the number of communities in degree-corrected stochastic block models based on a pseudo likelihood ratio statistic. To this end, we introduce a method that combines spectral clustering with binary segmentation. This approach guarantees an upper bound for the pseudo likelihood ratio statistic when the model is over-fitted. We also derive its limiting distribution when the model is under-fitted. Based on these properties, we establish the consistency of our estimator for the true number of communities. Developing these theoretical properties require a mild condition on the average degrees - growing at a rate no slower than log(n), where n is the number of nodes. Our proposed method is further illustrated by simulation studies and analysis of real-world networks. The numerical results show that our approach has satisfactory performance when the network is semi-dense.",
+    "authors": [
+        "Shujie Ma",
+        "Liangjun Su",
+        "Yichong Zhang"
+    ],
+    "emails": [
+        "shujie.ma@ucr.edu",
+        "sulj@sem.tsinghua.edu.cn",
+        "yczhang@smu.edu.sg"
+    ],
+    "id": "20-037",
+    "issue": 69,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Determining the Number of Communities in Degree-corrected Stochastic Block Models",
+    "volume": 22,
+    "year": 2021
+}

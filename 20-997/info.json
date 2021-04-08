@@ -1,0 +1,18 @@
+{
+    "abstract": "A line of recent works established that when training linear predictors over separable data, using gradient methods and exponentially-tailed losses, the predictors asymptotically converge in direction to the max-margin predictor. As a consequence, the predictors asymptotically do not overfit. However, this does not address the question of whether overfitting might occur non-asymptotically, after some bounded number of iterations. In this paper, we formally show that standard gradient methods (in particular, gradient flow, gradient descent and stochastic gradient descent) *never* overfit on separable data: If we run these methods for $T$ iterations on a dataset of size $m$, both the empirical risk and the generalization error decrease at an essentially optimal rate of $\\tilde{\\mathcal{O}}(1/\\gamma^2 T)$ up till $T\\approx m$, at which point the generalization error remains fixed at an essentially optimal level of $\\tilde{\\mathcal{O}}(1/\\gamma^2 m)$ regardless of how large $T$ is. Along the way, we present non-asymptotic bounds on the number of margin violations over the dataset, and prove their tightness.",
+    "authors": [
+        "Ohad Shamir"
+    ],
+    "emails": [
+        "ohad.shamir@weizmann.ac.il"
+    ],
+    "id": "20-997",
+    "issue": 85,
+    "pages": [
+        1,
+        20
+    ],
+    "title": "Gradient Methods Never Overfit On Separable Data",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "We analyze the spectral clustering procedure for identifying coarse structure in a data set $\\mathbf{x}_1, \\dots, \\mathbf{x}_n$, and in particular study the geometry of graph Laplacian embeddings which form the basis for spectral clustering algorithms. More precisely, we assume that the data are sampled from a mixture model supported on a manifold $\\mathcal{M}$ embedded in $\\mathbb{R}^d$, and pick a connectivity length-scale $\\varepsilon>0$ to construct a kernelized graph Laplacian. We introduce a notion of a well-separated mixture model which only depends on the model itself, and prove that when the model is well separated, with high probability the embedded data set concentrates on cones that are centered around orthogonal vectors. Our results are meaningful in the regime where $\\varepsilon = \\varepsilon(n)$ is allowed to decay to zero at a slow enough rate as the number of data points grows. This rate depends on the intrinsic dimension of the manifold on which the data is supported.",
+    "authors": [
+        "Nicol\u00e1s Garc\u00eda Trillos",
+        "Franca Hoffmann",
+        "Bamdad Hosseini"
+    ],
+    "emails": [
+        "nicolasgarcia@stat.wisc.edu",
+        "fkoh@caltech.edu",
+        "bamdadh@caltech.edu"
+    ],
+    "id": "19-683",
+    "issue": 63,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Geometric structure of graph Laplacian embeddings",
+    "volume": 22,
+    "year": 2021
+}

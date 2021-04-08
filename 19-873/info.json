@@ -1,0 +1,24 @@
+{
+    "abstract": "We develop a Nonparametric Empirical Bayes (NEB) framework for compound estimation in the discrete linear exponential family, which includes a wide class of discrete distributions frequently arising from modern big data applications. We propose to directly estimate the Bayes shrinkage factor in the generalized Robbins' formula via solving a convex program, which is carefully developed based on a RKHS representation of the Stein's discrepancy measure. The new NEB estimation framework is  flexible for incorporating various structural constraints into the data driven rule, and provides a unified approach to compound estimation with both regular and scaled squared error losses. We develop theory to show that the class of NEB estimators enjoys strong asymptotic properties. Comprehensive simulation studies as well as analyses of real data examples are carried out to demonstrate the superiority of the NEB estimator over competing methods.",
+    "authors": [
+        "Trambak Banerjee",
+        "Qiang Liu",
+        "Gourab Mukherjee",
+        "Wengunag Sun"
+    ],
+    "emails": [
+        "trambak@ku.edu",
+        "lqiang@cs.utexas.edu",
+        "gourab@usc.edu",
+        "wenguans@marshall.usc.edu"
+    ],
+    "id": "19-873",
+    "issue": 67,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "A General Framework for Empirical Bayes Estimation in Discrete Linear Exponential Family",
+    "volume": 22,
+    "year": 2021
+}

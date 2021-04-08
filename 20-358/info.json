@@ -1,0 +1,20 @@
+{
+    "abstract": "We investigate the construction of early stopping rules in the nonparametric regression problem where iterative learning algorithms are used and the optimal iteration number is unknown. More precisely, we study the discrepancy principle, as well as modifications based on smoothed residuals, for kernelized spectral filter learning algorithms including Tikhonov regularization and gradient descent. Our main theoretical bounds are oracle inequalities established for the empirical estimation error (fixed design), and for the prediction error (random design). From these finite-sample bounds it follows that the classical discrepancy principle is statistically adaptive for slow rates occurring in the hard learning scenario, while the smoothed discrepancy principles are adaptive over ranges of faster rates (resp. higher smoothness parameters). Our approach relies on deviation inequalities for the stopping rules in the fixed design setting, combined with change-of-norm arguments to deal with the random design setting.",
+    "authors": [
+        "Alain Celisse",
+        "Martin Wahl"
+    ],
+    "emails": [
+        "alain.celisse@univ-paris1.fr",
+        "martin.wahl@math.hu-berlin.de"
+    ],
+    "id": "20-358",
+    "issue": 76,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Analyzing the discrepancy principle for kernelized spectral filter learning algorithms",
+    "volume": 22,
+    "year": 2021
+}

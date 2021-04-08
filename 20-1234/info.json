@@ -1,0 +1,22 @@
+{
+    "abstract": "We study the problem of prediction with expert advice with adversarial corruption where the adversary can at most corrupt one expert. Using tools from viscosity theory, we characterize the long-time behavior of the value function of the game between the forecaster and the adversary. We provide lower and upper bounds for the growth rate of regret without relying on a comparison result. We show that depending on the description of regret, the limiting behavior of the game can significantly differ.",
+    "authors": [
+        "Erhan Bayraktar",
+        "Ibrahim Ekren",
+        "Xin Zhang"
+    ],
+    "emails": [
+        "erhan@umich.edu",
+        "iekren@fsu.edu",
+        "zxmars@umich.edu"
+    ],
+    "id": "20-1234",
+    "issue": 72,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Prediction against a limited adversary",
+    "volume": 22,
+    "year": 2021
+}

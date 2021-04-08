@@ -1,0 +1,28 @@
+{
+    "abstract": "We derive bounds on the path length $\\zeta$ of gradient descent (GD) and gradient flow (GF) curves for various classes of smooth convex and nonconvex functions. Among other results, we prove that: (a) if the iterates are linearly convergent with factor $(1-c)$, then $\\zeta$ is at most $\\mathcal{O}(1/c)$; (b) under the Polyak-Kurdyka-\\L ojasiewicz (PKL) condition, $\\zeta$ is at most $\\mathcal{O}(\\sqrt{\\kappa})$, where $\\kappa$ is the condition number, and at least $\\widetilde\\Omega(\\sqrt{d} \\wedge \\kappa^{1/4})$; (c) for quadratics, $\\zeta$ is $\\Theta(\\min\\{\\sqrt{d},\\sqrt{\\log \\kappa}\\})$ and in some cases can be independent of $\\kappa$; (d) assuming just convexity, $\\zeta$ can be at most $2^{4d\\log d}$; (e) for separable quasiconvex functions, $\\zeta$ is ${\\Theta}(\\sqrt{d})$. Thus, we advance current understanding of the properties of GD and GF curves beyond rates of convergence. We expect our techniques to facilitate future studies for other algorithms.",
+    "authors": [
+        "Chirag Gupta",
+        "Sivaraman Balakrishnan",
+        "Aaditya Ramdas"
+    ],
+    "emails": [
+        "chiragg@cmu.edu",
+        "siva@stat.cmu.edu",
+        "aramdas@cmu.edu"
+    ],
+    "extra_links": [
+        [
+            "blog",
+            "https://blog.ml.cmu.edu/2019/10/25/path-length-bounds-for-gradient-descent/"
+        ]
+    ],
+    "id": "19-979",
+    "issue": 68,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Path Length Bounds for Gradient Descent and Flow",
+    "volume": 22,
+    "year": 2021
+}

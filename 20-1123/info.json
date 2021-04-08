@@ -1,0 +1,30 @@
+{
+    "abstract": "How neural network behaves during the training over different choices of hyperparameters is an important question in the study of neural networks. In this work, inspired by the phase diagram in statistical mechanics, we draw the phase diagram for the two-layer ReLU neural network at the infinite-width limit for a complete characterization of its dynamical regimes and their dependence on hyperparameters related to initialization. Through both experimental and theoretical approaches, we identify three regimes in the phase diagram, i.e., linear regime, critical regime and condensed regime, based on the relative change of input weights as the width approaches infinity, which tends to $0$, $O(1)$ and $+\\infty$, respectively. In the linear regime, NN training dynamics is approximately linear similar to a random feature model with an exponential loss decay. In the condensed regime, we demonstrate through experiments that active neurons are condensed at several discrete orientations. The critical regime serves as the boundary between above two regimes, which exhibits an intermediate nonlinear behavior with the mean-field model as a typical example. Overall, our phase diagram for the two-layer ReLU NN serves as a map for the future studies and is a first step towards a more systematical investigation of the training behavior and the implicit regularization of NNs of different structures.",
+    "authors": [
+        "Tao Luo",
+        "Zhi-Qin John Xu",
+        "Zheng Ma",
+        "Yaoyu Zhang"
+    ],
+    "emails": [
+        "luotao41@sjtu.edu.cn",
+        "xuzhiqin@sjtu.edu.cn",
+        "zhengma@sjtu.edu.cn",
+        "zhyy.sjtu@sjtu.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/xuzhiqin1990/phasediagram_twolayerNN"
+        ]
+    ],
+    "id": "20-1123",
+    "issue": 71,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Phase Diagram for Two-layer ReLU Neural Networks at Infinite-width Limit",
+    "volume": 22,
+    "year": 2021
+}

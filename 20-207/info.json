@@ -1,0 +1,20 @@
+{
+    "abstract": "We analyze the convergence rate of various momentum-based optimization algorithms from a dynamical systems point of view. Our analysis exploits fundamental topological properties, such as the continuous dependence of iterates on their initial conditions, to provide a simple characterization of convergence rates. In many cases, closed-form expressions are obtained that relate algorithm parameters to the convergence rate. The analysis encompasses discrete time and continuous time, as well as time-invariant and time-variant formulations, and is not limited to a convex or Euclidean setting. In addition, the article rigorously establishes why symplectic discretization schemes are important for momentum-based optimization algorithms, and provides a characterization of algorithms that exhibit accelerated convergence.",
+    "authors": [
+        "Michael Muehlebach",
+        "Michael I. Jordan"
+    ],
+    "emails": [
+        "michaelm@berkeley.edu",
+        "jordan@cs.berkeley.edu"
+    ],
+    "id": "20-207",
+    "issue": 73,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Optimization with Momentum: Dynamical, Control-Theoretic, and Symplectic Perspectives",
+    "volume": 22,
+    "year": 2021
+}

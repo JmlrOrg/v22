@@ -1,0 +1,20 @@
+{
+    "abstract": "In this paper we consider the problem of maximizing the Area under the ROC curve (AUC) which is a widely used performance metric in imbalanced classification and anomaly detection. Due to the pairwise nonlinearity of the objective function, classical SGD algorithms do not apply to the task of AUC maximization. We propose a novel stochastic proximal algorithm for AUC maximization which is scalable to large scale streaming data. Our algorithm can accommodate general penalty terms and is easy to implement with favorable $O(d)$ space and per-iteration time complexities. We establish a high-probability convergence rate $O(1/\\sqrt{T})$ for the general convex setting, and improve it to a fast convergence rate $O(1/T)$ for the cases of strongly convex regularizers and no regularization term (without strong convexity). Our proof does not need the uniform boundedness assumption on the loss function or the iterates which is more fidelity to the practice. Finally, we perform extensive experiments over various benchmark data sets from real-world application domains which show the superior performance of our algorithm over the existing AUC maximization algorithms.",
+    "authors": [
+        "Yunwen Lei",
+        "Yiming Ying"
+    ],
+    "emails": [
+        "y.lei@bham.ac.uk",
+        "yying@albany.edu"
+    ],
+    "id": "19-418",
+    "issue": 61,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Stochastic Proximal AUC Maximization",
+    "volume": 22,
+    "year": 2021
+}
