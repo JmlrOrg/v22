@@ -1,0 +1,22 @@
+{
+    "abstract": "Accelerated optimization methods, such as Nesterov's accelerated gradient method, play a significant role in optimization. Several accelerated methods are provably optimal under standard oracle models. Such optimality results are obtained using a technique known as \"estimate sequences,\" which yields upper bounds on convergence properties.  The technique of estimate sequences has long been considered difficult to understand and deploy, leading many researchers to generate alternative, more intuitive methods and analyses. We show there is an equivalence between the technique of estimate sequences and a family of Lyapunov functions in both continuous and discrete time. This connection allows us to develop a unified analysis of many existing accelerated algorithms, introduce new algorithms, and strengthen the connection between accelerated algorithms and continuous-time dynamical systems.",
+    "authors": [
+        "Ashia C. Wilson",
+        "Ben Recht",
+        "Michael I. Jordan"
+    ],
+    "emails": [
+        "ashia07@mit.edu",
+        "brecht@berkeley.edu",
+        "jordan@cs.berkeley.edu"
+    ],
+    "id": "20-195",
+    "issue": 113,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "A Lyapunov Analysis of Accelerated Methods in Optimization",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "As the size and complexity of models and datasets grow, so does the need for communication-efficient variants of stochastic gradient descent that can be deployed to perform parallel model training. One popular communication-compression method for data-parallel SGD is QSGD (Alistarh et al., 2017), which quantizes and encodes gradients to reduce communication costs. The baseline variant of QSGD provides strong theoretical guarantees, however, for practical purposes, the authors proposed a heuristic variant which we call QSGDinf, which demonstrated impressive empirical gains for distributed training of large neural networks. In this paper, we build on this work to propose a new gradient quantization scheme, and show that it has both stronger theoretical guarantees than QSGD, and matches and exceeds the empirical performance of the QSGDinf heuristic and of other compression methods.",
+    "authors": [
+        "Ali Ramezani-Kebrya",
+        "Fartash Faghri",
+        "Ilya Markov",
+        "Vitalii Aksenov",
+        "Dan Alistarh",
+        "Daniel M. Roy"
+    ],
+    "emails": [
+        "ali.ramezani@epfl.ch",
+        "faghri@cs.toronto.edu",
+        "ilia.markov@ist.ac.at",
+        "vitalii.aksenov@ist.ac.at",
+        "dan.alistarh@ist.ac.at",
+        "daniel.roy@utoronto.ca"
+    ],
+    "id": "20-255",
+    "issue": 114,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "NUQSGD: Provably Communication-efficient Data-parallel SGD via Nonuniform Quantization",
+    "volume": 22,
+    "year": 2021
+}

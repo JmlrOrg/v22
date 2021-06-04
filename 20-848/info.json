@@ -1,0 +1,30 @@
+{
+    "abstract": "Much work has been done recently to make neural networks more interpretable, and one approach is to arrange for the network to use only a subset of the available features. In linear models, Lasso (or $\\ell_1$-regularized) regression assigns zero weights to the most irrelevant or redundant features, and is widely used in data science. However the Lasso only applies to linear models. Here we introduce LassoNet, a neural network framework with global feature selection. Our approach achieves feature sparsity by adding a skip (residual) layer and allowing a feature to participate in any hidden layer only if its skip-layer representative is active. Unlike other approaches to feature selection for neural nets, our method uses a modified objective function with constraints, and so integrates feature selection with the parameter learning directly. As a result, it delivers an entire regularization path of solutions with a range of feature sparsity. We apply LassoNet to a number of real-data problems and find that it significantly outperforms state-of-the-art methods for feature selection and regression. LassoNet uses projected proximal gradient descent, and generalizes directly to deep networks. It can be implemented by adding just a few lines of code to a standard neural network.",
+    "authors": [
+        "Ismael Lemhadri",
+        "Feng Ruan",
+        "Louis Abraham",
+        "Robert Tibshirani"
+    ],
+    "emails": [
+        "lemhadri@stanford.edu",
+        "fengruan@berkeley.edu",
+        "louis.abraham@yahoo.fr",
+        "tibs@stanford.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/lasso-net/"
+        ]
+    ],
+    "id": "20-848",
+    "issue": 127,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "LassoNet: A Neural Network with Feature Sparsity",
+    "volume": 22,
+    "year": 2021
+}

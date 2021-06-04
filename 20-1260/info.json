@@ -1,0 +1,32 @@
+{
+    "abstract": "As Gaussian processes are used to answer increasingly complex questions, analytic solutions become scarcer and scarcer. Monte Carlo methods act as a convenient bridge for connecting intractable mathematical expressions with actionable estimates via sampling. Conventional approaches for simulating Gaussian process posteriors view samples as draws from marginal distributions of process values at finite sets of input locations. This distribution-centric characterization leads to generative strategies that scale cubically in the size of the desired random vector. These methods are prohibitively expensive in cases where we would, ideally, like to draw high-dimensional vectors or even continuous sample paths. In this work, we investigate a different line of reasoning: rather than focusing on distributions, we articulate Gaussian conditionals at the level of random variables. We show how this pathwise interpretation of conditioning gives rise to a general family of approximations that lend themselves to efficiently sampling Gaussian process posteriors. Starting from first principles, we derive these methods and analyze the approximation errors they introduce. We, then, ground these results by exploring the practical implications of pathwise conditioning in various applied settings, such as global optimization and reinforcement learning.",
+    "authors": [
+        "James T. Wilson",
+        "Viacheslav Borovitskiy",
+        "Alexander Terenin",
+        "Peter Mostowsky",
+        "Marc Peter Deisenroth"
+    ],
+    "emails": [
+        "j.wilson17@imperial.ac.uk",
+        "viacheslav.borovitskiy@gmail.com",
+        "a.terenin17@imperial.ac.uk",
+        "pmostowsky@gmail.com",
+        "m.deisenroth@ucl.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/j-wilson/GPflowSampling"
+        ]
+    ],
+    "id": "20-1260",
+    "issue": 105,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Pathwise Conditioning of Gaussian Processes",
+    "volume": 22,
+    "year": 2021
+}

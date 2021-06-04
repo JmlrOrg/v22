@@ -1,0 +1,26 @@
+{
+    "abstract": "Multiple methods exist for computing marginals involving a linear Diophantine constraint on random variables. Each of these extant methods has some limitation on the dimension and support or on the type of marginal computed (e.g., sum-product inference, max-product inference, maximum a posteriori, etc.). Here, we introduce the \"trimmed $p$-convolution tree'\" an approach that generalizes the applicability of the existing methods and achieves a runtime within a $\\log$-factor or better compared to the best existing methods. A second form of trimming we call underflow/overflow trimming is introduced which aggregates events which land outside the supports for a random variable into the nearest support. Trimmed $p$-convolution trees with and without underflow/overflow trimming are used in different protein inference models. Then two different methods of approximating max-convolution using Cartesian product trees are introduced.",
+    "authors": [
+        "Patrick Kreitzberg",
+        "Oliver Serang"
+    ],
+    "emails": [
+        "patrick.kreitzberg@umontana.edu",
+        "oliver.serang@umontana.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://bitbucket.org/orserang/evergreenforest"
+        ]
+    ],
+    "id": "17-474",
+    "issue": 87,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "On Solving Probabilistic Linear Diophantine Equations",
+    "volume": 22,
+    "year": 2021
+}

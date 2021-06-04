@@ -1,0 +1,34 @@
+{
+    "abstract": "This paper presents a new methodology for modeling the local semantic distribution of responses to a given query in the human-conversation corpus, and on this basis, explores a specified adversarial learning mechanism for training Neural Response Generation (NRG) models to build conversational agents. Our investigation begins with the thorough discus- sions upon the objective function of general Generative Adversarial Nets (GAN) architectures, and the training instability problem is proved to be highly relative with the special local distributions of conversational corpora. Consequently, an energy function is employed to estimate the status of a local area restricted by the query and its responses in the semantic space, and the mathematical approximation of this energy-based distribution is finally found. Building on this foundation, a local distribution oriented objective is proposed and combined with the original objective, working as a hybrid loss for the adversarial training of response generation models, named as LocalGAN. Our experimental results demonstrate that the reasonable local distribution modeling of the query-response corpus is of great importance to adversarial NRG, and our proposed LocalGAN is promising for improving both the training stability and the quality of generated results.",
+    "authors": [
+        "Baoxun Wang",
+        "Zhen Xu",
+        "Huan Zhang",
+        "Kexin Qiu",
+        "Deyuan Zhang",
+        "Chengjie Sun"
+    ],
+    "emails": [
+        "asulewang@tencent.com",
+        "zenxu@tencent.com",
+        "zhanghuan123@pku.edu.cn",
+        "kq2131@columbia.edu",
+        "dyzhang@sau.edu.cn",
+        "cjsun@insun.hit.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dreasysnail/converse_GAN"
+        ]
+    ],
+    "id": "20-052",
+    "issue": 101,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "LocalGAN: Modeling Local Distributions for Adversarial Response Generation",
+    "volume": 22,
+    "year": 2021
+}

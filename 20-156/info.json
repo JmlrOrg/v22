@@ -1,0 +1,22 @@
+{
+    "abstract": "We develop and analyze a new family of nonaccelerated and accelerated loopless variance-reduced methods for finite-sum optimization problems. Our convergence analysis relies on a novel expected smoothness condition which upper bounds the variance of the stochastic gradient estimation by a constant times a distance-like function. This allows us to handle with ease arbitrary sampling schemes as well as the nonconvex case. We perform an in-depth estimation of these expected smoothness parameters and propose new importance samplings which allow linear speedup when the expected minibatch size is in a certain range. Furthermore, a connection between these expected smoothness parameters and expected separable overapproximation (ESO) is established, which allows us to exploit data sparsity as well. Our general methods and results recover as special cases the loopless SVRG and loopless Katyusha methods.",
+    "authors": [
+        "Xun Qian",
+        "Zheng Qu",
+        "Peter Richtárik"
+    ],
+    "emails": [
+        "xun.qian@kaust.edu.sa",
+        "zhengqu@hku.hk",
+        "peter.richtarik@kaust.edu.sa"
+    ],
+    "id": "20-156",
+    "issue": 112,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "L-SVRG and L-Katyusha with Arbitrary Sampling",
+    "volume": 22,
+    "year": 2021
+}

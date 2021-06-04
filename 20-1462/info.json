@@ -1,0 +1,26 @@
+{
+    "abstract": "Quantile regression is a statistical method for estimating conditional quantiles of a response variable. In addition, for mean estimation, it is well known that quantile regression is more robust to outliers than $l_2$-based methods. By using the fused lasso penalty over a $K$-nearest neighbors graph, we propose an adaptive quantile estimator in a non-parametric setup. We show that the estimator attains optimal rate of $n^{-1/d}$ up to a logarithmic factor, under mild assumptions on the data generation mechanism of the $d$-dimensional data. We develop algorithms to compute the estimator and discuss methodology for model selection. Numerical experiments on simulated and real data demonstrate clear advantages of the proposed estimator over state of the art methods.",
+    "authors": [
+        "Steven Siwei Ye",
+        "Oscar Hernan Madrid Padilla"
+    ],
+    "emails": [
+        "stevenysw@g.ucla.edu",
+        "oscar.madrid@stat.ucla.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/stevenysw/qt_knnfl"
+        ]
+    ],
+    "id": "20-1462",
+    "issue": 111,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Non-parametric Quantile Regression via the K-NN Fused Lasso",
+    "volume": 22,
+    "year": 2021
+}

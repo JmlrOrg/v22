@@ -1,0 +1,24 @@
+{
+    "abstract": "We provide general adaptive upper bounds for estimating nonparametric functionals based on second-order U-statistics arising from finite-dimensional approximation of the infinite-dimensional models. We then provide examples of functionals for which the theory produces rate optimally matching adaptive upper and lower bounds. Our results are automatically adaptive in both parametric and nonparametric regimes of estimation and are automatically adaptive and semiparametric efficient in the regime of parametric convergence rate.",
+    "authors": [
+        "Lin Liu",
+        "Rajarshi Mukherjee",
+        "James M. Robins",
+        "Eric Tchetgen Tchetgen"
+    ],
+    "emails": [
+        "linliu@sjtu.edu.cn",
+        "ram521@mail.harvard.edu",
+        "robins@hsph.harvard.edu",
+        "ett@wharton.upenn.edu"
+    ],
+    "id": "19-892",
+    "issue": 99,
+    "pages": [
+        1,
+        66
+    ],
+    "title": "Adaptive estimation of nonparametric functionals",
+    "volume": 22,
+    "year": 2021
+}

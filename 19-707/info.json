@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper presents a study of the policy improvement step that can be usefully exploited by approximate policy-iteration algorithms. When either the policy evaluation step or the policy improvement step returns an approximated result, the sequence of policies produced by policy iteration may not be monotonically increasing, and oscillations may occur. To address this issue, we consider safe policy improvements, i.e., at each iteration, we search for a policy that maximizes a lower bound to the policy improvement w.r.t. the current policy, until no improving policy can be found. We propose three safe policy-iteration schemas that differ in the way the next policy is chosen w.r.t. the estimated greedy policy. Besides being theoretically derived and discussed, the proposed algorithms are empirically evaluated and compared on some chain-walk domains, the prison domain, and on the Blackjack card game.",
+    "authors": [
+        "Alberto Maria Metelli",
+        "Matteo Pirotta",
+        "Daniele Calandriello",
+        "Marcello Restelli"
+    ],
+    "emails": [
+        "albertomaria.metelli@polimi.it",
+        "pirotta@fb.com",
+        "daniele.calandriello@iit.it",
+        "marcello.restelli@polimi.it"
+    ],
+    "id": "19-707",
+    "issue": 97,
+    "pages": [
+        1,
+        83
+    ],
+    "title": "Safe Policy Iteration: A Monotonically Improving Approximate Policy Iteration Approach",
+    "volume": 22,
+    "year": 2021
+}

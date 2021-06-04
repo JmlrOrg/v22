@@ -1,0 +1,45 @@
+{
+    "abstract": "River is a machine learning library for dynamic data streams and continual learning. It provides multiple state-of-the-art learning methods, data generators/transformers, performance metrics and evaluators for different stream learning problems. It is the result from the merger of two popular packages for stream learning in Python: Creme and scikit-multiflow. River introduces a revamped architecture based on the lessons learnt from the seminal packages. River's ambition is to be the go-to library for doing machine learning on streaming data. Additionally, this open source package brings under the same umbrella a large community of practitioners and researchers. The source code is available at https://github.com/online-ml/river.",
+    "authors": [
+        "Jacob Montiel",
+        "Max Halford",
+        "Saulo Martiello Mastelini",
+        "Geoffrey Bolmier",
+        "Raphael Sourty",
+        "Robin Vaysse",
+        "Adil Zouitine",
+        "Heitor Murilo Gomes",
+        "Jesse Read",
+        "Talel Abdessalem",
+        "Albert Bifet"
+    ],
+    "emails": [
+        "jacob.montiel@waikato.ac.nz",
+        "max.halford@alan.eu",
+        "mastelini@usp.br",
+        "geoffrey.bolmier@volvocars.com",
+        "raphael.sourty@irit.fr",
+        "robin.vaysse@irit.fr",
+        "adil.zouitine@irt-saintexupery.com",
+        "heitor.gomes@waikato.ac.nz",
+        "jesse.read@polytechnique.edu",
+        "talel.abdessalem@telecom-paris.fr",
+        "abifet@waikato.ac.nz"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/online-ml/river"
+        ]
+    ],
+    "id": "20-1380",
+    "issue": 110,
+    "pages": [
+        1,
+        8
+    ],
+    "special_issue": "MLOSS",
+    "title": "River: machine learning for streaming data in Python",
+    "volume": 22,
+    "year": 2021
+}

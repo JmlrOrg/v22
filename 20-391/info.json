@@ -1,0 +1,22 @@
+{
+    "abstract": "Spectral clustering has become one of the most popular algorithms in data clustering and community detection. We study the performance of classical two-step spectral clustering via the graph Laplacian to learn the stochastic block model. Our aim is to answer the following question: when is spectral clustering via the graph Laplacian able to achieve strong consistency, i.e., the exact recovery of the underlying hidden communities? Our work provides an entrywise analysis (an $\\ell_{\\infty}$-norm perturbation bound) of the Fiedler eigenvector of both the unnormalized and the normalized Laplacian associated with the adjacency matrix sampled from the stochastic block model. We prove that spectral clustering is able to achieve exact recovery of the planted community structure under conditions that match the information-theoretic limits.",
+    "authors": [
+        "Shaofeng Deng",
+        "Shuyang Ling",
+        "Thomas Strohmer"
+    ],
+    "emails": [
+        "sfdeng@math.ucdavis.edu",
+        "sl3635@nyu.edu",
+        "strohmer@math.ucdavis.edu"
+    ],
+    "id": "20-391",
+    "issue": 117,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Strong Consistency, Graph Laplacians, and the Stochastic Block Model",
+    "volume": 22,
+    "year": 2021
+}

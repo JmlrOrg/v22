@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper develops a new approach to learning high-dimensional linear structural equation models (SEMs) without the commonly assumed faithfulness, Gaussian error distribution, and equal error distribution conditions. A key component of the algorithm is component-wise ordering and parent estimations, where both problems can be efficiently addressed using l1-regularized regression. This paper proves that sample sizes n = Omega( d^{2} \\log p) and n = \\Omega( d^2 p^{2/m} ) are sufficient for the proposed algorithm to recover linear SEMs with sub-Gaussian and (4m)-th bounded-moment error distributions, respectively, where p is the number of nodes and d is the maximum degree of the moralized graph. Further shown is the worst-case computational complexity O(n (p^3 + p^2 d^2 ) ), and hence, the proposed algorithm is statistically consistent and computationally feasible for learning a high-dimensional linear SEM when its moralized graph is sparse.\tThrough simulations, we verify that the proposed algorithm is statistically consistent and computationally feasible, and it performs well compared to the state-of-the-art US, GDS, LISTEN and TD algorithms with our settings. We also demonstrate through real COVID-19 data that the proposed algorithm is well-suited to estimating a virus-spread map in China.",
+    "authors": [
+        "Gunwoong Park",
+        "Sang Jun Moon",
+        "Sion Park",
+        "Jong-June Jeon"
+    ],
+    "emails": [
+        "gw.park23@gmail.com",
+        "kenu1@naver.com",
+        "rockgoat95@gmail.com",
+        "jj.jeon@gmail.com"
+    ],
+    "id": "20-1005",
+    "issue": 102,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Learning a High-dimensional Linear Structural Equation Model via l1-Regularized Regression",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "Signal denoising\u2014also known as non-parametric regression\u2014is often performed through shrinkage estimation in a transformed (e.g., wavelet) domain; shrinkage in the transformed domain corresponds to smoothing in the original domain. A key question in such applications is how much to shrink, or, equivalently, how much to smooth. Empirical Bayes shrinkage methods provide an attractive solution to this problem; they use the data to estimate a distribution of underlying \"effects,\" hence automatically select an appropriate amount of shrinkage. However, most existing implementations of empirical Bayes shrinkage are less flexible than they could be\u2014both in their assumptions on the underlying distribution of effects, and in their ability to handle heteroskedasticity\u2014which limits their signal denoising applications. Here we address this by adopting a particularly flexible, stable and computationally convenient empirical Bayes shrinkage method and applying it to several signal denoising problems. These applications include smoothing of Poisson data and heteroskedastic Gaussian data. We show through empirical comparisons that the results are competitive with other methods, including both simple thresholding rules and purpose-built empirical Bayes procedures. Our methods are implemented in the R package smashr, \"SMoothing by Adaptive SHrinkage in R,\" available at https://www.github.com/stephenslab/smashr.",
+    "authors": [
+        "Zhengrong Xing",
+        "Peter Carbonetto",
+        "Matthew Stephens"
+    ],
+    "emails": [
+        "zhengrong@statistics.uchicago.edu",
+        "pcarbo@uchicago.edu",
+        "mstephens@uchicago.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://www.github.com/stephenslab/smashr"
+        ]
+    ],
+    "id": "19-042",
+    "issue": 93,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Flexible Signal Denoising via Flexible Empirical Bayes Shrinkage",
+    "volume": 22,
+    "year": 2021
+}

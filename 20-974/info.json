@@ -1,0 +1,20 @@
+{
+    "abstract": "We prove bounds on the population risk of the maximum margin algorithm for two-class linear classification. For linearly separable training data, the maximum margin algorithm has been shown in previous work to be equivalent to a limit of training with logistic loss using gradient descent, as the training error is driven to zero. We analyze this algorithm applied to random data including misclassification noise. Our assumptions on the clean data include the case in which the class-conditional distributions are standard normal distributions. The misclassification noise may be chosen by an adversary, subject to a limit on the fraction of corrupted labels. Our bounds show that, with sufficient over-parameterization, the maximum margin algorithm trained on noisy data can achieve nearly optimal population risk.",
+    "authors": [
+        "Niladri S. Chatterji",
+        "Philip M. Long"
+    ],
+    "emails": [
+        "chatterji@berkeley.edu",
+        "plong@google.com"
+    ],
+    "id": "20-974",
+    "issue": 129,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Finite-sample Analysis of Interpolating Linear Classifiers in the Overparameterized Regime",
+    "volume": 22,
+    "year": 2021
+}

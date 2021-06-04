@@ -1,0 +1,24 @@
+{
+    "abstract": "Bandit Convex Optimization (BCO) is a fundamental framework for modeling sequential decision-making with partial information, where the only feedback available to the player is the one-point or two-point function values. In this paper, we investigate BCO in non-stationary environments and choose the dynamic regret as the performance measure, which is defined as the difference between the cumulative loss incurred by the algorithm and that of any feasible comparator sequence. Let $T$ be the time horizon and $P_T$ be the path-length of the comparator sequence that reflects the non-stationarity of environments. We propose a novel algorithm that achieves $O(T^{3/4}(1+P_T)^{1/2})$ and $O(T^{1/2}(1+P_T)^{1/2})$ dynamic regret respectively for the one-point and two-point feedback models. The latter result is optimal, matching the $\\Omega(T^{1/2}(1+P_T)^{1/2})$ lower bound established in this paper. Notably, our algorithm is  adaptive to the non-stationary environments since it does not require prior knowledge of the path-length $P_T$ ahead of time, which is generally unknown. We further extend the algorithm to an anytime version that does not require to know the time horizon $T$ in advance. Moreover, we study the adaptive regret, another widely used performance measure for online learning in non-stationary environments, and design an algorithm that provably enjoys the adaptive regret guarantees for BCO problems. Finally, we present empirical studies to validate the effectiveness of the proposed approach.",
+    "authors": [
+        "Peng Zhao",
+        "Guanghui Wang",
+        "Lijun Zhang",
+        "Zhi-Hua Zhou"
+    ],
+    "emails": [
+        "zhaop@lamda.nju.edu.cn",
+        "wanggh@lamda.nju.edu.cn",
+        "zhanglj@lamda.nju.edu.cn",
+        "zhouzh@lamda.nju.edu.cn"
+    ],
+    "id": "20-763",
+    "issue": 125,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Bandit Convex Optimization in Non-stationary Environments",
+    "volume": 22,
+    "year": 2021
+}

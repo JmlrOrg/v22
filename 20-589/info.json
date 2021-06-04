@@ -1,0 +1,26 @@
+{
+    "abstract": "Matrix factorization methods, which include Factor analysis (FA) and Principal Components Analysis (PCA), are widely used for inferring and summarizing structure in multivariate data.  Many such methods use a penalty or prior distribution to achieve sparse representations (``Sparse FA/PCA\"), and a key question is how much sparsity to induce. Here we introduce a general Empirical Bayes approach to matrix factorization (EBMF), whose key feature is that it estimates the appropriate amount of sparsity by estimating prior distributions from the observed data. The approach is very flexible: it allows for a wide range of different prior families and allows that each component of the matrix factorization may exhibit a different amount of sparsity. The key to this flexibility is the use of a variational approximation, which we show effectively reduces fitting the EBMF model to solving a simpler problem, the so-called ``normal means\" problem.  We demonstrate the benefits of EBMF with sparse priors through both numerical comparisons with competing methods and through analysis of data from the GTEx (Genotype Tissue Expression) project on genetic associations across 44 human tissues. In numerical comparisons EBMF often provides more accurate inferences than other methods. In the GTEx data, EBMF identifies interpretable structure that agrees with known relationships among human tissues. Software implementing our approach is available at https://github.com/stephenslab/flashr.",
+    "authors": [
+        "Wei Wang",
+        "Matthew Stephens"
+    ],
+    "emails": [
+        "weiwang@statistics.uchicago.edu",
+        "mstephens@uchicago.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/stephenslab/flashr"
+        ]
+    ],
+    "id": "20-589",
+    "issue": 120,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Empirical Bayes Matrix Factorization",
+    "volume": 22,
+    "year": 2021
+}

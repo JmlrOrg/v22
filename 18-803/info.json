@@ -1,0 +1,26 @@
+{
+    "abstract": "Effective feature representation is key to the predictive performance of any algorithm.  This paper introduces a meta-procedure, called Non-Euclidean Upgrading (NEU), which learns feature maps that are expressive enough to embed the universal approximation property (UAP) into most model classes while only outputting feature maps that preserve any model class's UAP.  We show that NEU can learn any feature map with these two properties if that feature map is asymptotically deformable into the identity.   We also find that the feature-representations learned by NEU are always submanifolds of the feature space.   NEU's properties are derived from a new deep neural model that is universal amongst all orientation-preserving homeomorphisms on the input space.  We derive qualitative and quantitative approximation guarantees for this architecture.  We quantify the number of parameters required for this new architecture to memorize any set of input-output pairs while simultaneously fixing every point of the input space lying outside some compact set, and we quantify the size of this set as a function of our model's depth.  Moreover, we show that deep feedforward networks with most commonly used activation functions typically do not have all these properties.  NEU's performance is evaluated against competing machine learning methods on various regression and dimension reduction tasks both with financial and simulated data.",
+    "authors": [
+        "Anastasis Kratsios",
+        "Cody Hyndman"
+    ],
+    "emails": [
+        "anastasis.kratsios@math.ethz.ch",
+        "cody.hyndman@concordia.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/AnastasisKratsios/NEU_Non_Euclidean_Upgrading"
+        ]
+    ],
+    "id": "18-803",
+    "issue": 92,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "NEU: A Meta-Algorithm for Universal UAP-Invariant Feature Representation",
+    "volume": 22,
+    "year": 2021
+}

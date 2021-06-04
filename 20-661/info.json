@@ -1,0 +1,20 @@
+{
+    "abstract": "The goal of Sparse Convex Optimization is to optimize a convex function f under a sparsity constraint s <= s* \u03b3, where s* is the target number of non-zero entries in a feasible solution (sparsity) and \u03b3 >= 1 is an approximation factor. There has been a lot of work to analyze the sparsity guarantees of various algorithms (LASSO, Orthogonal Matching Pursuit (OMP), Iterative Hard Thresholding (IHT)) in terms of the Restricted Condition Number \u03ba. The best known algorithms guarantee to find an approximate solution of value f(x*)+\u03b5 with the sparsity bound of \u03b3 = O(\u03ba min{log ((f(x0)-f(x*)) / \u03b5), \u03ba}), where x* is the target solution. We present a new Adaptively Regularized Hard Thresholding (ARHT) algorithm that makes significant progress on this problem by bringing the bound down to \u03b3=O(\u03ba), which has been shown to be tight for a general class of algorithms including LASSO, OMP, and IHT. This is achieved without significant sacrifice in the runtime efficiency compared to the fastest known algorithms. We also provide a new analysis of OMP with Replacement (OMPR) for general f, under the condition s > s* \u03ba^2 / 4, which yields compressed sensing bounds under the Restricted Isometry Property (RIP). When compared to other compressed sensing approaches, it has the advantage of providing a strong tradeoff between the RIP condition and the solution sparsity, while working for any general function f that meets the RIP condition.",
+    "authors": [
+        "Kyriakos Axiotis",
+        "Maxim Sviridenko"
+    ],
+    "emails": [
+        "kaxiotis@mit.edu",
+        "sviri@verizonmedia.com"
+    ],
+    "id": "20-661",
+    "issue": 122,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Sparse Convex Optimization via Adaptively Regularized Hard Thresholding",
+    "volume": 22,
+    "year": 2021
+}

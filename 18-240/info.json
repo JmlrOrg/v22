@@ -1,0 +1,18 @@
+{
+    "abstract": "Edge sampling is an important topic in network analysis. It provides a natural way to reduce network size while retaining desired features of the original network. Sampling methods that only use local information are common in practice as they do not require access to the entire network and can be easily parallelized. Despite promising empirical performances, most of these methods are derived from heuristic considerations and lack theoretical justification. In this paper, we study a simple and efficient edge sampling method that uses local network information. We show that when the local connectivity is sufficiently strong, the sampled network satisfies a strong spectral property. We measure the strength of local connectivity by a global parameter and relate it to more common network statistics such as the clustering coefficient and network curvature. Based on this result, we also provide sufficient conditions under which random networks and hypergraphs can be efficiently sampled.",
+    "authors": [
+        "Can M. Le"
+    ],
+    "emails": [
+        "canle@ucdavis.edu"
+    ],
+    "id": "18-240",
+    "issue": 88,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Edge Sampling Using Local Network Information",
+    "volume": 22,
+    "year": 2021
+}

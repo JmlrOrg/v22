@@ -1,0 +1,20 @@
+{
+    "abstract": "Semi-supervised Laplacian regularization, a standard graph-based approach for learning from both labelled and unlabelled data, was recently demonstrated to have an insignificant high dimensional learning efficiency with respect to unlabelled data, causing it to be outperformed by its unsupervised counterpart, spectral clustering, given sufficient unlabelled data. Following a detailed discussion on the origin of this inconsistency problem, a novel regularization approach involving centering operation is proposed as solution, supported by both theoretical analysis and empirical results.",
+    "authors": [
+        "Xiaoyi Mai",
+        "Romain Couillet"
+    ],
+    "emails": [
+        "xiaoyi.mai@l2s.centralesupelec.fr",
+        "romain.couillet@centralesupelec.fr"
+    ],
+    "id": "19-081",
+    "issue": 94,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Consistent Semi-Supervised Graph Regularization for High Dimensional Data",
+    "volume": 22,
+    "year": 2021
+}

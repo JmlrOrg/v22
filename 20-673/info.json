@@ -1,0 +1,28 @@
+{
+    "abstract": "Despite the availability of numerous statistical and machine learning tools for joint feature modeling, many scientists investigate features marginally, i.e., one feature at a time. This is partly due to training and convention but also roots in scientists' strong interests in simple visualization and interpretability. As such, marginal feature ranking for some predictive tasks, e.g., prediction of cancer driver genes, is widely practiced in the process of scientific discoveries. In this work, we focus on marginal ranking for binary classification, one of the most common predictive tasks.  We argue that the most widely used marginal ranking criteria, including the Pearson correlation, the two-sample $t$ test, and two-sample Wilcoxon rank-sum test, do not fully take feature distributions and prediction objectives into account. To address this gap in practice, we propose two ranking criteria corresponding to two prediction objectives: the classical criterion (CC) and the Neyman-Pearson criterion (NPC), both of which use model-free nonparametric implementations to accommodate diverse feature distributions. Theoretically, we show that under regularity conditions, both criteria achieve sample-level ranking that is consistent with their population-level counterpart with high probability. Moreover, NPC is robust to sampling bias when the two class proportions in a sample deviate from those in the population. This property endows NPC good potential in biomedical research where sampling biases are ubiquitous. We demonstrate the use and relative advantages of CC and NPC in simulation and real data studies. Our model-free objective-based ranking idea is extendable to ranking feature subsets and generalizable to other prediction tasks and learning objectives.",
+    "authors": [
+        "Jingyi Jessica Li",
+        "Yiling Elaine Chen",
+        "Xin Tong"
+    ],
+    "emails": [
+        "jli@stat.ucla.edu",
+        "yiling0210@ucla.edu",
+        "xint@marshall.usc.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/JSB-UCLA/frc"
+        ]
+    ],
+    "id": "20-673",
+    "issue": 124,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "A flexible model-free prediction-based framework for feature ranking",
+    "volume": 22,
+    "year": 2021
+}

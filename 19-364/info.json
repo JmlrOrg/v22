@@ -1,0 +1,28 @@
+{
+    "abstract": "Efficient explorative data analysis systems must take into account both what a user knows and wants to know. This paper proposes a principled framework for interactive visual exploration of relations in data, through views most informative given the user's current knowledge and objectives. The user can input pre-existing knowledge of relations in the data and also formulate specific exploration interests, which are then taken into account in the exploration. The idea is to steer the exploration process towards the interests of the user, instead of showing uninteresting or already known relations. The user's knowledge is modelled by a distribution over data sets parametrised by subsets of rows and columns of data, called tile constraints. We provide a computationally efficient implementation of this concept based on constrained randomisation. Furthermore, we describe a novel dimensionality reduction method for finding the views most informative to the user, which at the limit of no background knowledge and with generic objectives reduces to PCA. We show that the method is suitable for interactive use and is robust to noise, outperforms standard projection pursuit visualisation methods, and gives understandable and useful results in analysis of real-world data. We provide an open-source implementation of the framework.",
+    "authors": [
+        "Kai Puolam\u00e4ki",
+        "Emilia Oikarinen",
+        "Andreas Henelius"
+    ],
+    "emails": [
+        "kai.puolamaki@helsinki.fi",
+        "emilia.oikarinen@helsinki.fi",
+        "andreas.henelius@op.fi"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/edahelsinki/corand"
+        ]
+    ],
+    "id": "19-364",
+    "issue": 96,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Guided Visual Exploration of Relations in Data Sets",
+    "volume": 22,
+    "year": 2021
+}

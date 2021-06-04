@@ -1,0 +1,24 @@
+{
+    "abstract": "Identifying informative predictors in a high-dimensional regression model is a critical step for association analysis and predictive modeling. Signal detection in the high dimensional setting often fails due to the limited sample size. One approach to improving power is through meta-analyzing multiple studies which address the same scientific question. However, integrative analysis of high dimensional data from multiple studies is challenging in the presence of between-study heterogeneity. The challenge is even more pronounced with additional data sharing constraints under which only summary data can be shared across different sites. In this paper, we propose a novel data shielding integrative large--scale testing (DSILT) approach to signal detection allowing between-study heterogeneity and not requiring the sharing of individual-level data. Assuming the underlying high dimensional regression models of the data differ across studies yet share similar support, the proposed method incorporates proper integrative estimation and debiasing procedures to construct test statistics for the overall effects of specific covariates. We also develop a multiple testing procedure to identify significant effects while controlling the false discovery rate (FDR) and false discovery proportion (FDP). Theoretical comparisons of the new testing procedure with the ideal individual-level meta-analysis (ILMA) approach and other distributed inference methods are investigated. Simulation studies demonstrate that the proposed testing procedure performs well in both controlling false discovery and attaining power. The new method is applied to a real example detecting interaction effects of the genetic variants for statins and obesity on the risk for type II diabetes.",
+    "authors": [
+        "Molei Liu",
+        "Yin Xia",
+        "Kelly Cho",
+        "Tianxi Cai"
+    ],
+    "emails": [
+        "molei_liu@g.harvard.edu",
+        "xiayin@fudan.edu.cn",
+        "Kelly.Cho@va.gov",
+        "tcai@hsph.harvard.edu"
+    ],
+    "id": "20-774",
+    "issue": 126,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Integrative High Dimensional Multiple Testing with Heterogeneity under Data Sharing Constraints",
+    "volume": 22,
+    "year": 2021
+}

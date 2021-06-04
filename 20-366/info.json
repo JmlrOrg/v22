@@ -1,0 +1,20 @@
+{
+    "abstract": "Current feature selection methods, especially applied to high dimensional data, tend to suffer from instability since marginal modifications in the data may result in largely distinct selected feature sets. Such instability strongly limits a sound interpretation of the selected variables by domain experts. Defining an adequate stability measure is also a research question. In this work, we propose to incorporate into the stability measure the importances of the selected features in predictive models. Such feature importances are directly proportional to feature weights in a linear model. We also consider the generalization to a non-linear setting. We illustrate, theoretically and experimentally, that current stability measures are subject to undesirable behaviors, for example, when they are jointly optimized with predictive accuracy. Results on micro-array and mass-spectrometric data show that our novel stability measure corrects for overly optimistic stability estimates in such a bi-objective context, which leads to improved decision-making. It is also shown to be less prone to the under- or over-estimation of the stability value in feature spaces with groups of highly correlated variables.",
+    "authors": [
+        "Victor Hamer",
+        "Pierre Dupont"
+    ],
+    "emails": [
+        "victor.hamer@uclouvain.be",
+        "pierre.dupont@uclouvain.be"
+    ],
+    "id": "20-366",
+    "issue": 116,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "An Importance Weighted Feature Selection Stability Measure",
+    "volume": 22,
+    "year": 2021
+}

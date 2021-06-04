@@ -1,0 +1,26 @@
+{
+    "abstract": "We propose the class-specified topic model (CSTM) to deal with the tasks of text classification and class-specific text summarization. The model assumes that in addition to a set of latent topics that are shared across classes, there is a set of class-specific latent topics for each class.  Each document is a probabilistic mixture of the class-specific topics associated with its class and the shared topics. Each class-specific or shared topic has its own probability distribution over a given dictionary. We develop a Bayesian inference of CSTM in the semisupervised scenario, with the supervised scenario as a special case. We analyze in detail the 20 Newsgroups dataset, a benchmark dataset for text classification, and demonstrate that CSTM has better performance than a two stage approach based on latent Dirichlet allocation (LDA), several existing supervised extensions of LDA, and an $L^1$ penalized logistic regression. The favorable performance of CSTM is also demonstrated through Monte Carlo simulations and an analysis of the Reuters dataset.",
+    "authors": [
+        "Feifei Wang",
+        "Junni L. Zhang",
+        "Yichao Li",
+        "Ke Deng",
+        "Jun S. Liu"
+    ],
+    "emails": [
+        "feifei.wang@ruc.edu.cn",
+        "zjn@nsd.pku.edu.cn",
+        "liyichao16@mails.tsinghua.edu.cn",
+        "kdeng@tsinghua.edu.cn",
+        "jliu@stat.harvard.edu"
+    ],
+    "id": "18-332",
+    "issue": 89,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Bayesian Text Classification and Summarization via A Class-Specified Topic Model",
+    "volume": 22,
+    "year": 2021
+}

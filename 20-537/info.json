@@ -1,0 +1,26 @@
+{
+    "abstract": "We consider the task of training classifiers without fully labeled data. We propose a weakly supervised method---adversarial label learning---that trains classifiers to perform well when noisy and possibly correlated labels are provided. Our framework allows users to provide different weak labels and multiple constraints on these labels. Our model then attempts to learn parameters for the data by solving a zero-sum game for the binary problems and a non-zero sum game optimization for multi-class problems. The game is between an adversary that chooses labels for the data and a model that minimizes the error made by the adversarial labels. The weak supervision constrains what labels the adversary can choose. The method therefore minimizes an upper bound of the classifier's error rate using projected primal-dual subgradient descent. Minimizing this bound protects against bias and dependencies in the weak supervision. We first show the performance of our framework on binary classification tasks then we extend our algorithm to show its performance on multiclass datasets. Our experiments show that our method can train without labels and outperforms other approaches for weakly supervised learning.",
+    "authors": [
+        "Chidubem Arachie",
+        "Bert Huang"
+    ],
+    "emails": [
+        "achid17@vt.edu",
+        "bert@cs.tufts.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/VTCSML/Adversarial-Label-Learning"
+        ]
+    ],
+    "id": "20-537",
+    "issue": 118,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "A General Framework for Adversarial Label Learning",
+    "volume": 22,
+    "year": 2021
+}

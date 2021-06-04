@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we propose a novel algorithm for large-scale regression problems named Histogram Transform Ensembles (HTE), composed of random rotations, stretchings, and translations. Our HTE method first implements a histogram transformed partition to the random affine mapped data, then adaptively leverages constant functions or SVMs to obtain the individual regression estimates, and eventually builds the ensemble predictor through an average strategy. First of all, in this paper, we investigate the theoretical properties of HTE when the regression function lies in the H\\\"{o}lder space $C^{k,\\alpha}$, $k \\in \\mathbb{N}_0$, $\\alpha \\in (0,1]$. In the case that $k=0, 1$, we adopt the constant regressors and develop the na\\\"{i}ve histogram transforms (NHT). Within the space $C^{0,\\alpha}$, although almost optimal convergence rates can be derived for both single and ensemble NHT, we fail to show the benefits of ensembles over single estimators theoretically. In contrast, in the subspace $C^{1,\\alpha}$, we prove that if $d \\geq 2(1+\\alpha)/\\alpha$, the lower bound of the convergence rates for single NHT turns out to be worse than the upper bound of the convergence rates for ensemble NHT. In the other case when $k \\geq 2$, the NHT may no longer be appropriate in predicting smoother regression functions. Instead, we circumvent this issue by applying kernel histogram transforms (KHT) equipped with smoother regressors, such as support vector machines (SVMs). Accordingly, it turns out that both single and ensemble KHT  enjoy almost optimal convergence rates. Then, we validate the above theoretical results with extensive numerical experiments. On the one hand, simulations are conducted to elucidate that ensemble NHT outperforms single NHT. On the other hand, the effects of bin sizes on the accuracy of both NHT and KHT are also in accord with the theoretical analysis. Last but not least, in the real-data experiments, comparisons between the ensemble KHT, equipped with adaptive histogram transforms, and other state-of-the-art large-scale regression estimators verify the effectiveness and precision of the proposed algorithm.",
+    "authors": [
+        "Hanyuan Hang",
+        "Zhouchen Lin",
+        "Xiaoyu Liu",
+        "Hongwei Wen"
+    ],
+    "emails": [
+        "h.hang@utwente.nl",
+        "zlin@pku.edu.cn",
+        "xiaoyu.liu@ruc.edu.cn",
+        "hongwei.wen@ruc.edu.cn"
+    ],
+    "id": "19-1004",
+    "issue": 95,
+    "pages": [
+        1,
+        87
+    ],
+    "title": "Histogram Transform Ensembles for Large-scale Regression",
+    "volume": 22,
+    "year": 2021
+}

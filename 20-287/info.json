@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper focuses on stochastic proximal gradient methods for optimizing a smooth non-convex loss function with a non-smooth non-convex regularizer and convex constraints. To the best of our knowledge we present the first non-asymptotic convergence bounds for this class of problem. We present two simple stochastic proximal gradient algorithms, for general stochastic and finite-sum optimization problems. In a numerical experiment we compare our algorithms with the current state-of-the-art deterministic algorithm and find our algorithms to exhibit superior convergence.",
+    "authors": [
+        "Michael R. Metel",
+        "Akiko Takeda"
+    ],
+    "emails": [
+        "michaelros.metel@riken.jp",
+        "takeda@mist.i.u-tokyo.ac.jp"
+    ],
+    "id": "20-287",
+    "issue": 115,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Stochastic Proximal Methods for Non-Smooth Non-Convex Constrained Sparse Optimization",
+    "volume": 22,
+    "year": 2021
+}

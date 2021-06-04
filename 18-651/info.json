@@ -1,0 +1,26 @@
+{
+    "abstract": "Sampling the parameters of high-dimensional Continuous Time Markov Chains (CTMC) is a challenging problem with important applications in many fields of applied statistics. In this work a recently proposed type of non-reversible rejection-free Markov Chain Monte Carlo (MCMC) sampler, the Bouncy Particle Sampler (BPS), is brought to bear to this problem. BPS has demonstrated its favourable computational efficiency compared with state-of-the-art MCMC algorithms, however to date applications to real-data scenario were scarce. An important aspect of practical implementation of BPS is the simulation of event times. Default implementations use conservative thinning bounds. Such bounds can slow down the algorithm and limit the computational performance. Our paper develops an algorithm with exact analytical solution to the random event times in the context of CTMCs. Our local version of BPS algorithm takes advantage of the sparse structure in the target factor graph and we also provide a graph-theoretic tool for assessing the computational complexity of local BPS algorithms.",
+    "authors": [
+        "Tingting Zhao",
+        "Alexandre Bouchard-C\u00f4t\u00e9"
+    ],
+    "emails": [
+        "zhaott0416@gmail.com",
+        "bouchard@stat.ubc.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/zhaottcrystal/rejfreePy_main"
+        ]
+    ],
+    "id": "18-651",
+    "issue": 91,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Analysis of high-dimensional Continuous Time Markov Chains using the Local Bouncy Particle Sampler",
+    "volume": 22,
+    "year": 2021
+}

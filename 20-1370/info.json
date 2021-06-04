@@ -1,0 +1,47 @@
+{
+    "abstract": "As data are generated more and more from multiple disparate sources, multiview data sets, where each sample has features in distinct views, have grown in recent years. However, no comprehensive package exists that enables non-specialists to use these methods easily. mvlearn is a Python library which implements the leading multiview machine learning methods. Its simple API closely follows that of scikit-learn for increased ease-of-use. The package can be installed from Python Package Index (PyPI) and the conda package manager and is released under the MIT open-source license. The documentation, detailed examples, and all releases are available at https://mvlearn.github.io/.",
+    "authors": [
+        "Ronan Perry",
+        "Gavin Mischler",
+        "Richard Guo",
+        "Theodore Lee",
+        "Alexander Chang",
+        "Arman Koul",
+        "Cameron Franz",
+        "Hugo Richard",
+        "Iain Carmichael",
+        "Pierre Ablin",
+        "Alexandre Gramfort",
+        "Joshua T. Vogelstein"
+    ],
+    "emails": [
+        "rperry27@jhu.edu",
+        "gm2944@columbia.edu",
+        "richardg7890@gmail.com",
+        "tlee124@jhu.edu",
+        "alexc3071@gmail.com",
+        "armankoul@gmail.com",
+        "cfranz3@jhu.edu",
+        "hugo.richard@inria.fr",
+        "idc9@uw.edu",
+        "pierre.ablin@ens.fr",
+        "alexandre.gramfort@inria.fr",
+        "jovo@jhu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mvlearn/mvlearn"
+        ]
+    ],
+    "id": "20-1370",
+    "issue": 109,
+    "pages": [
+        1,
+        7
+    ],
+    "special_issue": "MLOSS",
+    "title": "mvlearn: Multiview Machine Learning in Python",
+    "volume": 22,
+    "year": 2021
+}

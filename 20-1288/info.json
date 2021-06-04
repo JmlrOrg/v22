@@ -1,0 +1,22 @@
+{
+    "abstract": "Stochastic gradient descent (SGD) is a popular algorithm for optimization problems arising in high-dimensional inference tasks. Here one produces an estimator of an unknown parameter from independent samples of data by iteratively optimizing a loss function. This loss function is random and often non-convex. We study the performance of the simplest version of SGD, namely online SGD, from a random start in the setting where the parameter space is high-dimensional. We develop nearly sharp thresholds for the number of samples needed for consistent estimation as one varies the dimension. Our thresholds depend only on an intrinsic property of the population loss which we call the information exponent. In particular, our results do not assume uniform control on the loss itself, such as convexity or uniform derivative bounds. The thresholds we obtain are polynomial in the dimension and the precise exponent depends explicitly on the information exponent. As a consequence of our results, we find that except for the simplest tasks, almost all of the data is used simply in the initial search phase to obtain non-trivial correlation with the ground truth. Upon attaining non-trivial correlation, the descent is rapid and exhibits law of large numbers type behavior. We illustrate our approach by applying it to a wide set of inference tasks such as phase retrieval, and  parameter estimation for generalized linear models, online PCA, and spiked tensor models, as well as to supervised learning for single-layer networks with general activation functions.",
+    "authors": [
+        "Gerard Ben Arous",
+        "Reza Gheissari",
+        "Aukosh Jagannath"
+    ],
+    "emails": [
+        "benarous@cims.nyu.edu",
+        "gheissari@berkeley.edu",
+        "a.jagannath@uwaterloo.ca"
+    ],
+    "id": "20-1288",
+    "issue": 106,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Online stochastic gradient descent on non-convex losses from high-dimensional inference",
+    "volume": 22,
+    "year": 2021
+}
