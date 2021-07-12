@@ -16,5 +16,9 @@
     ],
     "title": "Continuous Time Analysis of Momentum Methods",
     "volume": 22,
-    "year": 2021
+    "year": 2021,
+    "extra_links": [
+        ["supplementary", "https://jmlr.org/papers/volume22/19-466/supplementary.pdf"]
+    ]
+
 }
