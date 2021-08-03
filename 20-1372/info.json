@@ -1,0 +1,16 @@
+{
+    "title": "When Does Gradient Descent with Logistic Loss Find Interpolating Two-Layer Networks?",
+    "abstract": "We study the training of finite-width two-layer smoothed ReLU networks for binary classification using the logistic loss. We show that gradient descent drives the training loss to zero if the initial loss is small enough. When the data satisfies certain cluster and separation conditions and the network is wide enough, we show that one step of gradient descent reduces the loss sufficiently that the first result applies.",
+    "authors":
+    [
+        "Niladri S. Chatterji",
+        "Philip M. Long",
+        "Peter L. Bartlett"
+    ],
+    "emails":
+    [
+        "niladri@cs.stanford.edu",
+        "plong@google.com",
+        "peter@berkeley.edu"
+    ]
+}

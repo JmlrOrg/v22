@@ -1,0 +1,16 @@
+{
+    "title": "Improved Shrinkage Prediction under a Spiked Covariance Structure",
+    "abstract": "We develop a novel shrinkage rule for prediction in a high-dimensional non-exchangeable hierarchical Gaussian model with an unknown spiked covariance structure. We propose a family of priors for the mean parameter, governed by a power hyper-parameter, which encompasses independent to highly dependent scenarios. Corresponding to popular loss functions such as quadratic, generalized absolute, and Linex losses, these prior models induce a wide class of shrinkage predictors that involve quadratic forms of smooth functions of the unknown covariance. By using uniformly consistent estimators of these quadratic forms, we propose an efficient procedure for evaluating these predictors which outperforms factor model based direct plug-in approaches. We further improve our predictors by considering possible reduction in their variability through a novel coordinate-wise shrinkage policy that only uses covariance level information and can be adaptively tuned using the sample eigen structure. Finally, we extend our disaggregate model based methodology to prediction in aggregate models. We propose an easy-to-implement functional substitution method for predicting linearly aggregated targets and establish asymptotic optimality of our proposed procedure. We present simulation experiments as well as real data examples illustrating the efficacy of the proposed method.",
+    "authors":
+    [
+        "Trambak Banerjee",
+        "Gourab Mukherjee",
+        "Debashis Paul"
+    ],
+    "emails":
+    [
+        "trambak@ku.edu",
+        "gourab@usc.edu",
+        "debpaul@ucdavis.edu"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "title": "Mode-wise Tensor Decompositions: Multi-dimensional Generalizations of CUR Decompositions",
+    "abstract": "Low rank tensor approximation is a fundamental tool in modern machine learning and data science. In this paper, we study the characterization, perturbation analysis, and an efficient sampling strategy for two primary tensor CUR approximations, namely Chidori and Fiber CUR. We characterize exact tensor CUR decompositions for low multilinear rank tensors. We also present theoretical error bounds of the tensor CUR approximations when (adversarial or Gaussian) noise appears. Moreover, we show that low cost uniform sampling is sufficient for tensor CUR approximations if the tensor has an incoherent structure. Empirical performance evaluations, with both synthetic and real-world datasets, establish the speed advantage of the tensor CUR approximations over other state-of-the-art low multilinear rank tensor approximations.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/caesarcai/Modewise_Tensor_Decomp"
+        ]
+    ],
+    "authors":
+    [
+        "HanQin Cai",
+        "Keaton Hamm",
+        "Longxiu Huang",
+        "Deanna Needell"
+    ],
+    "emails":
+    [
+        "hqcai@math.ucla.edu",
+        "keaton.hamm@uta.edu",
+        "huangl3@math.ucla.edu",
+        "deanna@math.ucla.edu"
+    ]
+}

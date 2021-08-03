@@ -1,0 +1,14 @@
+{
+    "title": "Locally Differentially-Private Randomized Response for Discrete Distribution Learning",
+    "abstract": "We consider a setup in which confidential i.i.d. samples $X_1,\\dotsc,X_n$ from an unknown finite-support distribution $\\boldsymbol{p}$ are passed through $n$ copies of a discrete privatization channel (a.k.a. mechanism) producing outputs $Y_1,\\dotsc,Y_n$. The channel law guarantees a local differential privacy of $\\epsilon$. Subject to a prescribed privacy level $\\epsilon$, the optimal channel should be designed such that an estimate of the source distribution based on the channel outputs $Y_1,\\dotsc,Y_n$ converges as fast as possible to the exact value $\\boldsymbol{p}$. For this purpose we study the convergence to zero of three distribution distance metrics: $f$-divergence, mean-squared error and total variation. We derive the respective normalized first-order terms of convergence (as $n \\to \\infty$), which for a given target privacy $\\epsilon$ represent a rule-of-thumb factor by which the sample size must be augmented so as to achieve the same estimation accuracy as that of a non-randomizing channel. We formulate the privacy-fidelity trade-off problem as being that of minimizing said first-order term under a privacy constraint $\\epsilon$. We further identify a scalar quantity that captures the essence of this trade-off, and prove bounds and data-processing inequalities on this quantity. For some specific instances of the privacy-fidelity trade-off problem, we derive inner and outer bounds on the optimal trade-off curve.",
+    "authors":
+    [
+        "Adriano Pastore",
+        "Michael Gastpar"
+    ],
+    "emails":
+    [
+        "adriano.pastore@cttc.cat",
+        "michael.gastpar@epfl.ch"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "title": "Kernel Smoothing, Mean Shift, and Their Learning Theory with Directional Data",
+    "abstract": "Directional data consist of observations distributed on a (hyper)sphere, and appear in many applied fields, such as astronomy, ecology, and environmental science. This paper studies both statistical and computational problems of kernel smoothing for directional data. We generalize the classical mean shift algorithm to directional data, which allows us to identify local modes of the directional kernel density estimator (KDE). The statistical convergence rates of the directional KDE and its derivatives are derived, and the problem of mode estimation is examined. We also prove the ascending property of the directional mean shift algorithm and investigate a general problem of gradient ascent on the unit hypersphere. To demonstrate the applicability of the algorithm, we evaluate it as a mode clustering method on both simulated and real-world data sets.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/zhangyk8/DirMS"
+        ]
+    ],
+    "authors":
+    [
+        "Yikun Zhang",
+        "Yen-Chi Chen"
+    ],
+    "emails":
+    [
+        "yikun@uw.edu",
+        "yenchic@uw.edu"
+    ]
+}

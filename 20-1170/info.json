@@ -1,0 +1,16 @@
+{
+    "title": "Factorization Machines with Regularization for Sparse Feature Interactions",
+    "abstract": "Factorization machines (FMs) are machine learning predictive models based on second-order feature interactions and FMs with sparse regularization are called sparse FMs. Such regularizations enable feature selection, which selects the most relevant features for accurate prediction, and therefore they can contribute to the improvement of the model accuracy and interpretability. However, because FMs use second-order feature interactions, the selection of features often causes the loss of many relevant feature interactions in the resultant models. In such cases, FMs with regularization specially designed for feature interaction selection trying to achieve interaction-level sparsity may be preferred instead of those just for feature selection trying to achieve feature-level sparsity. In this paper, we present a new regularization scheme for feature interaction selection in FMs. For feature interaction selection, our proposed regularizer makes the feature interaction matrix sparse without a restriction on sparsity patterns imposed by the existing methods. We also describe efficient proximal algorithms for the proposed FMs and how our ideas can be applied or extended to feature selection and other related models such as higher-order FMs and the all-subsets model. The analysis and experimental results on synthetic and real-world datasets show the effectiveness of the proposed methods.",
+    "authors":
+    [
+        "Kyohei Atarashi",
+        "Satoshi Oyama",
+        "Masahito Kurihara"
+    ],
+    "emails":
+    [
+        "katarashi@frontier.hokudai.ac.jp",
+        "oyama@ist.hokudai.ac.jp",
+        "kurihara@ist.hokudai.ac.jp"
+    ]
+}

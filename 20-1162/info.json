@@ -1,0 +1,18 @@
+{
+    "title": "Hardness of Identity Testing for Restricted Boltzmann Machines and Potts models",
+    "abstract": "We study the identity testing problem for restricted Boltzmann machines (RBMs), and more generally, for undirected graphical models. In this problem, given sample access to the Gibbs distribution corresponding to an unknown or hidden model $M^*$  and given an explicit model $M$, the goal is to distinguish if either $M = M^*$ or if the models are (statistically) far apart. We establish the computational hardness of identity testing for RBMs (i.e., mixed Ising models on bipartite graphs), even when there are no latent variables or an external field.  Specifically, we show that unless $RP=NP$, there is no polynomial-time identity testing algorithm for RBMs when $\\beta d=\\omega(\\log{n})$, where $d$ is the maximum degree of the visible graph and $\\beta$ is the largest edge weight (in absolute value); when $\\beta d =O(\\log{n})$ there is an efficient identity testing algorithm that utilizes the structure learning algorithm of Klivans and Meka (2017). We prove similar lower bounds for purely ferromagnetic RBMs with inconsistent external fields and for the ferromagnetic Potts model. To prove our results, we introduce a novel methodology to reduce the corresponding approximate counting problem to testing utilizing the phase transition exhibited by these models.",
+    "authors":
+    [
+        "Antonio Blanca",
+        "Zongchen Chen",
+        "Daniel Štefankovič",
+        "Eric Vigoda"
+    ],
+    "emails":
+    [
+        "ablanca@psu.edu",
+        "chenzongchen@gatech.edu",
+        "stefanko@cs.rochester.edu",
+        "vigoda@gatech.edu"
+    ]
+}

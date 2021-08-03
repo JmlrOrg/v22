@@ -1,0 +1,12 @@
+{
+    "title": "Nonparametric Modeling of Higher-Order Interactions via Hypergraphons",
+    "abstract": "We study statistical and algorithmic aspects of using hypergraphons, that are limits of large hypergraphs, for modeling higher-order interactions. Although hypergraphons are extremely powerful from a modeling perspective, we consider a restricted class of Simple Lipschitz Hypergraphons (SLH), that are amenable to practically efficient estimation. We also provide rates of convergence for our estimator that are optimal for the class of SLH. Simulation results are provided to corroborate the theory.",
+    "authors":
+    [
+        "Krishnakumar Balasubramanian"
+    ],
+    "emails":
+    [
+        "kbala@ucdavis.edu"
+    ]
+}

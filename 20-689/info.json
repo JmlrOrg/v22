@@ -1,0 +1,16 @@
+{
+    "title": "Unlinked Monotone Regression",
+    "abstract": "We consider so-called univariate unlinked (sometimes ``decoupled,'' or ``shuffled'') regression when the unknown regression curve is monotone.  In standard monotone regression, one observes a pair $(X,Y)$ where a response $Y$ is linked to a  covariate $X$ through the model $Y= m_0(X) + \\epsilon$, with $m_0$ the (unknown) monotone regression function and $\\epsilon$ the unobserved error (assumed to be independent of $X$).  In the unlinked regression setting one gets only to observe a vector of realizations from both the response $Y$ and from the covariate $X$ where now $Y \\stackrel{d}{=} m_0(X) + \\epsilon$.  There is no (observed) pairing of $X$ and $Y$.  Despite this, it is actually still possible to derive a consistent non-parametric estimator of $m_0$ under the assumption of monotonicity of $m_0$ and knowledge of the distribution of the noise $\\epsilon$.  In this paper, we establish an upper bound on the rate of convergence of such an estimator under minimal assumption on the distribution of the covariate $X$.  We discuss extensions to the case in which the distribution of the noise is unknown.  We develop a second order algorithm for its computation, and we demonstrate its use on synthetic data.  Finally, we apply our method (in a fully data driven way, without knowledge of the error distribution) on longitudinal data from the US Consumer Expenditure Survey.",
+    "authors":
+    [
+        "Fadoua Balabdaoui",
+        "Charles R. Doss",
+        "Cécile Durot"
+    ],
+    "emails":
+    [
+        "fadoua.balabdaoui@stat.math.ethz.ch",
+        "cdoss@umn.edu",
+        "cecile.durot@gmail.com"
+    ]
+}

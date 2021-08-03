@@ -1,0 +1,22 @@
+{
+    "title": "Black-Box Reductions for Zeroth-Order Gradient  Algorithms  to Achieve Lower  Query Complexity",
+    "abstract": "Zeroth-order (ZO) optimization has been the key technique for various machine learning applications especially for black-box adversarial attack, where models need to be learned in a gradient-free manner. Although many ZO algorithms have been proposed, the high function query complexities hinder their applications seriously. To address this challenging problem, we propose two stagewise black-box reduction frameworks for ZO algorithms under convex and non-convex settings respectively, which lower down the function query complexities of ZO algorithms. Moreover, our frameworks can directly derive the convergence results of ZO algorithms under convex and non-convex settings without extra analyses, as long as convergence results under strongly convex setting are given. To illustrate the advantages, we further study ZO-SVRG, ZO-SAGA and ZO-Varag under strongly-convex setting and use our frameworks to directly derive the convergence results under convex and non-convex settings. The function query complexities of these algorithms derived by our frameworks are lower than that of their vanilla counterparts without frameworks, or even lower than that of state-of-the-art algorithms. Finally we conduct numerical experiments to illustrate the superiority of our frameworks.",
+    "authors":
+    [
+        "Bin Gu",
+        "Xiyuan Wei",
+        "Shangqian Gao",
+        "Ziran Xiong",
+        "Cheng Deng",
+        "Heng Huang"
+    ],
+    "emails":
+    [
+        "bin.gu@mbzuai.ac.ae",
+        "xywei0905@gmail.com",
+        "SHG84@pitt.edu",
+        "xiongziran@nuist.edu.cn",
+        "chdeng.xd@gmail.com",
+        "heng.huang@pitt.edu"
+    ]
+}

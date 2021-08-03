@@ -1,0 +1,30 @@
+{
+    "title": "A Probabilistic Interpretation of Self-Paced Learning with Applications to Reinforcement Learning",
+    "abstract": "Across machine learning, the use of curricula has shown strong empirical potential to improve learning from data by avoiding local optima of training objectives. For reinforcement learning (RL), curricula are especially interesting, as the underlying optimization has a strong tendency to get stuck in local optima due to the exploration-exploitation trade-off. Recently, a number of approaches for an automatic generation of curricula for RL have been shown to increase performance while requiring less expert knowledge compared to manually designed curricula. However, these approaches are seldomly investigated from a theoretical perspective, preventing a deeper understanding of their mechanics. In this paper, we present an approach for automated curriculum generation in RL with a clear theoretical underpinning. More precisely, we formalize the well-known self-paced learning paradigm as inducing a distribution over training tasks, which trades off between task complexity and the objective to match a desired task distribution. Experiments show that training on this induced distribution helps to avoid poor local optima across RL algorithms in different tasks with uninformative rewards and challenging exploration requirements.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/psclklnk/pspl-code"
+        ]
+    ],
+    "special_issue": "MLOSS",
+    "authors":
+    [
+        "Pascal Klink",
+        "Hany Abdulsamad",
+        "Boris Belousov",
+        "Carlo D'Eramo",
+        "Jan Peters",
+        "Joni Pajarinen"
+    ],
+    "emails":
+    [
+        "pascal.klink@tu-darmstadt.de",
+        "hany.abdulsamad@tu-darmstadt.de",
+        "boris.belousov@tu-darmstadt.de",
+        "carlo.deramo@tu-darmstadt.de",
+        "jan.peters@tu-darmstadt.de",
+        "joni.pajarinen@aalto.fi"
+    ]
+}

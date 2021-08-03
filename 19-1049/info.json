@@ -1,0 +1,23 @@
+{
+    "title": "Learning Sparse Classifiers: Continuous and Mixed Integer Optimization Perspectives",
+    "abstract": "We consider a discrete optimization formulation for learning sparse classifiers, where the outcome depends upon a linear combination of a small subset of features. Recent work has shown that mixed integer programming (MIP) can be used to solve (to optimality) $\\ell_0$-regularized regression problems at scales much larger than what was conventionally considered possible. Despite their usefulness, MIP-based global optimization approaches are significantly slower than the relatively mature algorithms for $\\ell_1$-regularization and heuristics for nonconvex regularized problems. We aim to bridge this gap in computation times by developing new MIP-based algorithms for $\\ell_0$-regularized classification. We propose two classes of scalable algorithms: an exact algorithm that can handle $p\\approx 50,000$ features in a few minutes, and approximate algorithms that can address instances with $p\\approx 10^6$ in times comparable to the fast $\\ell_1$-based algorithms. Our exact algorithm is based on the novel idea of \\textsl{integrality generation}, which solves the original problem (with $p$ binary variables) via a sequence of mixed integer programs that involve a small number of binary variables. Our approximate algorithms are based on coordinate descent and local combinatorial search. In addition, we present new estimation error bounds for a class of $\\ell_0$-regularized estimators. Experiments on real and synthetic data demonstrate that our approach leads to models with considerably improved statistical performance (especially variable selection) compared to competing methods.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/hazimehh/L0Learn"
+        ]
+    ],
+    "authors":
+    [
+        "Antoine Dedieu",
+        "Hussein Hazimeh",
+        "Rahul Mazumder"
+    ],
+    "emails":
+    [
+        "tonio.dedieu@gmail.com",
+        "hazimeh@mit.edu",
+        "rahulmaz@mit.edu"
+    ]
+}

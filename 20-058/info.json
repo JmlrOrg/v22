@@ -1,0 +1,21 @@
+{
+    "title": "Hyperparameter Optimization via Sequential Uniform Designs",
+    "abstract": "Hyperparameter optimization (HPO) plays a central role in the automated machine learning (AutoML). It is a challenging task as the response surfaces of hyperparameters are generally unknown, hence essentially a global optimization problem. This paper reformulates HPO as a computer experiment and proposes a novel sequential uniform design (SeqUD) strategy with three-fold advantages: a) the hyperparameter space is adaptively explored with evenly spread design points, without the need of expensive meta-modeling and acquisition optimization; b) the batch-by-batch design points are sequentially generated with parallel processing support; c) a new augmented uniform design algorithm is developed for the efficient real-time generation of follow-up design points. Extensive experiments are conducted on both global optimization tasks and HPO applications. The numerical results show that the proposed SeqUD strategy outperforms benchmark HPO methods, and it can be therefore a promising and competitive alternative to existing AutoML tools.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/SelfExplainML/SeqUD"
+        ]
+    ],
+    "authors":
+    [
+        "Zebin Yang",
+        "Aijun Zhang"
+    ],
+    "emails":
+    [
+        "yangzb2010@hku.hk",
+        "ajzhang@umich.edu"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Asymptotic Normality, Concentration, and Coverage of Generalized Posteriors",
+    "abstract": "Generalized likelihoods are commonly used to obtain consistent estimators with attractive computational and robustness properties. Formally, any generalized likelihood can be used to define a generalized posterior distribution, but an arbitrarily defined \"posterior\" cannot be expected to appropriately quantify uncertainty in any meaningful sense. In this article, we provide sufficient conditions under which generalized posteriors exhibit concentration, asymptotic normality (Bernstein-von Mises), an asymptotically correct Laplace approximation, and asymptotically correct frequentist coverage. We apply our results in detail to generalized posteriors for a wide array of generalized likelihoods, including pseudolikelihoods in general, the Gaussian Markov random field pseudolikelihood, the fully observed Boltzmann machine pseudolikelihood, the Ising model pseudolikelihood, the Cox proportional hazards partial likelihood, and a median-based likelihood for robust inference of location. Further, we show how our results can be used to easily establish the asymptotics of standard posteriors for exponential families and generalized linear models. We make no assumption of model correctness so that our results apply with or without misspecification.",
+    "authors":
+    [
+        "Jeffrey W. Miller"
+    ],
+    "emails":
+    [
+        "jwmiller@hsph.harvard.edu"
+    ]
+}

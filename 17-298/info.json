@@ -1,0 +1,12 @@
+{
+    "title": "Learning Whenever Learning is Possible: Universal Learning under General Stochastic Processes",
+    "abstract": "This work initiates a general study of learning and generalization without the i.i.d. assumption, starting from first principles.  While the traditional approach to statistical learning theory typically relies on standard assumptions from probability theory (e.g., i.i.d. or stationary ergodic), in this work we are interested in developing a theory of learning based only on the most fundamental and necessary assumptions implicit in the requirements of the learning problem itself.  We specifically study universally consistent function learning, where the objective is to obtain low long-run average loss for any target function, when the data follow a given stochastic process.  We are then interested in the question of whether there exist learning rules guaranteed to be universally consistent given only the assumption that universally consistent learning is possible for the given data process.  The reasoning that motivates this criterion emanates from a kind of optimist's decision theory, and so we refer to such learning rules as being optimistically universal.  We study this question in three natural learning settings: inductive, self-adaptive, and online.  Remarkably, as our strongest positive result, we find that optimistically universal learning rules do indeed exist in the self-adaptive learning setting.  Establishing this fact requires us to develop new approaches to the design of learning algorithms.  Along the way, we also identify concise characterizations of the family of processes under which universally consistent learning is possible in the inductive and self-adaptive settings.  We additionally pose a number of enticing open problems, particularly for the online learning setting.",
+    "authors":
+    [
+        "Steve Hanneke"
+    ],
+    "emails":
+    [
+        "steve.hanneke@gmail.com"
+    ]
+}

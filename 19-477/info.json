@@ -1,0 +1,14 @@
+{
+    "title": "An algorithmic view of L2 regularization and some path-following algorithms",
+    "abstract": "We establish an equivalence between the $\\ell_2$-regularized solution path for a convex loss function, and the solution of an ordinary differentiable equation (ODE). Importantly, this equivalence reveals that the solution path can be viewed as the flow of a hybrid of gradient descent and Newton method applying to the empirical loss, which is similar to a widely used optimization technique called trust region method. This provides an interesting algorithmic view of $\\ell_2$ regularization, and is in contrast to the conventional view that the $\\ell_2$ regularization solution path is similar to the gradient flow of the empirical loss. New path-following algorithms based on homotopy methods and numerical ODE solvers are proposed to numerically approximate the solution path. In particular, we consider respectively Newton method and gradient descent method as the basis algorithm for the homotopy method, and establish their approximation error rates over the solution path. Importantly, our theory suggests novel schemes to choose grid points that guarantee an arbitrarily small suboptimality for the solution path. In terms of computational cost, we prove that in order to achieve an $\\epsilon$-suboptimality for the entire solution path, the number of Newton steps required for the Newton method is $\\mathcal O(\\epsilon^{-1/2})$, while the number of gradient steps required for the gradient descent method is $\\mathcal O\\left(\\epsilon^{-1} \\ln(\\epsilon^{-1})\\right)$.\r\nFinally, we use $\\ell_2$-regularized logistic regression as an illustrating example to demonstrate the effectiveness of the proposed path-following algorithms.",
+    "authors":
+    [
+        "Yunzhang Zhu",
+        "Renxiong Liu"
+    ],
+    "emails":
+    [
+        "zhu.219@osu.edu",
+        "liu.6732@buckeyemail.osu.edu"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "title": "First-order Convergence Theory for Weakly-Convex-Weakly-Concave Min-max Problems",
+    "abstract": "In this paper, we consider first-order convergence theory and algorithms for solving a class of non-convex non-concave min-max saddle-point problems, whose objective function is weakly convex in the variables of minimization and weakly concave in the variables of maximization. It has many important applications in machine learning including training Generative Adversarial Nets (GANs). We propose an algorithmic framework  motivated by the inexact proximal point method, where the weakly monotone variational inequality (VI) corresponding to the original min-max problem is solved through approximately solving a sequence of strongly monotone VIs constructed by adding a strongly monotone mapping to the original gradient mapping. We prove first-order convergence to  a nearly stationary  solution of the original min-max problem of the generic algorithmic framework and establish different rates by employing different algorithms for solving each strongly monotone VI. Experiments verify the convergence theory and also demonstrate the effectiveness of the proposed methods on training GANs.",
+    "authors":
+    [
+        "Mingrui Liu",
+        "Hassan Rafique",
+        "Qihang Lin",
+        "Tianbao Yang"
+    ],
+    "emails":
+    [
+        "mingruiliu.ml@gmail.com",
+        "hassan-rafique@uiowa.edu",
+        "qihang-lin@uiowa.edu",
+        "tianbao-yang@uiowa.edu"
+    ]
+}

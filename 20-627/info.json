@@ -1,0 +1,14 @@
+{
+    "title": "Optimal Rates of Distributed Regression with Imperfect Kernels",
+    "abstract": "Distributed machine learning systems have been receiving increasing attentions for their efficiency to process large scale data. Many distributed frameworks have been proposed for different machine learning tasks. In this paper, we study the distributed kernel regression via the divide and conquer approach. The learning process consists of three stages. Firstly, the data is partitioned into multiple subsets. Then a base kernel regression algorithm is applied to each subset to learn a local regression model. Finally the local models are averaged to generate the final regression model for the purpose of predictive analytics or statistical inference. This approach has been proved asymptotically minimax optimal if the kernel is perfectly selected so that the true regression function lies in the associated reproducing kernel Hilbert space. However, this is usually, if not always, impractical because kernels that can only be selected via prior knowledge or a tuning process are hardly perfect. Instead it is more common that the kernel is good enough but imperfect in the sense that the true regression can be well approximated by but does not lie exactly in the kernel space. We show distributed kernel regression can still achieve capacity independent optimal rate in this case. To this end, we first establish a general framework that allows to analyze distributed regression with response weighted base algorithms by bounding the error of such algorithms on a single data set, provided that the error bounds have factored the impact of unexplained variance of the response variable. Then we perform a leave one out analysis of the kernel ridge regression and bias corrected kernel ridge regression, which in combination with the aforementioned framework allows us to derive sharp error bounds and capacity independent optimal rates for the associated distributed kernel regression algorithms. As a byproduct of the thorough analysis, we also prove the kernel ridge regression can achieve rates faster than $O(N^{-1})$ (where $N$ is the sample size) in the noise free setting which, to our best knowledge, are first observed and novel in regression learning.",
+    "authors":
+    [
+        "Hongwei Sun",
+        "Qiang Wu"
+    ],
+    "emails":
+    [
+        "ss_sunhw@ujn.edu.cn",
+        "qwu@mtsu.edu"
+    ]
+}

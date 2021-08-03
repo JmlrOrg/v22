@@ -1,0 +1,16 @@
+{
+    "title": "Implicit Langevin Algorithms for Sampling From Log-concave Densities",
+    "abstract": "For sampling from a log-concave density, we study implicit integrators resulting from $\\theta$-method discretization of the overdamped Langevin diffusion stochastic differential equation. Theoretical and algorithmic properties of the resulting sampling methods for $ \\theta \\in [0,1] $ and a range of step sizes are established. Our results generalize and extend prior works in several directions. In particular, for $\\theta\\ge 1/2$, we prove geometric ergodicity and stability of the resulting methods for all step sizes. We show that obtaining subsequent samples amounts to solving a strongly-convex optimization problem, which is readily achievable using one of numerous existing methods. Numerical examples supporting our theoretical analysis are also presented.",
+    "authors":
+    [
+        "Liam Hodgkinson",
+        "Robert Salomone",
+        "Fred Roosta"
+    ],
+    "emails":
+    [
+        "liam.hodgkinson@berkeley.edu",
+        "robert.salomone@qut.edu.au",
+        "fred.roosta@uq.edu.au"
+    ]
+}

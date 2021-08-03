@@ -1,0 +1,26 @@
+{
+    "title": "Alibi Explain: Algorithms for Explaining Machine Learning Models",
+    "abstract": "We introduce Alibi Explain, an open-source Python library for explaining predictions of machine learning models (https://github.com/SeldonIO/alibi). The library features state-of-the-art explainability algorithms for classification and regression models. The algorithms cover both the model-agnostic (black-box) and model-specific (white-box) setting, cater for multiple data types (tabular, text, images) and explanation scope (local and global explanations). The library exposes a unified API enabling users to work with explanations in a consistent way. Alibi adheres to best development practices featuring extensive testing of code correctness and algorithm convergence in a continuous integration environment. The library comes with extensive documentation of both usage and theoretical background of methods, and a suite of worked end-to-end use cases. Alibi aims to be a production-ready toolkit with integrations into machine learning deployment platforms such as Seldon Core and KFServing, and distributed explanation capabilities using Ray.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/SeldonIO/alibi"
+        ]
+    ],
+    "special_issue": "MLOSS",
+    "authors":
+    [
+        "Janis Klaise",
+        "Arnaud Van Looveren",
+        "Giovanni Vacanti",
+        "Alexandru Coca"
+    ],
+    "emails":
+    [
+        "jk@seldon.io",
+        "avl@seldon.io",
+        "gv@seldon.io",
+        "ac2123@cam.ac.uk"
+    ]
+}

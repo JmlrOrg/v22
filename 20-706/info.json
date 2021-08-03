@@ -1,0 +1,14 @@
+{
+    "title": "Doubly infinite residual neural networks: a diffusion process approach",
+    "abstract": "Modern neural networks featuring a large number of layers (depth) and units per layer (width) have achieved a remarkable performance across many domains. While there exists a vast literature on the interplay between infinitely wide neural networks and Gaussian processes, a little is known about analogous interplays with respect to infinitely deep neural networks. Neural networks with independent and identically distributed (i.i.d.) initializations exhibit undesirable forward and backward propagation properties as the number of layers increases, e.g., vanishing dependency on the input, and perfectly correlated outputs for any two inputs. To overcome these drawbacks, Peluchetti and Favaro (2020) considered fully-connected residual networks (ResNets) with network's parameters initialized by means of distributions that shrink as the number of layers increases, thus establishing an interplay between infinitely deep ResNets and solutions to stochastic differential equations, i.e. diffusion processes, and showing that infinitely deep ResNets does not suffer from undesirable forward-propagation properties. In this paper, we review the results of Peluchetti and Favaro (2020), extending them to convolutional ResNets, and we establish analogous backward-propagation results, which directly relate to the problem of training fully-connected deep ResNets. Then, we investigate the more general setting of doubly infinite neural networks, where both network's width and network's depth grow unboundedly. We focus on doubly infinite fully-connected ResNets, for which we consider i.i.d. initializations. Under this setting, we show that the dynamics of quantities of interest converge, at initialization, to deterministic limits. This allow us to provide analytical expressions for inference, both in the case of weakly trained and fully trained ResNets. Our results highlight a limited expressive power of doubly infinite ResNets when the unscaled network's parameters are i.i.d. and the residual blocks are shallow.",
+    "authors":
+    [
+        "Stefano Peluchetti",
+        "Stefano Favaro"
+    ],
+    "emails":
+    [
+        "speluchetti@cogent.co.jp",
+        "stefano.favaro@unito.it"
+    ]
+}

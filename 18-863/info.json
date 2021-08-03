@@ -1,0 +1,23 @@
+{
+    "title": "A Contextual Bandit Bake-off",
+    "abstract": "Contextual bandit algorithms are essential for solving many real-world interactive machine learning problems. Despite multiple recent successes on statistically optimal and computationally efficient methods, the practical behavior of these algorithms is still poorly understood. We leverage the availability of large numbers of supervised learning datasets to empirically evaluate contextual bandit algorithms, focusing on practical methods that learn by relying on optimization oracles from supervised learning. We find that a recent method (Foster et al., 2018) using optimism under uncertainty works the best overall. A surprisingly close second is a simple greedy baseline that only explores implicitly through the diversity of contexts, followed by a variant of Online Cover (Agarwal et al., 2014) which tends to be more conservative but robust to problem specification by design. Along the way, we also evaluate various components of contextual bandit algorithm design such as loss estimators. Overall, this is a thorough study and review of contextual bandit methodology.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/albietz/cb_bakeoff"
+        ]
+    ],
+    "authors":
+    [
+        "Alberto Bietti",
+        "Alekh Agarwal",
+        "John Langford"
+    ],
+    "emails":
+    [
+        "alberto.bietti@nyu.edu",
+        "alekha@microsoft.com",
+        "jcl@microsoft.com"
+    ]
+}

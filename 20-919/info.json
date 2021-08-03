@@ -1,0 +1,18 @@
+{
+    "title": "A Sharp Blockwise Tensor Perturbation Bound for Orthogonal Iteration",
+    "abstract": "In this paper, we develop novel perturbation bounds for the higher-order orthogonal iteration (HOOI). Under mild regularity conditions, we establish blockwise tensor perturbation bounds for HOOI with guarantees for both tensor reconstruction in Hilbert-Schmidt norm $\\|\\widehat{\\mathcal{T}} - \\mathcal{T} \\|_{\\rm HS}$ and mode-$k$ singular subspace estimation in Schatten-$q$ norm $\\| \\sin \\Theta (\\widehat{U}_k, U_k) \\|_q$ for any $q \\geq 1$. We show the upper bounds of mode-$k$ singular subspace estimation are unilateral and converge linearly to a quantity characterized by blockwise errors of the perturbation and signal strength. For the tensor reconstruction error bound, we express the bound through a simple quantity $\\xi$, which depends only on perturbation and the multilinear rank of the underlying signal. Rate matching deterministic lower bound for tensor reconstruction, which demonstrates the optimality of HOOI, is also provided. Furthermore, we prove that one-step HOOI (i.e., HOOI with only a single iteration) is also optimal in terms of tensor reconstruction and can be used to lower the computational cost. The perturbation results are also extended to the case that only partial modes of $\\mathcal{T}$ have low-rank structure. We support our theoretical results by extensive numerical studies. Finally, we apply the novel perturbation bounds of HOOI on two applications, tensor denoising and tensor co-clustering, from machine learning and statistics, which demonstrates the superiority of the new perturbation results.",
+    "authors":
+    [
+        "Yuetian Luo",
+        "Garvesh Raskutti",
+        "Ming Yuan",
+        "Anru R. Zhang"
+    ],
+    "emails":
+    [
+        "yluo86@wisc.edu",
+        "raskutti@stat.wisc.edu",
+        "ming.yuan@columbia.edu",
+        "anruzhang@stat.wisc.edu"
+    ]
+}

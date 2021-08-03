@@ -1,0 +1,16 @@
+{
+    "title": "Conditional independences and causal relations implied by sets of equations",
+    "abstract": "Real-world complex systems are often modelled by sets of equations with endogenous and exogenous variables. What can we say about the causal and probabilistic aspects of variables that appear in these equations without explicitly solving the equations? We make use of Simon's causal ordering algorithm (Simon, 1953) to construct a causal ordering graph and prove that it expresses the effects of soft and perfect interventions on the equations under certain unique solvability assumptions. We further construct a Markov ordering graph and prove that it encodes conditional independences in the distribution implied by the equations with independent random exogenous variables, under a similar unique solvability assumption. We discuss how this approach reveals and addresses some of the limitations of existing causal modelling frameworks, such as causal Bayesian networks and structural causal models.",
+    "authors":
+    [
+        "Tineke Blom",
+        "Mirthe M. van Diepen",
+        "Joris M. Mooij"
+    ],
+    "emails":
+    [
+        "t.blom2@uva.nl",
+        "mvdiepen@cs.ru.nl",
+        "j.m.mooij@uva.nl"
+    ]
+}

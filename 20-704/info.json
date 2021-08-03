@@ -1,0 +1,18 @@
+{
+    "title": "Achieving Fairness in the Stochastic Multi-Armed Bandit Problem",
+    "abstract": "We study an interesting variant of the stochastic multi-armed bandit problem, which we call the Fair-MAB  problem, where, in addition to the objective of maximizing the sum of expected rewards, the algorithm also needs to ensure that at any time, each arm is pulled at least a pre-specified fraction of times. We investigate the interplay between learning and  fairness in terms of a pre-specified vector denoting the fractions of guaranteed pulls. We define a  fairness-aware regret, which we call $r$-Regret, that takes into account the above fairness constraints and extends the conventional notion of regret in a natural way. Our primary contribution is to obtain a complete characterization of a class of Fair-MAB algorithms via two parameters: the unfairness tolerance and the learning algorithm used as a black-box. For this class of algorithms, we provide a fairness guarantee that holds uniformly over time, irrespective of the chosen learning algorithm. Further, when the learning algorithm is UCB1, we show that our algorithm achieves constant $r$-Regret for a large enough time horizon. Finally, we analyze the cost of fairness in terms of the conventional notion of regret. We conclude by experimentally validating our theoretical results.",
+    "authors":
+    [
+        "Vishakha Patil",
+        "Ganesh Ghalme",
+        "Vineet Nair",
+        "Y. Narahari"
+    ],
+    "emails":
+    [
+        "patilv@iisc.ac.in",
+        "ganeshg@campus.technion.ac.il",
+        "vineet@cs.technion.ac.il",
+        "narahari@iisc.ac.in"
+    ]
+}
