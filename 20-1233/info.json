@@ -1,21 +1,26 @@
 {
-    "title": "A Greedy Algorithm for Quantizing Neural Networks",
     "abstract": "We propose a new computationally efficient method for quantizing the weights of pre- trained neural networks that is general enough to handle both multi-layer perceptrons and convolutional neural networks. Our method deterministically quantizes layers in an iterative fashion with no complicated re-training required. Specifically, we quantize each neuron, or hidden unit, using a greedy path-following algorithm. This simple algorithm is equivalent to running a dynamical system, which we prove is stable for quantizing a single-layer neural network (or, alternatively, for quantizing the first layer of a multi-layer network) when the training data are Gaussian. We show that under these assumptions, the quantization error decays with the width of the layer, i.e., its level of over-parametrization. We provide numerical experiments, on multi-layer networks, to illustrate the performance of our methods on MNIST and CIFAR10 data, as well as for quantizing the VGG16 network using ImageNet data.",
-    "extra_links":
-    [
+    "authors": [
+        "Eric Lybrand",
+        "Rayan Saab"
+    ],
+    "emails": [
+        "lybrand.eric@gmail.com",
+        "rsaab@ucsd.edu"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/elybrand/quantized_neural_networks"
         ]
     ],
-    "authors":
-    [
-        "Eric Lybrand",
-        "Rayan Saab"
+    "id": "20-1233",
+    "issue": 156,
+    "pages": [
+        1,
+        38
     ],
-    "emails":
-    [
-        "lybrand.eric@gmail.com",
-        "rsaab@ucsd.edu"
-    ]
+    "title": "A Greedy Algorithm for Quantizing Neural Networks",
+    "volume": 22,
+    "year": 2021
 }

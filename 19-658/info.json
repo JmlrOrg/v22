@@ -1,14 +1,20 @@
 {
-    "title": "Individual Fairness in Hindsight",
     "abstract": "The pervasive prevalence of algorithmic decision-making in societal domains necessitates that these algorithms satisfy reasonable notions of fairness. One compelling notion is that of individual fairness (IF), which advocates that similar individuals should be treated similarly. In this paper, we extend the notion of IF to online contextual decision-making in settings where there exists a common notion of conduciveness of decisions as perceived by the affected individuals. We introduce two definitions: (i) fairness-across-time (FT) and (ii) fairness-in-hindsight (FH). FT requires the treatment of individuals to be individually fair relative to the past as well as future, while FH only requires individual fairness of a decision at the time of the decision. We show that these two definitions can have drastically different implications when the principal needs to learn the utility model. Linear regret relative to optimal individually fair decisions is generally unavoidable under FT. On the other hand, we design a new algorithm: Cautious Fair Exploration (CaFE), which satisfies FH and achieves order-optimal sublinear regret guarantees for a broad range of settings.",
-    "authors":
-    [
+    "authors": [
         "Swati Gupta",
         "Vijay Kamble"
     ],
-    "emails":
-    [
+    "emails": [
         "swatig@gatech.edu",
         "kamble@uic.edu"
-    ]
+    ],
+    "id": "19-658",
+    "issue": 144,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Individual Fairness in Hindsight",
+    "volume": 22,
+    "year": 2021
 }

@@ -1,16 +1,22 @@
 {
-    "title": "Hoeffding's Inequality for General Markov Chains and Its Applications to Statistical Learning",
     "abstract": "This paper establishes Hoeffding's lemma and inequality for bounded functions of general-state-space and not necessarily reversible Markov chains. The sharpness of these results is characterized by the optimality of the ratio between variance proxies in the Markov-dependent and independent settings. The boundedness of functions is shown necessary for such results to hold in general. To showcase the usefulness of the new results, we apply them for non-asymptotic analyses of MCMC estimation, respondent-driven sampling and high-dimensional covariance matrix estimation on time series data with a Markovian nature. In addition to statistical problems, we also apply them to study the time-discounted rewards in econometric models and the multi-armed bandit problem with Markovian rewards arising from the field of machine learning.",
-    "authors":
-    [
+    "authors": [
         "Jianqing Fan",
         "Bai Jiang",
         "Qiang Sun"
     ],
-    "emails":
-    [
+    "emails": [
         "jqfan@princeton.edu",
         "baij@princeton.edu",
         "qsun@utstat.toronto.edu"
-    ]
+    ],
+    "id": "19-479",
+    "issue": 139,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Hoeffding's Inequality for General Markov Chains and Its Applications to Statistical Learning",
+    "volume": 22,
+    "year": 2021
 }

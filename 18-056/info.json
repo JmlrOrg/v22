@@ -1,28 +1,33 @@
 {
-    "title": "MushroomRL: Simplifying Reinforcement Learning Research",
     "abstract": "MushroomRL is an open-source Python library developed to simplify the process of implementing and running Reinforcement Learning (RL) experiments. Compared to other available libraries, MushroomRL has been created with the purpose of providing a comprehensive and flexible framework to minimize the effort in implementing and testing novel RL methodologies. The architecture of MushroomRL is built in such a way that every component of a typical RL experiment is already provided, and most of the time users can only focus on the implementation of their own algorithms. MushroomRL is accompanied by a benchmarking suite collecting experimental results of state-of-the-art deep RL algorithms, and allowing to benchmark new ones. The result is a library from which RL researchers can significantly benefit in the critical phase of the empirical analysis of their works. MushroomRL stable code, tutorials, and documentation can be found at https://github.com/MushroomRL/mushroom-rl.",
-    "extra_links":
-    [
-        [
-            "code",
-            "https://github.com/MushroomRL/mushroom-rl"
-        ]
-    ],
-    "special_issue": "MLOSS",
-    "authors":
-    [
+    "authors": [
         "Carlo D'Eramo",
         "Davide Tateo",
         "Andrea Bonarini",
         "Marcello Restelli",
         "Jan Peters"
     ],
-    "emails":
-    [
+    "emails": [
         "carlo@robot-learning.de",
         "davide@robot-learning.de",
         "andrea.bonarini@polimi.it",
         "marcello.restelli@polimi.it",
         "mail@jan-peters.net"
-    ]
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/MushroomRL/mushroom-rl"
+        ]
+    ],
+    "id": "18-056",
+    "issue": 131,
+    "pages": [
+        1,
+        5
+    ],
+    "special_issue": "MLOSS",
+    "title": "MushroomRL: Simplifying Reinforcement Learning Research",
+    "volume": 22,
+    "year": 2021
 }

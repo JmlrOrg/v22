@@ -1,20 +1,26 @@
 {
-    "title": "Generalization Properties of hyper-RKHS and its Applications",
     "abstract": "This paper generalizes regularized regression problems in a hyper-reproducing kernel Hilbert space (hyper-RKHS), illustrates its utility for kernel learning and out-of-sample extensions, and proves asymptotic convergence results for the introduced regression models in an approximation theory view. Algorithmically, we consider two regularized regression models with bivariate forms in this space, including kernel ridge regression (KRR) and support vector regression (SVR) endowed with hyper-RKHS, and further combine divide-and-conquer with Nystr\\\"{o}m approximation for scalability in large sample cases. This framework is general: the underlying kernel is learned from a broad class, and can be positive definite or not, which adapts to various requirements in kernel learning. Theoretically, we study the convergence behavior of regularized regression algorithms in hyper-RKHS and derive the learning rates, which goes beyond the classical analysis on RKHS due to the non-trivial independence of pairwise samples and the characterisation of hyper-RKHS. Experimentally, results on several benchmarks suggest that the employed framework is able to learn a general kernel function form an arbitrary similarity matrix, and thus achieves a satisfactory performance on classification tasks.",
-    "authors":
-    [
+    "authors": [
         "Fanghui Liu",
         "Lei Shi",
         "Xiaolin Huang",
         "Jie Yang",
         "Johan A.K. Suykens"
     ],
-    "emails":
-    [
+    "emails": [
         "fanghui.liu@kuleuven.be",
         "leishi@fudan.edu.cn",
         "xiaolinhuang@sjtu.edu.cn",
         "jieyang@sjtu.edu.cn",
         "johan.suykens@esat.kuleuven.be"
-    ]
+    ],
+    "id": "19-482",
+    "issue": 140,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Generalization Properties of hyper-RKHS and its Applications",
+    "volume": 22,
+    "year": 2021
 }

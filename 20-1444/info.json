@@ -1,23 +1,28 @@
 {
-    "title": "MetaGrad: Adaptation using Multiple Learning Rates in Online Learning",
     "abstract": "We provide a new adaptive method for online convex optimization, MetaGrad, that is robust to general convex losses but achieves faster rates for a broad class of special functions, including exp-concave and strongly convex functions, but also various types of stochastic and non-stochastic functions without any curvature. We prove this by drawing a connection to the Bernstein condition, which is known to imply fast rates in offline statistical learning. MetaGrad further adapts automatically to the size of the gradients. Its main feature is that it simultaneously considers multiple learning rates, which are weighted directly proportional to their empirical performance on the data using a new meta-algorithm. We provide three versions of MetaGrad. The full matrix version maintains a full covariance matrix and is applicable to learning tasks for which we can afford update time quadratic in the dimension. The other two versions provide speed-ups for high-dimensional learning tasks with an update time that is linear in the dimension: one is based on sketching, the other on running a separate copy of the basic algorithm per coordinate. We evaluate all versions of MetaGrad on benchmark online classification and regression tasks, on which they consistently outperform both online gradient descent and AdaGrad.",
-    "extra_links":
-    [
+    "authors": [
+        "Tim van Erven",
+        "Wouter M. Koolen",
+        "Dirk van der Hoeven"
+    ],
+    "emails": [
+        "tim@timvanerven.nl",
+        "wmkoolen@cwi.nl",
+        "dirkvderhoeven@gmail.com"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/DirkvdH/Online-Appendix-MetaGrad"
         ]
     ],
-    "authors":
-    [
-        "Tim van Erven",
-        "Wouter M. Koolen",
-        "Dirk van der Hoeven"
+    "id": "20-1444",
+    "issue": 161,
+    "pages": [
+        1,
+        61
     ],
-    "emails":
-    [
-        "tim@timvanerven.nl",
-        "wmkoolen@cwi.nl",
-        "dirkvderhoeven@gmail.com"
-    ]
+    "title": "MetaGrad: Adaptation using Multiple Learning Rates in Online Learning",
+    "volume": 22,
+    "year": 2021
 }

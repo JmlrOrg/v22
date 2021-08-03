@@ -1,16 +1,6 @@
 {
-    "title": "The ensmallen library for flexible numerical optimization",
     "abstract": "We overview the ensmallen numerical optimization library, which provides a flexible C++ framework for mathematical optimization of user-supplied objective functions. Many types of objective functions are supported, including general, differentiable, separable, constrained, and categorical. A diverse set of pre-built optimizers is provided, including Quasi-Newton optimizers and many variants of Stochastic Gradient Descent. The underlying framework facilitates the implementation of new optimizers. Optimization of an objective function typically requires supplying only one or two C++ functions. Custom behavior can be easily specified via callback functions. Empirical comparisons show that ensmallen outperforms other frameworks while providing more functionality. The library is available at https://ensmallen.org and is distributed under the permissive BSD license.",
-    "extra_links":
-    [
-        [
-            "code",
-            "https://github.com/mlpack/ensmallen"
-        ]
-    ],
-    "special_issue": "MLOSS",
-    "authors":
-    [
+    "authors": [
         "Ryan R. Curtin",
         "Marcus Edel",
         "Rahul Ganesh Prabhu",
@@ -18,13 +8,28 @@
         "Zhihao Lou",
         "Conrad Sanderson"
     ],
-    "emails":
-    [
+    "emails": [
         "ryan@ratml.org",
         "marcus.edel@fu-berlin.de",
         "cupertinorp@gmail.com",
         "suryodaybasak@gmail.com",
         "lzh1984@gmail.com",
         "conrad.sanderson@data61.csiro.au"
-    ]
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mlpack/ensmallen"
+        ]
+    ],
+    "id": "20-416",
+    "issue": 166,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "The ensmallen library for flexible numerical optimization",
+    "volume": 22,
+    "year": 2021
 }

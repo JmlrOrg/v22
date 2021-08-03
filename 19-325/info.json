@@ -1,21 +1,26 @@
 {
-    "title": "Hybrid Predictive Models: When an Interpretable Model Collaborates with a Black-box Model",
     "abstract": "Interpretable machine learning has become a strong competitor for black-box models. However, the possible loss of the predictive performance for gaining understandability is often inevitable, especially when it needs to satisfy users with diverse backgrounds or high standards for what is considered interpretable. This tension puts practitioners in a dilemma of choosing between high accuracy (black-box models) and interpretability (interpretable models).  In this work, we propose a novel framework for building a Hybrid Predictive Model that integrates an interpretable model with any pre-trained black-box model to combine their strengths. The interpretable model substitutes the black-box model on a subset of data where the interpretable model is most competent, gaining transparency at a low cost of the predictive accuracy. We design a principled objective function that considers predictive accuracy, model interpretability, and model transparency (defined as the percentage of data processed by the interpretable substitute.) Under this framework, we propose two hybrid models, one substituting with association rules and the other with linear models, and design customized training algorithms for both models. We test the hybrid models on structured data and text data where interpretable models collaborate with various state-of-the-art black-box models. Results show that hybrid models obtain an efficient trade-off between transparency and predictive performance, characterized by pareto frontiers. Finally, we apply the proposed model on a real-world patients dataset for predicting cardiovascular disease and propose multi-model Pareto frontiers to assist model selection in real applications.",
-    "extra_links":
-    [
+    "authors": [
+        "Tong Wang",
+        "Qihang Lin"
+    ],
+    "emails": [
+        "tong-wang@uiowa.edu",
+        "qihang-lin@uiowa.edu"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/wangtongada/HyRS"
         ]
     ],
-    "authors":
-    [
-        "Tong Wang",
-        "Qihang Lin"
+    "id": "19-325",
+    "issue": 137,
+    "pages": [
+        1,
+        38
     ],
-    "emails":
-    [
-        "tong-wang@uiowa.edu",
-        "qihang-lin@uiowa.edu"
-    ]
+    "title": "Hybrid Predictive Models: When an Interpretable Model Collaborates with a Black-box Model",
+    "volume": 22,
+    "year": 2021
 }

@@ -1,14 +1,20 @@
 {
-    "title": "Universal consistency and rates of convergence of multiclass prototype algorithms in metric spaces",
     "abstract": "We study universal consistency and convergence rates of simple nearest-neighbor prototype rules for the problem of multiclass classification in metric spaces. We first show that a novel data-dependent partitioning rule, named Proto-NN, is universally consistent in any metric space that admits a universally consistent rule. Proto-NN is a significant simplification of OptiNet, a recently proposed compression-based algorithm that, to date, was the only algorithm known to be universally consistent in such a general setting. Practically, Proto-NN is simpler to implement and enjoys reduced computational complexity. We then proceed to study convergence rates of the excess error probability. We first obtain rates for the standard $k$-NN rule under a margin condition and a new generalized-Lipschitz condition. The latter is an extension of a recently proposed modified-Lipschitz condition from $\\mathbb R^d$ to metric spaces. Similarly to the modified-Lipschitz condition, the new condition avoids any boundness assumptions on the data distribution. While obtaining rates for Proto-NN is left open, we show that a second prototype rule that hybridizes between $k$-NN and Proto-NN achieves the same rates as $k$-NN while enjoying similar computational advantages as Proto-NN. However, as $k$-NN, this hybrid rule is not consistent in general.",
-    "authors":
-    [
-        "László Györfi",
+    "authors": [
+        "L\u00e1szl\u00f3 Gy\u00f6rfi",
         "Roi Weiss"
     ],
-    "emails":
-    [
+    "emails": [
         "gyorfi@cs.bme.hu",
         "roiw@ariel.ac.il"
-    ]
+    ],
+    "id": "20-1081",
+    "issue": 151,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Universal consistency and rates of convergence of multiclass prototype algorithms in metric spaces",
+    "volume": 22,
+    "year": 2021
 }

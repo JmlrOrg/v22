@@ -1,20 +1,26 @@
 {
-    "title": "Optimal Minimax Variable Selection for Large-Scale Matrix Linear Regression Model",
     "abstract": "Large-scale matrix linear regression models with high-dimensional responses and high-dimensional variables have been widely employed in various large-scale biomedical studies. In this article, we propose an optimal minimax variable selection approach for the matrix linear regression model when the dimensions of both the response matrix and predictors diverge at the exponential rate of the sample size. We develop an iterative hard-thresholding algorithm for fast computation and establish an optimal minimax theory for the parameter estimates. The finite sample performance of the method is examined via extensive simulation studies and a real data application from the Alzheimer's Disease Neuroimaging Initiative study is provided.",
-    "authors":
-    [
+    "authors": [
         "Meiling Hao",
         "Lianqiang Qu",
         "Dehan Kong",
         "Liuquan Sun",
         "Hongtu Zhu"
     ],
-    "emails":
-    [
+    "emails": [
         "meilinghao@uibe.edu.cn",
         "qulianq@mail.ccnu.edu.cn",
         "kongdehan@utstat.toronto.edu",
         "slq@amt.ac.cn",
         "hzhu@bios.unc.edu"
-    ]
+    ],
+    "id": "19-969",
+    "issue": 147,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Optimal Minimax Variable Selection for Large-Scale Matrix Linear Regression Model",
+    "volume": 22,
+    "year": 2021
 }

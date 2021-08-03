@@ -1,16 +1,22 @@
 {
-    "title": "Information criteria for non-normalized models",
     "abstract": "Many statistical models are given in the form of non-normalized densities with an intractable normalization constant. Since maximum likelihood estimation is computationally intensive for these models, several estimation methods have been developed which do not require explicit computation of the normalization constant, such as noise contrastive estimation (NCE) and score matching. However, model selection methods for general nonnormalized models have not been proposed so far. In this study, we develop information criteria for non-normalized models estimated by NCE or score matching. They are approximately unbiased estimators of discrepancy measures for non-normalized models. Simulation results and applications to real data demonstrate that the proposed criteria enable selection of the appropriate non-normalized model in a data-driven manner.",
-    "authors":
-    [
+    "authors": [
         "Takeru Matsuda",
         "Masatoshi Uehara",
         "Aapo Hyvarinen"
     ],
-    "emails":
-    [
+    "emails": [
         "takeru.matsuda@riken.jp",
         "mu223@cornell.edu",
         "aapo.hyvarinen@helsinki.fi"
-    ]
+    ],
+    "id": "20-1366",
+    "issue": 158,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Information criteria for non-normalized models",
+    "volume": 22,
+    "year": 2021
 }

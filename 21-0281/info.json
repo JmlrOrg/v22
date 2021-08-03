@@ -1,16 +1,6 @@
 {
-    "title": "mlr3pipelines - Flexible Machine Learning Pipelines in R",
     "abstract": "Recent years have seen a proliferation of ML frameworks. Such systems make ML accessible to non-experts, especially when combined with powerful parameter tuning and AutoML techniques. Modern, applied ML extends beyond direct learning on clean data, however, and needs an expressive language for the construction of complex ML workflows beyond simple pre- and post-processing. We present mlr3pipelines, an R framework which can be used to define linear and complex non-linear ML workflows as directed acyclic graphs. The framework is part of the mlr3 ecosystem, leveraging convenient resampling, benchmarking, and tuning components.",
-    "extra_links":
-    [
-        [
-            "code",
-            "https://github.com/mlr-org/mlr3pipelines"
-        ]
-    ],
-    "special_issue": "MLOSS",
-    "authors":
-    [
+    "authors": [
         "Martin Binder",
         "Florian Pfisterer",
         "Michel Lang",
@@ -18,13 +8,28 @@
         "Lars Kotthoff",
         "Bernd Bischl"
     ],
-    "emails":
-    [
+    "emails": [
         "martin.binder@stat.uni-muenchen.de",
         "florian.pfisterer@stat.uni-muenchen.de",
         "michel.lang@stat.uni-muenchen.de",
         "lennart.schneider@stat.uni-muenchen.de",
         "larsko@uwyo.edu",
         "bernd.bischl@stat.uni-muenchen.de"
-    ]
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mlr-org/mlr3pipelines"
+        ]
+    ],
+    "id": "21-0281",
+    "issue": 184,
+    "pages": [
+        1,
+        7
+    ],
+    "special_issue": "MLOSS",
+    "title": "mlr3pipelines - Flexible Machine Learning Pipelines in R",
+    "volume": 22,
+    "year": 2021
 }

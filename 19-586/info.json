@@ -1,14 +1,20 @@
 {
-    "title": "Non-attracting Regions of Local Minima in Deep and Wide Neural Networks",
     "abstract": "Understanding the loss surface of neural networks is essential for the design of models with predictable performance and their success in applications. Experimental results suggest that sufficiently deep and wide neural networks are not negatively impacted by suboptimal local minima. Despite recent progress, the reason for this outcome is not fully understood. Could deep networks have very few, if at all, suboptimal local optima? or could all of them be equally good? We provide a construction to show that suboptimal local minima (i.e., non-global ones), even though degenerate, exist for fully connected neural networks with sigmoid activation functions. The local minima obtained by our construction belong to a connected set of local solutions that can be escaped from via a non-increasing path on the loss curve. For extremely wide neural networks of decreasing width after the wide layer, we prove that every suboptimal local minimum belongs to such a connected set.  This provides a partial explanation for the successful application of deep neural networks. In addition, we also characterize under what conditions the same construction leads to saddle points instead of local minima for deep neural networks.",
-    "authors":
-    [
+    "authors": [
         "Henning Petzka",
         "Cristian Sminchisescu"
     ],
-    "emails":
-    [
+    "emails": [
         "henning.petzka@math.lth.se",
         "cristian.sminchisescu@math.lth.se"
-    ]
+    ],
+    "id": "19-586",
+    "issue": 143,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Non-attracting Regions of Local Minima in Deep and Wide Neural Networks",
+    "volume": 22,
+    "year": 2021
 }

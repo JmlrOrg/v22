@@ -1,14 +1,20 @@
 {
-    "title": "Replica Exchange for Non-Convex Optimization",
     "abstract": "Gradient descent (GD) is known to converge quickly for convex objective functions, but it can be trapped at local minima. On the other hand, Langevin dynamics (LD) can explore the state space and find global minima, but in order to give accurate estimates, LD needs to run with a small discretization step size and weak stochastic force, which in general slow down its convergence. This paper shows that these two algorithms can ``collaborate\" through a simple exchange mechanism, in which they swap their current positions if LD yields a lower objective function.  This idea can be seen as the singular limit of the replica-exchange technique from the sampling literature. We show that this new algorithm converges to the global minimum linearly with high probability, assuming the objective function is strongly convex in a neighborhood of the unique global minimum. By replacing gradients with stochastic gradients, and adding a proper threshold to the exchange mechanism, our algorithm can also be used in online settings. We also study non-swapping variants of the algorithm, which achieve similar performance. We further verify our theoretical results through some numerical experiments and observe superior performances of the proposed algorithm over running GD or LD alone.",
-    "authors":
-    [
+    "authors": [
         "Jing Dong",
         "Xin T. Tong"
     ],
-    "emails":
-    [
+    "emails": [
         "jing.dong@gsb.columbia.edu",
         "mattxin@nus.edu.sg"
-    ]
+    ],
+    "id": "20-697",
+    "issue": 173,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Replica Exchange for Non-Convex Optimization",
+    "volume": 22,
+    "year": 2021
 }

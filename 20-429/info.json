@@ -1,18 +1,24 @@
 {
-    "title": "Estimation and Optimization of Composite Outcomes",
     "abstract": "There is tremendous interest in precision medicine as a means to improve patient outcomes by tailoring treatment to individual characteristics.  An individualized treatment rule formalizes precision medicine as a map from patient information to a  recommended treatment. A treatment rule is defined to be optimal if it maximizes the mean of a scalar outcome in a population of interest, e.g., symptom reduction. However, clinical and intervention scientists often seek to balance multiple and possibly competing outcomes, e.g., symptom reduction and the risk of an adverse event. One approach to precision medicine in this setting is to elicit a composite outcome which balances all competing outcomes; unfortunately, eliciting a composite outcome directly from patients is difficult without a high-quality instrument, and an expert-derived composite outcome may not account for heterogeneity in patient preferences. We propose a new paradigm for the study of precision  medicine using observational data that relies solely on the assumption  that clinicians are approximately (i.e., imperfectly) making decisions to maximize individual patient utility. Estimated composite outcomes are subsequently used to construct an estimator of an individualized treatment rule which maximizes the mean of patient-specific composite outcomes. The estimated composite outcomes and estimated optimal individualized treatment rule provide new insights into patient preference heterogeneity, clinician behavior, and the value of precision medicine in a given domain. We derive inference procedures for the proposed estimators under mild conditions and demonstrate their finite sample performance through a suite of simulation experiments and an illustrative application to data from a study of bipolar depression.",
-    "authors":
-    [
+    "authors": [
         "Daniel J. Luckett",
         "Eric B. Laber",
         "Siyeon Kim",
         "Michael R. Kosorok"
     ],
-    "emails":
-    [
+    "emails": [
         "daniel.luckett.work@gmail.com",
         "eric.laber@duke.edu",
         "siyeonkk@live.unc.edu",
         "kosorok@unc.edu"
-    ]
+    ],
+    "id": "20-429",
+    "issue": 167,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Estimation and Optimization of Composite Outcomes",
+    "volume": 22,
+    "year": 2021
 }

@@ -1,25 +1,30 @@
 {
-    "title": "An Inertial Newton Algorithm for Deep Learning",
     "abstract": "We introduce a new second-order inertial optimization method for machine learning called INNA. It exploits the geometry of the loss function while only requiring stochastic approximations of the function values and the generalized gradients. This makes INNA fully implementable and adapted to large-scale optimization problems such as the training of deep neural networks. The algorithm combines both gradient-descent and Newton-like behaviors as well as inertia. We prove the convergence of INNA for most deep learning problems. To do so, we provide a well-suited framework to analyze deep learning loss functions involving tame optimization in which we study a continuous dynamical system together with its discrete stochastic approximations.  We prove sublinear convergence for the continuous-time differential inclusion which underlies our algorithm. Additionally, we also show how standard optimization mini-batch methods applied to non-smooth non-convex problems can yield a certain type of spurious stationary points never discussed before. We address this issue by providing a theoretical framework around the new idea of $D$-criticality; we then give a simple asymptotic analysis of INNA. Our algorithm allows for using an aggressive learning rate of $o(1/\\log k)$. From an empirical viewpoint, we show that INNA returns competitive results with respect to state of the art (stochastic gradient descent, ADAGRAD, ADAM) on popular deep learning benchmark problems.",
-    "extra_links":
-    [
+    "authors": [
+        "Camille Castera",
+        "J\u00e9r\u00f4me Bolte",
+        "C\u00e9dric F\u00e9votte",
+        "Edouard Pauwels"
+    ],
+    "emails": [
+        "camille.castera@irit.fr",
+        "jerome.bolte@tse-fr.eu",
+        "cedric.fevotte@irit.fr",
+        "edouard.pauwels@irit.fr"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/camcastera/INNA-for-DeepLearning"
         ]
     ],
-    "authors":
-    [
-        "Camille Castera",
-        "Jérôme Bolte",
-        "Cédric Févotte",
-        "Edouard Pauwels"
+    "id": "19-1024",
+    "issue": 134,
+    "pages": [
+        1,
+        31
     ],
-    "emails":
-    [
-        "camille.castera@irit.fr",
-        "jerome.bolte@tse-fr.eu",
-        "cedric.fevotte@irit.fr",
-        "edouard.pauwels@irit.fr"
-    ]
+    "title": "An Inertial Newton Algorithm for Deep Learning",
+    "volume": 22,
+    "year": 2021
 }
