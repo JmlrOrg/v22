@@ -1,0 +1,24 @@
+{
+    "abstract": "We study the problem of recovering the structure underlying large Gaussian graphical models or, more generally, partial correlation graphs. In high-dimensional problems it is often too costly to store the entire sample covariance matrix. We propose a new input model in which one can query single entries of the covariance matrix. We prove that it is possible to recover the support of the inverse covariance matrix with low query and computational complexity. Our algorithms work in a regime when this support is represented by tree-like graphs and, more generally, for graphs of small treewidth. Our results demonstrate that for large classes of graphs, the structure of the corresponding partial correlation graphs can be determined much faster than even computing the empirical covariance matrix.",
+    "authors": [
+        "G\u00e1bor Lugosi",
+        "Jakub Truszkowski",
+        "Vasiliki Velona",
+        "Piotr Zwiernik"
+    ],
+    "emails": [
+        "gabor.lugosi@upf.edu",
+        "jakub.truszkowski@bioenv.gu.se",
+        "vasiliki.velona@upf.edu",
+        "piotr.zwiernik@upf.edu"
+    ],
+    "id": "20-1137",
+    "issue": 203,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Learning partial correlation graphs and graphical models by covariance queries",
+    "volume": 22,
+    "year": 2021
+}

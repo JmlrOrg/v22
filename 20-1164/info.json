@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider bounds on the generalization performance of the least-norm linear regressor, in the over-parameterized regime where it can interpolate the data.  We describe a sense in which any generalization bound of a type that is commonly proved in statistical learning theory must sometimes be very loose when applied to analyze the least-norm interpolant. In particular, for a variety of natural joint distributions on training examples, any valid generalization bound that depends only on the output of the learning algorithm, the number of training examples, and the confidence parameter, and that satisfies a mild condition (substantially weaker than monotonicity in sample size), must sometimes be very loose - it can be bounded below by a constant when the true excess risk goes to zero.",
+    "authors": [
+        "Peter L. Bartlett",
+        "Philip M. Long"
+    ],
+    "emails": [
+        "peter@berkeley.edu",
+        "plong@google.com"
+    ],
+    "id": "20-1164",
+    "issue": 204,
+    "pages": [
+        1,
+        15
+    ],
+    "title": "Failures of Model-dependent Generalization Bounds for Least-norm Interpolation",
+    "volume": 22,
+    "year": 2021
+}

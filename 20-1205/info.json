@@ -1,0 +1,20 @@
+{
+    "abstract": "Langevin Monte Carlo (LMC) is a popular Bayesian sampling method. For the log-concave distribution function, the method converges exponentially fast, up to a controllable discretization error. However, the method requires the evaluation of a full gradient in each iteration, and for a problem on $\\mathbb{R}^d$, this amounts to $d$ times partial derivative evaluations per iteration. The cost is high when $d\\gg1$. In this paper, we investigate how to enhance computational efficiency through the application of RCD (random coordinate descent) on LMC. There are two sides of the theory: 1. By blindly applying RCD to LMC, one surrogates the full gradient by a randomly selected directional derivative per iteration. Although the cost is reduced per iteration, the total number of iteration is increased to achieve a preset error tolerance. Ultimately there is no computational gain; 2. We then incorporate variance reduction techniques, such as SAGA (stochastic average gradient) and SVRG (stochastic variance reduced gradient), into RCD-LMC. It will be proved that the cost is reduced compared with the classical LMC, and in the underdamped case, convergence is achieved with the same number of iterations, while each iteration requires merely one-directional derivative. This means we obtain the best possible computational cost in the underdamped-LMC framework.",
+    "authors": [
+        "Zhiyan Ding",
+        "Qin Li"
+    ],
+    "emails": [
+        "zding49@math.wisc.edu",
+        "qinli@math.wisc.edu"
+    ],
+    "id": "20-1205",
+    "issue": 205,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Langevin Monte Carlo: random coordinate descent and variance reduction",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "Bayesian feature allocation models are a popular tool for modelling data with a combinatorial latent structure. Exact inference in these models is generally intractable and so practitioners typically apply Markov Chain Monte Carlo (MCMC) methods for posterior inference. The most widely used MCMC strategies rely on a single variable Gibbs update of the feature allocation matrix. These updates can be inefficient as features are typically strongly correlated. To overcome this problem we have developed a block sampler that can update an entire row of the feature allocation matrix in a single move. In the context of feature allocation models, naive block Gibbs sampling is impractical for models with a large number of features as the computational complexity scales exponentially in the number of features. We develop a Particle Gibbs (PG) sampler that targets the same distribution as the row wise Gibbs updates, but has computational complexity that only grows linearly in the number of features. We compare the performance of our proposed methods to the standard Gibbs sampler using synthetic and real data from a range of feature allocation models. Our results suggest that row wise updates using the PG methodology can significantly improve the performance of samplers for feature allocation models.",
+    "authors": [
+        "Alexandre Bouchard-C\u00f4t\u00e9",
+        "Andrew Roth"
+    ],
+    "emails": [
+        "bouchard@stat.ubc.ca",
+        "aroth@cs.ubc.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Roth-Lab/pgfa"
+        ]
+    ],
+    "id": "20-082",
+    "issue": 197,
+    "pages": [
+        1,
+        105
+    ],
+    "title": "Particle-Gibbs Sampling for Bayesian Feature Allocation Models",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "Graph embeddings, a class of dimensionality reduction techniques designed for relational data, have proven useful in exploring and modeling network structure. Most dimensionality reduction methods allow out-of-sample extensions, by which an embedding can be applied to observations not present in the training set. Applied to graphs, the out-of-sample extension problem concerns how to compute the embedding of a vertex that is added to the graph after an embedding has already been computed. In this paper, we consider the out-of-sample extension problem for two graph embedding procedures: the adjacency spectral embedding and the Laplacian spectral embedding. In both cases, we prove that when the underlying graph is generated according to a latent space model called the random dot product graph, which includes the popular stochastic block model as a special case, an out-of-sample extension based on a least-squares objective obeys a central limit theorem. In addition, we prove a concentration inequality for the out-of-sample extension of the adjacency spectral embedding based on a maximum-likelihood objective. Our results also yield a convenient framework in which to analyze trade-offs between estimation accuracy and computational expenses, which we explore briefly. Finally, we explore the performance of these out-of-sample extensions as applied to both simulated and real-world data. We observe significant computational savings with minimal losses to the quality of the learned embeddings, in keeping with our theoretical results.",
+    "authors": [
+        "Keith D. Levin",
+        "Fred Roosta",
+        "Minh Tang",
+        "Michael W. Mahoney",
+        "Carey E. Priebe"
+    ],
+    "emails": [
+        "kdlevin@wisc.edu",
+        "fred.roosta@uq.edu.au",
+        "mtang8@ncsu.edu",
+        "mmahoney@stat.berkeley.edu",
+        "cep@jhu.edu"
+    ],
+    "id": "19-852",
+    "issue": 194,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Limit theorems for out-of-sample extensions of the adjacency and Laplacian spectral embeddings",
+    "volume": 22,
+    "year": 2021
+}

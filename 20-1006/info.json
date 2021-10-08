@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we develop an alternating direction method of multipliers (ADMM) for  deep neural networks training with sigmoid-type activation functions (called sigmoid-ADMM pair), mainly motivated by the gradient-free nature of ADMM in avoiding  the saturation of sigmoid-type activations and the advantages of deep neural networks with sigmoid-type activations (called deep sigmoid nets) over their rectified linear unit (ReLU) counterparts (called deep ReLU nets) in terms of approximation. In particular, we  prove that the approximation capability of deep sigmoid nets is not worse  than that of deep ReLU nets by showing that ReLU activation fucntion can be well approximated by deep  sigmoid nets with two hidden layers and finitely many free parameters but not vice-verse. We also establish the global convergence of the proposed ADMM for the nonlinearly constrained formulation of the deep sigmoid nets training from arbitrary initial points to a Karush-Kuhn-Tucker (KKT) point at a rate of order O(1/k). Besides sigmoid activation, such a convergence theorem holds for a general class of smooth activations. Compared with the widely used stochastic gradient descent (SGD) algorithm for the deep ReLU nets training (called ReLU-SGD pair), the proposed sigmoid-ADMM pair is practically stable with respect to the algorithmic hyperparameters including the learning rate, initial schemes and the pro-processing of the input data. Moreover, we find that to approximate and learn simple but important functions   the proposed sigmoid-ADMM pair numerically outperforms the ReLU-SGD pair.",
+    "authors": [
+        "Jinshan Zeng",
+        "Shao-Bo Lin",
+        "Yuan Yao",
+        "Ding-Xuan Zhou"
+    ],
+    "emails": [
+        "jinshanzeng@jxnu.edu.cn",
+        "sblin1983@gmail.com",
+        "yuany@ust.hk",
+        "mazhou@cityu.edu.hk"
+    ],
+    "id": "20-1006",
+    "issue": 199,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "On ADMM in Deep Learning: Convergence and Saturation-Avoidance",
+    "volume": 22,
+    "year": 2021
+}

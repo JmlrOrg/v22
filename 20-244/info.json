@@ -1,0 +1,24 @@
+{
+    "abstract": "High-dimensional autoregressive generalized linear models arise naturally for capturing how current events trigger or inhibit future events, such as activity by one member of a social network can affect the future activities of his or her neighbors. While past work has focused on estimating the underlying network structure based solely on the times at which events occur on each node of the network, this paper examines the more nuanced problem of estimating context-dependent networks that reflect how features associated with an event (such as the content of a social media post) modulate the strength of influences among nodes. Specifically, we leverage ideas from compositional time series and regularization methods in machine learning to conduct context-dependent network estimation for high-dimensional autoregressive time series of annotated event data. Two models and corresponding estimators are considered in detail: an autoregressive multinomial model suited to categorical features and a logistic-normal model suited to features with mixed membership in different categories. Importantly, the logistic-normal model leads to a convex negative log-likelihood objective and captures dependence across categories. We provide theoretical guarantees for both estimators that are supported by simulations. We further validate our methods and demonstrate the advantages and disadvantages of both approaches through two real data examples and a synthetic data-generating model. Finally, a mixture approach enjoying both approaches\u2019 merits is proposed and illustrated on synthetic and real data examples.",
+    "authors": [
+        "Lili Zheng",
+        "Garvesh Raskutti",
+        "Rebecca Willett",
+        "Benjamin Mark"
+    ],
+    "emails": [
+        "lilizheng@stat.wisc.edu",
+        "raskutti@wisc.edu",
+        "willett@uchicago.edu",
+        "bmark2@wisc.edu"
+    ],
+    "id": "20-244",
+    "issue": 216,
+    "pages": [
+        1,
+        88
+    ],
+    "title": "Context-dependent Networks in Multivariate Time Series: Models, Methods, and Risk Bounds in High Dimensions",
+    "volume": 22,
+    "year": 2021
+}

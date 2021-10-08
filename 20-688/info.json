@@ -1,0 +1,26 @@
+{
+    "abstract": "Model-based clustering is widely used in a variety of application areas. However, fundamental concerns remain about robustness. In particular, results can be sensitive to the choice of kernel representing the within-cluster data density. Leveraging on properties of pairwise differences between data points, we propose a class of Bayesian distance clustering methods, which rely on modeling the likelihood of the pairwise distances in place of the original data.  Although some information in the data is discarded, we gain substantial robustness to modeling assumptions.  The proposed approach represents an appealing middle ground between distance- and model-based clustering, drawing advantages from each of these canonical approaches.  We illustrate dramatic gains in the ability to infer clusters that are not well represented by the usual choices of kernel.  A simulation study is included to assess performance relative to competitors, and we apply the approach to clustering of brain genome expression data.",
+    "authors": [
+        "Leo L. Duan",
+        "David B. Dunson"
+    ],
+    "emails": [
+        "li.duan@ufl.edu",
+        "dunson@duke.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/leoduan/BayesDistanceClustering"
+        ]
+    ],
+    "id": "20-688",
+    "issue": 224,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "Bayesian Distance Clustering",
+    "volume": 22,
+    "year": 2021
+}

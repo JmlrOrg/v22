@@ -1,0 +1,18 @@
+{
+    "abstract": "Network complexity has been studied for over half a century and has found a wide range of applications. Many methods have been developed to characterize and estimate the complexity of networks. However, there has been little research with statistical guarantees. In this paper, we develop a statistical theory of graph complexity in a general model of random graphs, the so-called graphon model. Given a graphon, we endow the latent space of the nodes with the neighborhood distance. Our complexity index is then based on the covering number and the Minkowksi dimension of this metric space. Although the latent space is not identifiable, these indices turn out to be identifiable. This notion of complexity has simple interpretations on popular examples: it matches the number of communities in stochastic block models; the dimension of the Euclidean space in random geometric graphs; the regularity of the link function in H\\\"older graphons. From a single observation of the graph, we construct an estimator of the neighborhood-distance and show universal non-asymptotic bounds for its risk, matching minimax lower bounds. Based on this estimated distance, we compute the corresponding covering number and Minkowski dimension and we provide optimal non-asymptotic error bounds for these two plug-in estimators.",
+    "authors": [
+        "Yann Issartel"
+    ],
+    "emails": [
+        "yann.issartel@ensae.fr"
+    ],
+    "id": "19-747",
+    "issue": 191,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "On the Estimation of Network Complexity: Dimension of Graphons",
+    "volume": 22,
+    "year": 2021
+}

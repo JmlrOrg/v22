@@ -1,0 +1,20 @@
+{
+    "abstract": "When training machine learning models using stochastic gradient descent (SGD) with a large number of nodes or massive edge devices, the communication cost of synchronizing gradients at every iteration is a key bottleneck that limits the scalability of the system and hinders the benefit of parallel computation. Local-update SGD algorithms, where worker nodes perform local iterations of SGD and periodically synchronize their local models, can effectively reduce the communication frequency and save the communication delay. In this paper, we propose a powerful framework, named Cooperative SGD, that subsumes a variety of local-update SGD algorithms (such as local SGD, elastic averaging SGD, and decentralized parallel SGD) and provides a unified convergence analysis. Notably, special cases of the unified convergence analysis provided by the cooperative SGD framework yield 1) the first convergence analysis of elastic averaging SGD for general non-convex objectives, and 2) improvements upon previous analyses of local SGD and decentralized parallel SGD. Moreover, we design new algorithms such as elastic averaging SGD with overlapped computation and communication, and decentralized periodic averaging which are shown to be 4x or more faster than the baseline in reaching the same training loss.",
+    "authors": [
+        "Jianyu Wang",
+        "Gauri Joshi"
+    ],
+    "emails": [
+        "jianyuw1@andrew.cmu.edu",
+        "gaurij@andrew.cmu.edu"
+    ],
+    "id": "20-147",
+    "issue": 213,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Cooperative SGD: A Unified Framework for the Design and Analysis of Local-Update SGD Algorithms",
+    "volume": 22,
+    "year": 2021
+}

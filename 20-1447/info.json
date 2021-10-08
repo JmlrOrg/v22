@@ -1,0 +1,20 @@
+{
+    "abstract": "We develop a convex analytic approach to analyze finite width two-layer ReLU networks. We first prove that an optimal solution to the regularized training problem can be characterized as extreme points of a convex set, where simple solutions are encouraged via its convex geometrical properties. We then leverage this characterization to show that an optimal set of parameters yield linear spline interpolation for regression problems involving one dimensional or rank-one data. We also characterize the classification decision regions in terms of a kernel matrix and minimum $\\ell_1$-norm solutions. This is in contrast to Neural Tangent Kernel which is unable to explain predictions of finite width networks. Our convex geometric characterization also provides intuitive explanations of hidden neurons as auto-encoders. In higher dimensions, we show that the training problem can be cast as a finite dimensional convex problem with infinitely many constraints. Then, we apply certain convex relaxations and introduce a cutting-plane algorithm to globally optimize the network. We further analyze the exactness of the relaxations to provide conditions for the convergence to a global optimum. Our analysis also shows that optimal network parameters can be also characterized as interpretable closed-form formulas in some practically relevant special cases.",
+    "authors": [
+        "Tolga Ergen",
+        "Mert Pilanci"
+    ],
+    "emails": [
+        "ergen@stanford.edu",
+        "pilanci@stanford.edu"
+    ],
+    "id": "20-1447",
+    "issue": 212,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Convex Geometry and Duality of Over-parameterized Neural Networks",
+    "volume": 22,
+    "year": 2021
+}

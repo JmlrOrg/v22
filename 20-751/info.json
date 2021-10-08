@@ -1,0 +1,20 @@
+{
+    "abstract": "Learning a function from a finite number of sampled data points (measurements) is a fundamental problem in science and engineering. This is often formulated as a minimum norm interpolation (MNI) problem, a regularized learning problem or, in general, a semi-discrete inverse problem (SDIP), in either Hilbert spaces or Banach spaces. The goal of this paper is to systematically study solutions of these problems in Banach spaces. We aim at obtaining explicit representer theorems for their solutions, on which convenient solution methods can then be developed. For the MNI problem, the explicit representer theorems enable us to express the infimum in terms of the norm of the linear combination of the interpolation functionals. For the purpose of developing efficient computational algorithms, we establish the fixed-point equation formulation of solutions of these problems. We reveal that unlike in a Hilbert space, in general, solutions of these problems in a Banach space may not be able to be reduced to truly finite dimensional problems (with certain infinite dimensional components hidden). We demonstrate how this obstacle can be removed, reducing the original problem to a truly finite dimensional one, in the special case when the Banach space is $\\ell_1(\\mathbb{N})$.",
+    "authors": [
+        "Rui Wang",
+        "Yuesheng Xu"
+    ],
+    "emails": [
+        "rwang11@jlu.edu.cn",
+        "y1xu@odu.edu"
+    ],
+    "id": "20-751",
+    "issue": 225,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "Representer Theorems in Banach Spaces: Minimum Norm Interpolation, Regularized Learning and Semi-Discrete Inverse Problems",
+    "volume": 22,
+    "year": 2021
+}

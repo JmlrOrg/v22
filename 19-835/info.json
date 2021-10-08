@@ -1,0 +1,22 @@
+{
+    "abstract": "In the present paper we study a sparse stochastic network enabled with a block structure. The popular Stochastic Block Model (SBM) and the Degree Corrected Block Model (DCBM) address  sparsity by placing an upper bound on the maximum probability of connections between any pair of nodes. As a result, sparsity describes only the behavior of network as a whole, without distinguishing between the block-dependent sparsity patterns. To the best of our knowledge, the recently introduced Popularity Adjusted  Block Model (PABM) is the only block model that allows to introduce a structural sparsity where some probabilities of connections are identically equal to zero while the rest of them remain above a certain threshold. The latter presents a more nuanced view of the network.",
+    "authors": [
+        "Majid Noroozi",
+        "Marianna Pensky",
+        "Ramchandra Rimal"
+    ],
+    "emails": [
+        "mnoroozi@memphis.edu",
+        "Marianna.Pensky@ucf.edu",
+        "ramchandra.rimal@mtsu.edu"
+    ],
+    "id": "19-835",
+    "issue": 193,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Sparse Popularity Adjusted Stochastic Block Model",
+    "volume": 22,
+    "year": 2021
+}

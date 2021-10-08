@@ -1,0 +1,24 @@
+{
+    "abstract": "Simultaneous inference after model selection is of critical importance to address scientific hypotheses involving a set of parameters.  In this paper, we consider a high-dimensional linear regression model in which a regularization procedure such as LASSO is applied to yield a sparse model.  To establish a simultaneous post-model selection inference, we propose a method of contraction and expansion (MOCE) along the line of debiasing estimation in that we investigate a desirable trade-off between model selection variability and sample variability by the means of forward screening. We establish key theoretical results for the inference from the proposed MOCE procedure. Once the expanded model is properly selected, the theoretical guarantees and simultaneous confidence regions can be constructed by the joint asymptotic normal distribution. In comparison with existing methods, our proposed method exhibits stable and reliable coverage at a nominal significance level and enjoys substantially less computational burden. Thus, our MOCE approach is trustworthy in solving real-world problems.",
+    "authors": [
+        "Fei Wang",
+        "Ling Zhou",
+        "Lu Tang",
+        "Peter X.K. Song"
+    ],
+    "emails": [
+        "wafei@umich.edu",
+        "zhouling@swufe.edu.cn",
+        "lutang@pitt.edu",
+        "pxsong@umich.edu"
+    ],
+    "id": "19-776",
+    "issue": 192,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Method of Contraction-Expansion (MOCE) for Simultaneous Inference in Linear Models",
+    "volume": 22,
+    "year": 2021
+}

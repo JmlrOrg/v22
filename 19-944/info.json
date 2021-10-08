@@ -1,0 +1,32 @@
+{
+    "abstract": "In this paper, we consider the problem of learning a graph structure from multivariate signals, known as graph signals. Such signals are multivariate observations carrying measurements corresponding to the nodes of an unknown graph, which we desire to infer. They are assumed to enjoy a sparse representation in the graph spectral domain, a feature which is known to carry information related to the cluster structure of a graph. The signals are also assumed to behave smoothly with respect to the underlying graph structure. For the graph learning problem, we propose a new optimization program to learn the Laplacian of this graph and provide two algorithms to solve it, called IGL-3SR and FGL-3SR. Based on a 3-step alternating procedure, both algorithms rely on standard minimization methods --such as manifold gradient descent or linear programming-- and have lower complexity compared to state-of-the-art algorithms. While IGL-3SR ensures convergence, FGL-3SR acts as a relaxation and is significantly faster since its alternating process relies on multiple closed-form solutions. Both algorithms are evaluated on synthetic and real data. They are shown to perform as good or better than their competitors in terms of both numerical performance and scalability. Finally, we present a probabilistic interpretation of the proposed optimization program as a Factor Analysis Model.",
+    "authors": [
+        "Pierre Humbert",
+        "Batiste Le Bars",
+        "Laurent Oudre",
+        "Argyris Kalogeratos",
+        "Nicolas Vayatis"
+    ],
+    "emails": [
+        "pierre.humbert@ens-paris-saclay.fr",
+        "batiste.lebars@ens-paris-saclay.fr",
+        "laurent.oudre@ens-paris-saclay.fr",
+        "argyris.kalogeratos@ens-paris-saclay.fr",
+        "nicolas.vayatis@ens-paris-saclay.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/pierreHmbt/GL-3SR"
+        ]
+    ],
+    "id": "19-944",
+    "issue": 195,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Learning Laplacian Matrix from Graph Signals with Sparse Spectral Representation",
+    "volume": 22,
+    "year": 2021
+}

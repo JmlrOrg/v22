@@ -1,0 +1,22 @@
+{
+    "abstract": "Although variational autoencoders (VAE) are successfully used to obtain meaningful low-dimensional representations for high-dimensional data, the characterization of critical points of the loss function for general observation models is not fully understood. We introduce a theoretical framework that is based on a connection between \u03b2-VAE and generalized linear models (GLM). The equality between the activation function of a \u03b2-VAE and the inverse of the link function of a GLM enables us to provide a systematic generalization of the loss analysis for \u03b2-VAE based on the assumption that the observation model distribution belongs to an exponential dispersion family (EDF). As a result, we can initialize \u03b2-VAE nets by maximum likelihood estimates (MLE) that enhance the training performance on both synthetic and real world data sets. As a further consequence, we analytically describe the auto-pruning property inherent in the \u03b2-VAE objective and reason for posterior collapse.",
+    "authors": [
+        "Robert Sicks",
+        "Ralf Korn",
+        "Stefanie Schwaar"
+    ],
+    "emails": [
+        "robert.sicks@itwm.fraunhofer.de",
+        "korn@mathematik.uni-kl.de",
+        "stefanie.schwaar@itwm.fraunhofer.de"
+    ],
+    "id": "21-0037",
+    "issue": 233,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "A Generalised Linear Model Framework for \u03b2-Variational Autoencoders based on Exponential Dispersion Families",
+    "volume": 22,
+    "year": 2021
+}

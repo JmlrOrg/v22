@@ -1,0 +1,33 @@
+{
+    "abstract": "In modern machine learning, we observe the phenomenon of opaqueness debt, which manifests itself by an increased risk of discrimination, lack of reproducibility, and deflated performance due to data drift. An increasing amount of available data and computing power results in the growing complexity of black-box predictive models. To manage these issues, good MLOps practice asks for better validation of model performance and fairness, higher explainability, and continuous monitoring. The necessity for deeper model transparency comes from both scientific and social domains and is also caused by emerging laws and regulations on artificial intelligence. To facilitate the responsible development of machine learning models, we introduce dalex, a Python package which implements a model-agnostic interface for interactive explainability and fairness. It adopts the design crafted through the development of various tools for explainable machine learning; thus, it aims at the unification of existing solutions. This library's source code and documentation are available under open license at https://python.drwhy.ai.",
+    "authors": [
+        "Hubert Baniecki",
+        "Wojciech Kretowicz",
+        "Piotr Pi\u0105tyszek",
+        "Jakub Wi\u015bniewski",
+        "Przemys\u0142aw Biecek"
+    ],
+    "emails": [
+        "hubert.baniecki.stud@pw.edu.pl",
+        "wojciech.kretowicz.stud@pw.edu.pl",
+        "piotr.piatyszek.stud@pw.edu.pl",
+        "jakub.wisniewski10.stud@pw.edu.pl",
+        "przemyslaw.biecek@pw.edu.pl"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ModelOriented/DALEX"
+        ]
+    ],
+    "id": "20-1473",
+    "issue": 214,
+    "pages": [
+        1,
+        7
+    ],
+    "special_issue": "MLOSS",
+    "title": "dalex: Responsible Machine Learning with Interactive Explainability and Fairness in Python",
+    "volume": 22,
+    "year": 2021
+}

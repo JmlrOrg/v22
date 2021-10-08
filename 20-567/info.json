@@ -1,0 +1,26 @@
+{
+    "abstract": "Since the discovery of adversarial examples - the ability to fool modern CNN classifiers with tiny perturbations of the input, there has been much discussion whether they are a \"bug\" that is specific to current neural architectures and training methods or an inevitable \"feature\" of high dimensional geometry. In this paper, we argue for examining adversarial examples from the perspective of Bayes-Optimal classification. We construct realistic image datasets for which the Bayes-Optimal classifier can be efficiently computed and derive analytic conditions on the distributions under which these classifiers are provably robust against any adversarial attack even in high dimensions. Our results show that even when these \"gold standard\" optimal classifiers are robust, CNNs trained on the same datasets consistently learn a vulnerable classifier, indicating that adversarial examples are often an avoidable \"bug\". We further show that RBF SVMs trained on the same data consistently learn a robust classifier. The same trend is observed in experiments with real images in different datasets.",
+    "authors": [
+        "Eitan Richardson",
+        "Yair Weiss"
+    ],
+    "emails": [
+        "eitanrich@cs.huji.ac.il",
+        "yweiss@cs.huji.ac.il"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/eitanrich/bayes-optimal-adv-examples"
+        ]
+    ],
+    "id": "20-567",
+    "issue": 221,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "A Bayes-Optimal View on Adversarial Examples",
+    "volume": 22,
+    "year": 2021
+}

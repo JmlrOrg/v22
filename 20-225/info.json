@@ -1,0 +1,29 @@
+{
+    "abstract": "TensorHive is a tool for organizing work of research and engineering teams that use servers with GPUs for machine learning workloads. In a comprehensive web interface, it supports reservation of GPUs for exclusive usage, hardware monitoring, as well as configuring, executing and queuing distributed computational jobs. Focusing on easy installation and simple configuration, the tool automatically detects the available computing resources and monitors their utilization. Reservations granted on the basis of flexible access control settings are protected by pluggable violation hooks. The job execution module includes auto-configuration templates for distributed neural network training jobs in frameworks such as TensorFlow and PyTorch. Documentation, source code, usage examples and issue tracking are available at the project page: https://github.com/roscisz/TensorHive/",
+    "authors": [
+        "Pawe\u0142 Ro\u015bciszewski",
+        "Micha\u0142 Martyniak",
+        "Filip Schodowski"
+    ],
+    "emails": [
+        "pawel.rosciszewski@pg.edu.pl",
+        "michal.martyniak@linux.pl",
+        "filipschodowski@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/roscisz/TensorHive/"
+        ]
+    ],
+    "id": "20-225",
+    "issue": 215,
+    "pages": [
+        1,
+        5
+    ],
+    "special_issue": "MLOSS",
+    "title": "TensorHive: Management of Exclusive GPU Access for Distributed Machine Learning Workloads",
+    "volume": 22,
+    "year": 2021
+}

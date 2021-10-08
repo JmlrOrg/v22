@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper studies the decentralized optimization and learning problem where multiple interconnected agents aim to learn an optimal decision function defined over a reproducing kernel Hilbert space by jointly minimizing a global objective function, with access to their own locally observed dataset. As a non-parametric approach, kernel learning faces a major challenge in distributed implementation: the decision variables of local objective functions are data-dependent and thus cannot be optimized under the decentralized consensus framework without any raw data exchange among agents. To circumvent this major challenge, we leverage the random feature (RF) approximation approach to enable consensus on the function modeled in the RF space by data-independent parameters across different agents. We then design an iterative algorithm, termed DKLA, for fast-convergent implementation via ADMM. Based on DKLA, we further develop a communication-censored kernel learning (COKE) algorithm that reduces the communication load of DKLA by preventing an agent from transmitting at every iteration unless its local updates are deemed informative. Theoretical results in terms of linear convergence guarantee and generalization performance analysis of DKLA and COKE are provided. Comprehensive tests on both synthetic and real datasets are conducted to verify the communication efficiency and learning effectiveness of COKE.",
+    "authors": [
+        "Ping Xu",
+        "Yue Wang",
+        "Xiang Chen",
+        "Zhi Tian"
+    ],
+    "emails": [
+        "pxu3@gmu.edu",
+        "ywang56@gmu.edu",
+        "xchen26@gmu.edu",
+        "ztian1@gmu.edu"
+    ],
+    "id": "20-070",
+    "issue": 196,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "COKE: Communication-Censored Decentralized Kernel Learning",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "In this paper, we propose a unified convergence analysis for a class of generic shuffling-type gradient methods for solving finite-sum optimization problems. Our analysis works with any sampling without replacement strategy and covers many known variants such as randomized reshuffling, deterministic or randomized single permutation, and cyclic and incremental gradient schemes. We focus on two different settings: strongly convex and nonconvex problems, but also discuss the non-strongly convex case. Our main contribution consists of new non-asymptotic and asymptotic convergence rates for a wide class of shuffling-type gradient methods in both nonconvex and convex settings. We also study  uniformly randomized shuffling variants with different learning rates and model assumptions. While our rate in the nonconvex case is new and significantly improved over existing works under standard assumptions, the rate on the strongly convex one matches the existing best-known rates prior to this paper up to a constant factor without imposing a bounded gradient condition. Finally, we empirically illustrate our theoretical results via two numerical examples: nonconvex logistic regression and neural network training examples. As byproducts, our results suggest some appropriate choices for diminishing learning rates in certain shuffling variants.",
+    "authors": [
+        "Lam M. Nguyen",
+        "Quoc Tran-Dinh",
+        "Dzung T. Phan",
+        "Phuong Ha Nguyen",
+        "Marten van Dijk"
+    ],
+    "emails": [
+        "LamNguyen.MLTD@ibm.com",
+        "quoctd@email.unc.edu",
+        "phandu@us.ibm.com",
+        "phuongha.ntu@gmail.com",
+        "marten.van.dijk@cwi.nl"
+    ],
+    "id": "20-1238",
+    "issue": 207,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "A Unified Convergence Analysis for Shuffling-Type Gradient Methods",
+    "volume": 22,
+    "year": 2021
+}

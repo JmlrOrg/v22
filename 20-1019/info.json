@@ -1,0 +1,18 @@
+{
+    "abstract": "Blackwell's approachability is a framework where two players, the Decision Maker and the Environment, play a repeated game with vector-valued payoffs. The goal of the Decision Maker is to make the average payoff converge to a given set called the target. When this is indeed possible, simple algorithms which guarantee the convergence are known. This abstract tool was successfully used for the construction of optimal strategies in various repeated games, but also found several applications in online learning. By extending an approach proposed by (Abernethy et al., 2011), we construct and analyze a class of Follow the Regularized Leader algorithms (FTRL) for Blackwell's approachability which are able to minimize not only the Euclidean distance to the target set (as it is often the case in the context of Blackwell's approachability) but a wide range of distance-like quantities. This flexibility enables us to apply these algorithms to closely minimize the quantity of interest in various online learning problems. In particular, for regret minimization with \u2113p global costs, we obtain the first bounds with explicit dependence in p and the dimension d.",
+    "authors": [
+        "Joon Kwon"
+    ],
+    "emails": [
+        "joon.kwon@inrae.fr"
+    ],
+    "id": "20-1019",
+    "issue": 200,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Refined approachability algorithms and application to regret minimization with global costs",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "Sparse optimization problems are ubiquitous in many fields such as statistics, signal/image processing and machine learning. This has led to the birth of many iterative algorithms to solve them. A powerful strategy to boost the performance of these algorithms is known as safe screening: it allows the early identification of zero coordinates in the solution, which can then be eliminated to reduce the problem's size and accelerate convergence. In this work, we extend the existing Gap Safe screening framework by relaxing the global strong-concavity assumption on the dual cost function. Instead, we exploit local regularity properties, that is, strong concavity on well-chosen subsets of the domain. The non-negativity constraint is also integrated to the existing framework. Besides making safe screening possible to a broader class of functions that includes $\\beta$-divergences (e.g., the Kullback-Leibler divergence), the proposed approach also improves upon the existing Gap Safe screening rules on previously applicable cases (e.g., logistic regression). The proposed general framework is exemplified by some notable particular cases: logistic function, $\\beta=1.5$ and  Kullback-Leibler divergences. Finally, we showcase the effectiveness of the proposed screening rules with different solvers (coordinate descent, multiplicative-update and proximal gradient algorithms) and different datasets (binary classification, hyperspectral and count data).",
+    "authors": [
+        "Cassio F. Dantas",
+        "Emmanuel Soubies",
+        "C\u00e9dric F\u00e9votte"
+    ],
+    "emails": [
+        "cassio.fraga-dantas@irit.fr",
+        "emmanuel.soubies@irit.fr",
+        "cedric.fevotte@irit.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/cassiofragadantas/KL_screening"
+        ]
+    ],
+    "id": "21-0179",
+    "issue": 236,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Expanding Boundaries of Gap Safe Screening",
+    "volume": 22,
+    "year": 2021
+}

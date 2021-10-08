@@ -1,0 +1,28 @@
+{
+    "abstract": "We compare classification and regression tasks in an overparameterized linear model with Gaussian features. On the one hand, we show that with sufficient overparameterization all training points are support vectors: solutions obtained by least-squares minimum-norm interpolation, typically used for regression, are identical to those produced by the hard-margin support vector machine (SVM) that minimizes the hinge loss, typically used for training classifiers. On the other hand, we show that there exist regimes where these interpolating solutions generalize well when evaluated by the 0-1 test loss function, but do not generalize if evaluated by the square loss function, i.e. they approach the null risk. Our results demonstrate the very different roles and properties of loss functions used at the training phase (optimization) and the testing phase (generalization).",
+    "authors": [
+        "Vidya Muthukumar",
+        "Adhyyan Narang",
+        "Vignesh Subramanian",
+        "Mikhail Belkin",
+        "Daniel Hsu",
+        "Anant Sahai"
+    ],
+    "emails": [
+        "vmuthukumar8@gatech.edu",
+        "adhyyan@uw.edu",
+        "vignesh.subramanian@eecs.berkeley.edu",
+        "mbelkin@ucsd.edu",
+        "djhsu@cs.columbia.edu",
+        "sahai@eecs.berkeley.edu"
+    ],
+    "id": "20-603",
+    "issue": 222,
+    "pages": [
+        1,
+        69
+    ],
+    "title": "Classification vs regression in overparameterized regimes: Does the loss function matter?",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "When faced with problems involving inference in discrete domains, solutions often involve appeals to conditional independence structure or mean-field approximations. We argue that this is insufficient for a number of interesting Bayesian problems, including mixture assignment posteriors and probabilistic relational models (e.g. the stochastic block model). These posteriors exhibit no conditional independence structure, precluding the use of graphical model methods, yet exhibit dependency between every single element of the posterior, making mean-field methods a poor fit. We propose using an expressive yet tractable approximation inspired by tensor factorization methods, alternately known as the tensor train or the matrix product state, and which can be construed of as a direct extension of the mean-field approximation to higher-order dependencies. We give a comprehensive introduction to the application of matrix product state in probabilistic inference, and illustrate how to efficiently perform marginalization, conditioning, sampling, normalization, some expectations, and approximate variational inference in our proposed model.",
+    "authors": [
+        "Rasmus Bonnevie",
+        "Mikkel N. Schmidt"
+    ],
+    "emails": [
+        "rabo@dtu.dk",
+        "mnsc@dtu.dk"
+    ],
+    "id": "18-431",
+    "issue": 187,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Matrix Product States for Inference in Discrete Probabilistic Models",
+    "volume": 22,
+    "year": 2021
+}

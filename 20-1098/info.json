@@ -1,0 +1,30 @@
+{
+    "abstract": "User preference modeling in recommendation system aims to improve customer experience through discovering users\u2019 intrinsic preference based on prior user behavior data. This is a challenging issue because user preferences usually have complicated structure, such as inter-user preference similarity and intra-user preference diversity. Among them, inter-user similarity indicates different users may share similar preference, while intra-user diversity indicates one user may have several preferences. In literatures, deep generative models have been successfully applied in recommendation systems due to its flexibility on statistical distributions and strong ability for non-linear representation learning. However, they suffer from the simple generative process when handling complex user preferences. Meanwhile, the latent representations learned by deep generative models are usually entangled, and may range from observed-level ones that dominate the complex correlations between users, to latent-level ones that characterize a user\u2019s preference, which makes the deep model hard to explain and unfriendly for recommendation. Thus, in this paper, we propose an Interpretable Deep Generative Recommendation Model (InDGRM) to characterize inter-user preference similarity and intra-user preference diversity, which will simultaneously disentangle the learned representation from observed-level and latent-level. In InDGRM, the observed-level disentanglement on users is achieved by modeling the user-cluster structure (i.e., inter-user preference similarity) in a rich multimodal space, so that users with similar preferences are assigned into the same cluster. The observed-level disentanglement on items is achieved by modeling the intra-user preference diversity in a prototype learning strategy, where different user intentions are captured by item groups (one group refers to one intention). To promote disentangled latent representations, InDGRM adopts structure and sparsity-inducing penalty and integrates them into the generative procedure, which has ability to enforce each latent factor focus on a limited subset of items (e.g., one item group) and benefit latent-level disentanglement. Meanwhile, it can be efficiently inferred by minimizing its penalized upper bound with the aid of local variational optimization technique. Theoretically, we analyze the generalization error bound of InDGRM to guarantee its performance. A series of experimental results on four widely-used benchmark datasets demonstrates the superiority of InDGRM on recommendation performance and interpretability.",
+    "authors": [
+        "Huafeng Liu",
+        "Liping Jing",
+        "Jingxuan Wen",
+        "Pengyu Xu",
+        "Jiaqi Wang",
+        "Jian Yu",
+        "Michael K. Ng"
+    ],
+    "emails": [
+        "huafeng@bjtu.edu.cn",
+        "lpjing@bjtu.edu.cn",
+        "jingxuan@bjtu.edu.cn",
+        "pengyuxu@bjtu.edu.cn",
+        "jiaqi.wang@bjtu.edu.cn",
+        "jianyu@bjtu.edu.cn",
+        "mng@maths.hku.hk"
+    ],
+    "id": "20-1098",
+    "issue": 202,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Interpretable Deep Generative Recommendation Models",
+    "volume": 22,
+    "year": 2021
+}

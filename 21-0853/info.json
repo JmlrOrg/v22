@@ -1,0 +1,20 @@
+{
+    "abstract": "Gaussian process (GP) regressors are used in a wide variety of regression tasks, and many recent applications feature domains that are non-Euclidean manifolds or other metric spaces. In this paper, we examine formal consistency of GP regression on general metric spaces. Specifically, we consider a GP prior on an unknown real-valued function with a metric domain space and examine consistency of the resulting posterior distribution. If the kernel is continuous and the sequence of sampling points lies sufficiently dense, then the variance of the posterior GP is shown to converge to zero almost surely monotonically and in $L^p$ for all $p > 1$, uniformly on compact sets. Moreover, we prove that if the difference between the observed function and the mean function of the prior lies in the reproducing kernel Hilbert space of the prior's kernel, then the posterior mean converges pointwise in $L^2$ to the unknown function, and, under an additional assumption on the kernel, uniformly on compacts in $L^1$. This paper provides an important step towards the theoretical legitimization of GP regression on manifolds and other non-Euclidean metric spaces.",
+    "authors": [
+        "Peter Koepernik",
+        "Florian Pfaff"
+    ],
+    "emails": [
+        "peter.koepernik@stcatz.ox.ac.uk",
+        "pfaff@kit.edu"
+    ],
+    "id": "21-0853",
+    "issue": 244,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "Consistency of Gaussian Process Regression in Metric Spaces",
+    "volume": 22,
+    "year": 2021
+}

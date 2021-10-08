@@ -1,0 +1,26 @@
+{
+    "abstract": "We investigate the problem of algorithmic fairness in the case where sensitive and non-sensitive features are available and one aims to generate new, `oblivious', features that closely approximate the non-sensitive features, and are only minimally dependent on the sensitive ones. We study this question in the context of kernel methods. We analyze a relaxed version of the Maximum Mean Discrepancy criterion which does not guarantee full independence but makes the optimization problem tractable. We derive a closed-form solution for this relaxed optimization problem and complement the result with a study of the dependencies between the newly generated features and the sensitive ones. Our key ingredient for generating such oblivious features is a Hilbert-space-valued conditional expectation, which needs to be estimated from data. We propose a plug-in approach and demonstrate how the estimation errors can be controlled. While our techniques help reduce the bias, we would like to point out that  no post-processing of any dataset could possibly serve as an alternative to well-designed experiments.",
+    "authors": [
+        "Steffen Gr\u00fcnew\u00e4lder",
+        "Azadeh Khaleghi"
+    ],
+    "emails": [
+        "s.grunewalder@lancaster.ac.uk",
+        "a.khaleghi@lancaster.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/azalk/Oblivious.git"
+        ]
+    ],
+    "id": "20-1311",
+    "issue": 208,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Oblivious Data for Fairness with Kernels",
+    "volume": 22,
+    "year": 2021
+}

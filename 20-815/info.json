@@ -1,0 +1,33 @@
+{
+    "abstract": "Collaborative and federated learning has become an emerging solution to many industrial applications where data values from different sites are exploit jointly with privacy protection. We introduce FATE, an industrial-grade project that supports enterprises and institutions to build machine learning models collaboratively at large-scale in a distributed manner. FATE supports a variety of secure computation protocols and machine learning algorithms, and features out-of-box usability with end-to-end building modules and visualization tools. Documentations are available at https://github.com/FederatedAI/FATE. Case studies and other information are available at https://www.fedai.org.",
+    "authors": [
+        "Yang Liu",
+        "Tao Fan",
+        "Tianjian Chen",
+        "Qian Xu",
+        "Qiang Yang"
+    ],
+    "emails": [
+        "liuy03@air.tsinghua.edu.cn",
+        "dylanfan@webank.com",
+        "tchenay@connect.ust.hk",
+        "qianxu@webank.com",
+        "qyang@cse.ust.hk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/FederatedAI/FATE"
+        ]
+    ],
+    "id": "20-815",
+    "issue": 226,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "FATE: An Industrial Grade Platform for Collaborative Learning With Data Protection",
+    "volume": 22,
+    "year": 2021
+}

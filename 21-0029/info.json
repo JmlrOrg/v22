@@ -1,0 +1,29 @@
+{
+    "abstract": "The sklvq package is an open-source Python implementation of a set of learning vector quantization (LVQ) algorithms. In addition to providing the core functionality for the GLVQ, GMLVQ, and LGMLVQ algorithms, sklvq is distinctive by putting emphasis on its modular and customizable design. Not only resulting in a feature-rich implementation for users but enabling easy extensions of the algorithms for researchers. The theory behind this design is described in this paper. To facilitate adoptions and inspire future contributions, sklvq is publicly available on Github (under the BSD license) and can be installed through the Python package index (PyPI). Next to being well-covered by automated testing to ensure code quality, it is accompanied by detailed online documentation. The documentation covers usage examples and provides an in-depth API including theory and scientific references.",
+    "authors": [
+        "Rick van Veen",
+        "Michael Biehl",
+        "Gert-Jan de Vries"
+    ],
+    "emails": [
+        "rick.van.veen@rug.nl",
+        "m.biehl@rug.nl",
+        "gj.de.vries@philips.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/rickvanveen/sklvq"
+        ]
+    ],
+    "id": "21-0029",
+    "issue": 231,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "sklvq: Scikit Learning Vector Quantization",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "A common problem in econometrics, statistics, and machine learning is to estimate and make inference on functions that satisfy shape restrictions. For example, distribution functions are nondecreasing and range between zero and one, height growth charts  are nondecreasing in age, and production functions are nondecreasing and quasi-concave in input quantities. We propose a method to enforce these restrictions ex post on generic unconstrained point and interval estimates of the target function by applying functional operators. The interval estimates could be either frequentist confidence bands or Bayesian credible regions. If an operator has reshaping,  invariance, order-preserving, and distance-reducing properties,  the shape-enforced point estimates are closer to the target function than the original point estimates and the shape-enforced interval estimates have greater coverage and shorter length than the original interval estimates. We show that these properties hold for six different operators that cover commonly used shape restrictions in practice: range, convexity, monotonicity, monotone convexity, quasi-convexity, and monotone quasi-convexity, with the latter two restrictions being of paramount importance.  The main attractive property of the post-processing approach is that it works in conjunction with any generic initial point or interval estimate, obtained using  any of parametric, semi-parametric or nonparametric learning methods, including recent methods that are able to exploit either smoothness, sparsity, or other forms of structured parsimony of target functions. The post-processed point and interval estimates automatically inherit and provably improve these properties in finite samples, while also enforcing qualitative shape restrictions brought by scientific reasoning.  We illustrate the results with two empirical applications to the estimation of a height growth chart for infants in India and a production function for chemical firms in China.",
+    "authors": [
+        "Xi Chen",
+        "Victor Chernozhukov",
+        "Ivan Fernandez-Val",
+        "Scott Kostyshak",
+        "Ye Luo"
+    ],
+    "emails": [
+        "xc13@stern.nyu.edu",
+        "vchern@mit.edu",
+        "ivanf@bu.edu",
+        "skostyshak@ufl.edu",
+        "kurtluo@hku.hk"
+    ],
+    "id": "20-513",
+    "issue": 220,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Shape-Enforcing Operators for Generic Point and Interval  Estimators of Functions",
+    "volume": 22,
+    "year": 2021
+}

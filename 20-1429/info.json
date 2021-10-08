@@ -1,0 +1,24 @@
+{
+    "abstract": "We study two-sided matching markets in which one side of the market (the players) does not have a priori knowledge about its preferences for the other side (the arms) and is required to learn its preferences from experience. Also, we assume the players have no direct means of communication. This model extends the standard stochastic multi-armed bandit framework to a decentralized multiple player setting with competition. We introduce a new algorithm for this setting that, over a time horizon $T$, attains $\\mathcal{O}(\\log(T))$ stable regret when preferences of the arms over players are shared, and $\\mathcal{O}(\\log(T)^2)$ regret when there are no assumptions on the preferences on either side. Moreover, in the setting where a single player may deviate, we show that the algorithm is incentive-compatible whenever the arms' preferences are shared, but not necessarily so when preferences are fully general.",
+    "authors": [
+        "Lydia T. Liu",
+        "Feng Ruan",
+        "Horia Mania",
+        "Michael I. Jordan"
+    ],
+    "emails": [
+        "lydiatliu@cs.berkeley.edu",
+        "fengruan@cs.berkeley.edu",
+        "hmania@mit.edu",
+        "jordan@cs.berkeley.edu"
+    ],
+    "id": "20-1429",
+    "issue": 211,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Bandit Learning in Decentralized Matching Markets",
+    "volume": 22,
+    "year": 2021
+}

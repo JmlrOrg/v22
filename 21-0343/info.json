@@ -1,0 +1,55 @@
+{
+    "abstract": "Although there exist several libraries for deep learning on graphs, they are aiming at implementing basic operations for graph deep learning. In the research community, implementing and benchmarking various advanced tasks are still painful and time-consuming with existing libraries. To facilitate graph deep learning research, we introduce DIG: Dive into Graphs, a turnkey library that provides a unified testbed for higher level, research-oriented graph deep learning tasks. Currently, we consider graph generation, self-supervised learning on graphs, explainability of graph neural networks, and deep learning on 3D graphs. For each direction, we provide unified implementations of data interfaces, common algorithms, and evaluation metrics. Altogether, DIG is an extensible, open-source, and turnkey library for researchers to develop new methods and effortlessly compare with common baselines using widely used datasets and evaluation metrics. Source code is available at https://github.com/divelab/DIG.",
+    "authors": [
+        "Meng Liu",
+        "Youzhi Luo",
+        "Limei Wang",
+        "Yaochen Xie",
+        "Hao Yuan",
+        "Shurui Gui",
+        "Haiyang Yu",
+        "Zhao Xu",
+        "Jingtun Zhang",
+        "Yi Liu",
+        "Keqiang Yan",
+        "Haoran Liu",
+        "Cong Fu",
+        "Bora M Oztekin",
+        "Xuan Zhang",
+        "Shuiwang Ji"
+    ],
+    "emails": [
+        "mengliu@tamu.edu",
+        "yzluo@tamu.edu",
+        "limei@tamu.edu",
+        "ethanycx@tamu.edu",
+        "hao.yuan@tamu.edu",
+        "shurui.gui@tamu.edu",
+        "haiyang@tamu.edu",
+        "zhaoxu@tamu.edu",
+        "zjt6791@tamu.edu",
+        "yiliu@tamu.edu",
+        "keqiangyan@tamu.edu",
+        "liuhr99@tamu.edu",
+        "congfu@tamu.edu",
+        "bora@tamu.edu",
+        "xuan.zhang@tamu.edu",
+        "sji@tamu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/divelab/DIG"
+        ]
+    ],
+    "id": "21-0343",
+    "issue": 240,
+    "pages": [
+        1,
+        9
+    ],
+    "special_issue": "MLOSS",
+    "title": "DIG: A Turnkey Library for Diving into Graph Deep Learning Research",
+    "volume": 22,
+    "year": 2021
+}

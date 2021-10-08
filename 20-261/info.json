@@ -1,0 +1,22 @@
+{
+    "abstract": "This article considers spectral community detection in the regime of sparse networks with heterogeneous degree distributions, for which we devise an algorithm to efficiently retrieve communities. Specifically, we demonstrate that a well parametrized form of regularized Laplacian matrices can be used to perform spectral clustering in sparse networks without suffering from its degree heterogeneity. Besides, we exhibit important connections between this proposed matrix and the now popular non-backtracking matrix, the Bethe-Hessian matrix, as well as the standard Laplacian matrix. Interestingly, as opposed to  competitive methods, our proposed improved parametrization inherently accounts for the hardness of the classification problem. These findings are summarized under the form of an algorithm capable of both estimating the number of communities and achieving high-quality community reconstruction.",
+    "authors": [
+        "Lorenzo Dall'Amico",
+        "Romain Couillet",
+        "Nicolas Tremblay"
+    ],
+    "emails": [
+        "lorenzo.dall-amico@gipsa-lab.fr",
+        "romain.couillet@univ-grenoble-alpes.fr",
+        "nicolas.tremblay@gipsa-lab.fr"
+    ],
+    "id": "20-261",
+    "issue": 217,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "A Unified Framework for Spectral Clustering in Sparse Graphs",
+    "volume": 22,
+    "year": 2021
+}

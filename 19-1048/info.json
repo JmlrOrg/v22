@@ -1,0 +1,28 @@
+{
+    "abstract": "We consider distributed statistical optimization in one-shot setting, where there are $m$ machines each observing  $n$ i.i.d. samples. Based on its observed samples, each machine sends a $B$-bit-long message to a server. The server then collects messages from all machines, and estimates a parameter that minimizes an expected convex loss function. We investigate the impact of communication constraint, $B$, on the expected error and derive a tight lower bound on the error achievable by any algorithm. We then propose an estimator, which we call Multi-Resolution Estimator (MRE), whose expected error (when $B\\ge d\\log mn$ where $d$ is the dimension of parameter) meets the aforementioned lower bound up to a poly-logarithmic factor in $mn$. The expected error of MRE, unlike existing algorithms, tends to zero as the number of machines ($m$) goes to infinity, even when the number of samples per machine ($n$) remains upper bounded by a constant. We also address the problem of learning under tiny communication budget, and present lower and upper error bounds for the case that the budget $B$ is a constant.",
+    "authors": [
+        "Saber Salehkaleybar",
+        "Arsalan Sharifnassab",
+        "S. Jamaloddin Golestani"
+    ],
+    "emails": [
+        "saleh@sharif.edu",
+        "a.sharifnassab@gmail.com",
+        "golestani@sharif.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/sabersalehk/MRE_C"
+        ]
+    ],
+    "id": "19-1048",
+    "issue": 189,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "One-Shot Federated Learning: Theoretical Limits and Algorithms to Achieve Them",
+    "volume": 22,
+    "year": 2021
+}

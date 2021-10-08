@@ -1,0 +1,20 @@
+{
+    "abstract": "We study the Extended Kalman Filter in constant dynamics, offering a bayesian perspective of stochastic optimization. For generalized linear models, we obtain high probability bounds on the cumulative excess risk in an unconstrained setting, under the assumption that the algorithm reaches a local phase. In order to avoid any projection step we propose a two-phase analysis. First, for linear and logistic regressions, we prove that the algorithm enters a local phase where the estimate stays in a small region around the optimum. We provide explicit bounds with high probability on this convergence time, slightly modifying the Extended Kalman Filter in the logistic setting. Second, for generalized linear regressions, we provide a martingale analysis of the excess risk in the local phase, improving existing ones in bounded stochastic optimization. The algorithm appears as a parameter-free online  procedure that optimally solves some unconstrained optimization problems.",
+    "authors": [
+        "Joseph de Vilmarest",
+        "Olivier Wintenberger"
+    ],
+    "emails": [
+        "joseph.de_vilmarest@sorbonne-universite.fr",
+        "olivier.wintenberger@sorbonne-universite.fr"
+    ],
+    "id": "20-618",
+    "issue": 223,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Stochastic Online Optimization using Kalman Recursion",
+    "volume": 22,
+    "year": 2021
+}

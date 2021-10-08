@@ -1,0 +1,22 @@
+{
+    "abstract": "Motivated by the important and urgent need for efficient optimization in online recommender systems, we revisit the cascading bandit model proposed by Kveton et al. (2015a). While Thompson sampling (TS) algorithms have been shown to be empirically superior to Upper Confidence Bound (UCB) algorithms for cascading bandits, theoretical guarantees are only known for the latter. In this paper, we first provide a problem-dependent upper bound on the regret of a TS algorithm with Beta-Bernoulli updates; this upper bound is tighter than a recent derivation under a more general setting by Huyuk and Tekin (2019). Next, we design and analyze another TS algorithm with Gaussian updates, TS-Cascade. TS-Cascade achieves the state-of-the-art problem-independent regret bound for cascading bandits. Complementarily, we consider a linear generalization of the cascading bandit model, which allows efficient learning in large-scale cascading bandit problem instances. We introduce and analyze a TS algorithm, which enjoys a regret bound that depends on the dimension of the linear model but not the number of items. Finally, by using information-theoretic techniques and a judicious construction of cascading bandit instances, we derive a nearly-matching lower bound on the expected regret for the standard model. Our paper establishes the first theoretical guarantees on TS algorithms for a stochastic combinatorial bandit problem model with partial feedback. Numerical experiments demonstrate the superiority of the proposed TS algorithms compared to existing UCB-based ones.",
+    "authors": [
+        "Zixin Zhong",
+        "Wang Chi Chueng",
+        "Vincent Y. F. Tan"
+    ],
+    "emails": [
+        "zixin.zhong@u.nus.edu",
+        "isecwc@nus.edu.sg",
+        "vtan@nus.edu.sg"
+    ],
+    "id": "20-447",
+    "issue": 218,
+    "pages": [
+        1,
+        66
+    ],
+    "title": "Thompson Sampling Algorithms for Cascading Bandits",
+    "volume": 22,
+    "year": 2021
+}

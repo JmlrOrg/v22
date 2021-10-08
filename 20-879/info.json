@@ -1,0 +1,30 @@
+{
+    "abstract": "This paper presents an empirical study regarding training probabilistic neural networks using training objectives derived from PAC-Bayes bounds. In the context of probabilistic neural networks, the output of training is a probability distribution over network weights. We present two training objectives, used here for the first time in connection with training neural networks. These two training objectives are derived from tight PAC-Bayes bounds. We also re-implement a previously used training objective based on a classical PAC-Bayes bound, to compare the properties of the predictors learned using the different training objectives. We compute risk certificates for the learnt predictors, based on part of the data used to learn the predictors. We further experiment with different types of priors on the weights (both data-free and data-dependent priors) and neural network architectures. Our experiments on MNIST and CIFAR-10 show that our training methods produce competitive test set errors and non-vacuous risk bounds with much tighter values than previous results in the literature, showing promise not only to guide the learning algorithm through bounding the risk but also for model selection. These observations suggest that the methods studied here might be good candidates for self-certified learning, in the sense of using the whole data set for learning a predictor and certifying its risk on any unseen data (from the same distribution as the training data) potentially without the need for holding out test data.",
+    "authors": [
+        "Mar\u00eda P\u00e9rez-Ortiz",
+        "Omar Risvaplata",
+        "John Shawe-Taylor",
+        "Csaba Szepesv\u00e1ri"
+    ],
+    "emails": [
+        "maria.perez@ucl.ac.uk",
+        "o.rivasplata@cs.ucl.ac.uk",
+        "j.shawe-taylor@ucl.ac.uk",
+        "szepi@google.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mperezortiz/PBB"
+        ]
+    ],
+    "id": "20-879",
+    "issue": 227,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Tighter Risk Certificates for Neural Networks",
+    "volume": 22,
+    "year": 2021
+}

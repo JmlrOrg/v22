@@ -1,0 +1,24 @@
+{
+    "abstract": "Stochastic gradient Langevin dynamics (SGLD) and stochastic gradient Hamiltonian Monte Carlo (SGHMC) are two popular Markov Chain Monte Carlo (MCMC) algorithms for Bayesian inference that can scale to large datasets, allowing to sample from the posterior distribution of the parameters of a statistical model given the input data and the prior distribution over the model parameters. However, these algorithms do not apply to the decentralized learning setting, when a network of agents are working collaboratively to learn the parameters of a statistical model without sharing their individual data due to privacy reasons or communication constraints. We study two algorithms: Decentralized SGLD (DE-SGLD) and Decentralized SGHMC (DE-SGHMC) which are adaptations of SGLD and SGHMC methods that allow scaleable Bayesian inference in the decentralized setting for large datasets. We show that when the posterior distribution is strongly log-concave and smooth, the iterates of these algorithms converge linearly to a neighborhood of the target distribution in the 2-Wasserstein distance if their parameters are selected appropriately. We illustrate the efficiency of our algorithms on decentralized Bayesian linear regression and Bayesian logistic regression problems.",
+    "authors": [
+        "Mert G\u00fcrb\u00fczbalaban",
+        "Xuefeng Gao",
+        "Yuanhan Hu",
+        "Lingjiong Zhu"
+    ],
+    "emails": [
+        "mg1366@rutgers.edu",
+        "xfgao@se.cuhk.edu.hk",
+        "yuanhan.hu@rutgers.edu",
+        "zhu@math.fsu.edu"
+    ],
+    "id": "21-0307",
+    "issue": 239,
+    "pages": [
+        1,
+        69
+    ],
+    "title": "Decentralized Stochastic Gradient Langevin Dynamics and Hamiltonian Monte Carlo",
+    "volume": 22,
+    "year": 2021
+}

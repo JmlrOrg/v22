@@ -1,0 +1,30 @@
+{
+    "abstract": "Dimension reduction (DR) techniques such as t-SNE, UMAP, and TriMap have demonstrated impressive visualization performance on many real-world datasets. One tension that has always faced these methods is the trade-off between preservation of global structure and preservation of local structure: these methods can either handle one or the other, but not both. In this work, our main goal is to understand what aspects of DR methods are important for preserving both local and global structure: it is difficult to design a better method without a true understanding of the choices we make in our algorithms and their empirical impact on the low-dimensional embeddings they produce. Towards the goal of local structure preservation, we provide several useful design principles for DR loss functions based on our new understanding of the mechanisms behind successful DR methods. Towards the goal of global structure preservation, our analysis illuminates that the choice of which components to preserve is important. We leverage these insights to design a new algorithm for DR, called Pairwise Controlled Manifold Approximation Projection (PaCMAP), which preserves both local and global structure. Our work provides several unexpected insights into what design choices both to make and avoid when constructing DR algorithms.",
+    "authors": [
+        "Yingfan Wang",
+        "Haiyang Huang",
+        "Cynthia Rudin",
+        "Yaron Shaposhnik"
+    ],
+    "emails": [
+        "yingfan.wang@duke.edu",
+        "haiyang.huang@duke.edu",
+        "cynthia@cs.duke.edu",
+        "yaron@simon.rochester.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/YingfanWang/PaCMAP"
+        ]
+    ],
+    "id": "20-1061",
+    "issue": 201,
+    "pages": [
+        1,
+        73
+    ],
+    "title": "Understanding How Dimension Reduction Tools Work: An Empirical Approach to Deciphering t-SNE, UMAP, TriMap, and PaCMAP for Data Visualization",
+    "volume": 22,
+    "year": 2021
+}

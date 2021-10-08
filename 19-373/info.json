@@ -1,0 +1,22 @@
+{
+    "abstract": "Crowdsourcing has been a prompt and cost-effective way of obtaining labels in many machine learning applications. In the literature, a number of algorithms have been developed to infer the ground truth based on the collected labels. However, most existing studies assume workers to be independent and are vulnerable to worker collusion. This paper aims at detecting the collusive behaviors of workers in labeling tasks. Specifically, we consider collusion in a pairwise manner and propose a penalized pairwise profile likelihood method based on the adaptive LASSO penalty for collusion detection. Many models that describe the behavior of independent workers can be incorporated into our proposed framework as the baseline model. We further investigate the theoretical properties of the proposed method that guarantee the asymptotic performance. An algorithm based on expectation-maximization algorithm and coordinate descent is proposed to numerically maximize the penalized pairwise profile likelihood function for parameter estimation. To the best of our knowledge, this is the first statistical model that simultaneously detects collusion, learns workers\u2019 capabilities, and infers the ground true labels. Numerical studies using synthetic and real data sets are also conducted to verify the performance of the method.",
+    "authors": [
+        "Changyue Song",
+        "Kaibo Liu",
+        "Xi Zhang"
+    ],
+    "emails": [
+        "csong14@stevens.edu",
+        "kliu8@wisc.edu",
+        "xi.zhang@pku.edu.cn"
+    ],
+    "id": "19-373",
+    "issue": 190,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Collusion Detection and Ground Truth Inference in Crowdsourcing for Labeling Tasks",
+    "volume": 22,
+    "year": 2021
+}

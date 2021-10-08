@@ -1,0 +1,20 @@
+{
+    "abstract": "Many machine learning problems optimize an objective that must be measured with noise.  The primary method is a first order stochastic gradient descent using one or more Monte Carlo (MC) samples at each step. There are settings where ill-conditioning makes second order methods such as limited-memory Broyden-Fletcher-Goldfarb-Shanno (L-BFGS) more effective. We study the use of randomized quasi-Monte Carlo (RQMC) sampling for such problems.  When MC sampling has a root mean squared error (RMSE) of $O(n^{-1/2})$ then RQMC has an RMSE of $o(n^{-1/2})$ that can be close to $O(n^{-3/2})$ in favorable settings. We prove that improved sampling accuracy translates directly to improved optimization.  In our empirical investigations for variational Bayes,  using RQMC with stochastic quasi-Newton method greatly speeds up the optimization, and sometimes finds a better parameter value than MC does.",
+    "authors": [
+        "Sifan Liu",
+        "Art B. Owen"
+    ],
+    "emails": [
+        "sfliu@stanford.edu",
+        "owen@stanford.edu"
+    ],
+    "id": "21-0498",
+    "issue": 243,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "Quasi-Monte Carlo Quasi-Newton in Variational Bayes",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "Many statistical learning problems have recently been shown to be amenable to Semi-Definite Programming (SDP), with community detection and clustering in Gaussian mixture models as the most striking instances Javanmard et al. (2016). Given the growing range of applications of SDP-based techniques to machine learning problems, and the rapid progress in the design of efficient algorithms for solving SDPs, an intriguing  question is to understand how the recent advances from empirical process theory and Statistical Learning Theory can be leveraged for providing a precise statistical analysis of SDP estimators. In the present paper, we borrow cutting edge techniques and concepts from the Learning Theory literature, such as fixed point equations and excess risk curvature arguments, which yield general estimation and prediction results for a wide class of SDP estimators. From this perspective, we revisit some classical results in community detection from Gu\u00e9don and Vershynin (2016) and Fei and Chen (2019), and we obtain statistical guarantees for SDP estimators used in signed clustering, angular group synchronization (for both multiplicative and additive models) and MAX-CUT.  Our theoretical findings are complemented by numerical experiments for each of the three problems considered, showcasing the competitiveness of the SDP estimators.",
+    "authors": [
+        "St\u00e9phane Chr\u00e9tien",
+        "Mihai Cucuringu",
+        "Guillaume Lecu\u00e9",
+        "Lucie Neirac"
+    ],
+    "emails": [
+        "stephane.chretien@univ-lyon2.fr",
+        "mihai.cucuringu@stats.ox.ac.uk",
+        "guillaume.lecue@ensae.fr",
+        "lucie.neirac@gmail.com"
+    ],
+    "id": "21-0021",
+    "issue": 230,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "Learning with semi-definite programming: statistical bounds based on fixed point analysis and excess risk curvature",
+    "volume": 22,
+    "year": 2021
+}

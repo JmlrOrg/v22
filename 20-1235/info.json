@@ -1,0 +1,28 @@
+{
+    "abstract": "In this paper, we propose Q-learning algorithms for continuous-time deterministic optimal control problems with Lipschitz continuous controls. A new class of Hamilton-Jacobi-Bellman (HJB) equations is derived from applying the dynamic programming principle to continuous-time Q-functions. Our method is based on a novel semi-discrete version of the HJB equation, which is proposed to design a Q-learning algorithm that uses data collected in discrete time without discretizing or approximating the system dynamics. We identify the conditions under which the Q-function estimated by this algorithm converges to the optimal Q-function. For practical implementation, we propose the Hamilton-Jacobi DQN, which extends the idea of deep Q-networks (DQN) to our continuous control setting. This approach does not require actor networks or numerical solutions to optimization problems for greedy actions since the HJB equation provides a simple characterization of optimal controls via ordinary differential equations. We empirically demonstrate the performance of our method through benchmark tasks and high-dimensional linear-quadratic problems.",
+    "authors": [
+        "Jeongho Kim",
+        "Jaeuk Shin",
+        "Insoon Yang"
+    ],
+    "emails": [
+        "jhkim206@snu.ac.kr",
+        "sju5379@snu.ac.kr",
+        "insoonyang@snu.ac.kr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/HJDQN/HJQ"
+        ]
+    ],
+    "id": "20-1235",
+    "issue": 206,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Hamilton-Jacobi Deep Q-Learning for Deterministic Continuous-Time Systems with Lipschitz Continuous Controls",
+    "volume": 22,
+    "year": 2021
+}

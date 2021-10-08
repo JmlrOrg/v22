@@ -1,0 +1,20 @@
+{
+    "abstract": "Due to the rapid growth of smart agents such as weakly connected computational nodes and sensors, developing decentralized algorithms that can perform computations on local agents becomes a major research direction. This paper considers the problem of decentralized principal components analysis (PCA), which is a statistical method widely used for data analysis. We introduce a technique called subspace tracking to reduce the communication cost, and apply it  to power iterations. This leads to a decentralized PCA algorithm called DeEPCA, which has a convergence rate similar to that of the centralized PCA, while achieving the best communication complexity among existing decentralized PCA algorithms. DeEPCA is the first decentralized PCA algorithm with the number of communication rounds for each power iteration independent of target precision. Compared to existing algorithms, the proposed method is easier to tune in practice, with an improved overall communication cost. Our experiments validate the advantages of DeEPCA empirically.",
+    "authors": [
+        "Haishan Ye",
+        "Tong Zhang"
+    ],
+    "emails": [
+        "yehaishan@xjtu.edu.cn",
+        "tongzhang@tongzhang-ml.org"
+    ],
+    "id": "21-0298",
+    "issue": 238,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "DeEPCA: Decentralized Exact PCA with  Linear Convergence Rate",
+    "volume": 22,
+    "year": 2021
+}

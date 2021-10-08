@@ -1,0 +1,24 @@
+{
+    "abstract": "Gaussian Processes (GPs) provide powerful probabilistic frameworks for interpolation, forecasting, and smoothing, but have been hampered by computational scaling issues. Here we investigate data sampled on one dimension (e.g., a scalar or vector time series sampled at arbitrarily-spaced intervals), for which state-space models are popular due to their linearly-scaling computational costs. It has long been conjectured that state-space models are general, able to approximate any one-dimensional GP. We provide the first general proof of this conjecture, showing that any stationary GP on one dimension with vector-valued observations governed by a Lebesgue-integrable continuous kernel can be approximated to any desired precision using a specifically-chosen statespace model: the Latent Exponentially Generated (LEG) family. This new family offers several advantages compared to the general state-space model: it is always stable (no unbounded growth), the covariance can be computed in closed form, and its parameter space is unconstrained (allowing straightforward estimation via gradient descent). The theorem\u2019s proof also draws connections to Spectral Mixture Kernels, providing insight about this popular family of kernels. We develop parallelized algorithms for performing inference and learning in the LEG model, test the algorithm on real and synthetic data, and demonstrate scaling to datasets with billions of samples.",
+    "authors": [
+        "Jackson Loper",
+        "David Blei",
+        "John P. Cunningham",
+        "Liam Paninski"
+    ],
+    "emails": [
+        "jaloper@umich.edu",
+        "david.blei@columbia.edu",
+        "jpc2181@columbia.edu",
+        "lmp2107@columbia.edu"
+    ],
+    "id": "21-0072",
+    "issue": 234,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "A general linear-time inference method for Gaussian Processes on one dimension",
+    "volume": 22,
+    "year": 2021
+}

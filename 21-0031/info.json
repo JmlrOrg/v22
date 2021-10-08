@@ -1,0 +1,30 @@
+{
+    "abstract": "This paper presents a probabilistic perspective on iterative methods for approximating the solution $\\mathbf{x} \\in \\mathbb{R}^d$ of a nonsingular linear system $\\mathbf{A} \\mathbf{x} = \\mathbf{b}$. Classically, an iterative method produces a sequence $\\mathbf{x}_m$ of approximations that converge to $\\mathbf{x}$ in $\\mathbb{R}^d$.\r\nOur approach, instead, lifts a standard iterative method to act on the set of probability distributions, $\\mathcal{P}(\\mathbb{R}^d)$, outputting a sequence of probability distributions $\\mu_m \\in \\mathcal{P}(\\mathbb{R}^d)$.\r\nThe output of a probabilistic iterative method can provide both a \"best guess\" for $\\mathbf{x}$, for example by taking the mean of $\\mu_m$, and also probabilistic uncertainty quantification for the value of $\\mathbf{x}$ when it has not been exactly determined. A comprehensive theoretical treatment is presented in the case of a stationary linear iterative method, where we characterise both the rate of contraction of $\\mu_m$ to an atomic measure on $\\mathbf{x}$ and the nature of the uncertainty quantification being provided. We conclude with an empirical illustration that highlights the potential for probabilistic iterative methods to provide insight into solution uncertainty.",
+    "authors": [
+        "Jon Cockayne",
+        "Ilse C.F. Ipsen",
+        "Chris J. Oates",
+        "Tim W. Reid"
+    ],
+    "emails": [
+        "jcockayne@turing.ac.uk",
+        "ipsen@ncsu.edu",
+        "chris.oates@ncl.ac.uk",
+        "twreid@ncsu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jcockayne/probabilistic_iterative_methods_code"
+        ]
+    ],
+    "id": "21-0031",
+    "issue": 232,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Probabilistic Iterative Methods for Linear Systems",
+    "volume": 22,
+    "year": 2021
+}

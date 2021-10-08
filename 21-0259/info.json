@@ -1,0 +1,30 @@
+{
+    "abstract": "We investigate the implementation of a new stochastic Kuramoto-Vicsek-type model for global optimization of nonconvex functions on the sphere. This model belongs to the class of Consensus-Based Optimization. In fact, particles move on the sphere driven by a drift towards an instantaneous consensus point, which is computed as a convex combination of particle locations, weighted by the cost function according to Laplace's principle, and it represents an approximation to a global minimizer. The dynamics is further perturbed by a random vector field to favor exploration, whose variance is a function of the distance of the particles  to the consensus point. In particular, as soon as the  consensus is reached the stochastic component vanishes. The main results of this paper are about the proof of convergence of the numerical scheme to global minimizers provided conditions of well-preparation of the initial datum. The proof combines previous results of mean-field limit with a novel asymptotic analysis, and classical convergence results of numerical methods for SDE. We present several numerical experiments, which show that the algorithm proposed in the present paper scales well with the dimension and is extremely versatile. To quantify the performances of the new approach, we show that the algorithm is able to perform essentially as good as ad hoc state of the art methods  in challenging problems in signal processing and machine learning, namely the phase retrieval problem and the robust subspace detection.",
+    "authors": [
+        "Massimo Fornasier",
+        "Lorenzo Pareschi",
+        "Hui Huang",
+        "Philippe S\u00fcnnen"
+    ],
+    "emails": [
+        "massimo.fornasier@ma.tum.de",
+        "lorenzo.pareschi@unife.it",
+        "hui.huang1@ucalgary.ca",
+        "philippe.suennen@ma.tum.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/PhilippeSu/KV-CBO"
+        ]
+    ],
+    "id": "21-0259",
+    "issue": 237,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Consensus-Based Optimization on the Sphere: Convergence to Global Minimizers and Machine Learning",
+    "volume": 22,
+    "year": 2021
+}

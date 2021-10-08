@@ -1,0 +1,26 @@
+{
+    "abstract": "Data integration, or the strategic analysis of multiple sources of data simultaneously, can often lead to discoveries that may be hidden in individualistic analyses of a single data source. We develop a new unsupervised data integration method named Integrated Principal Components Analysis (iPCA), which is a model-based generalization of PCA and serves as a practical tool to find and visualize common patterns that occur in multiple data sets. The key idea driving iPCA is the matrix-variate normal model, whose Kronecker product covariance structure captures both individual patterns within each data set and joint patterns shared by multiple data sets. Building upon this model, we develop several penalized (sparse and non-sparse) covariance estimators for iPCA, and using geodesic convexity, we prove that our non-sparse iPCA estimator converges to the global solution of a non-convex problem. We also demonstrate the practical advantages of iPCA through extensive simulations and a case study application to integrative genomics for Alzheimer's disease. In particular, we show that the joint patterns extracted via iPCA are highly predictive of a patient's cognition and Alzheimer's diagnosis.",
+    "authors": [
+        "Tiffany M. Tang",
+        "Genevera I. Allen"
+    ],
+    "emails": [
+        "tiffany.tang@berkeley.edu",
+        "gallen@rice.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/DataSlingers/iPCA"
+        ]
+    ],
+    "id": "20-084",
+    "issue": 198,
+    "pages": [
+        1,
+        71
+    ],
+    "title": "Integrated Principal Components Analysis",
+    "volume": 22,
+    "year": 2021
+}

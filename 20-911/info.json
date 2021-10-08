@@ -1,0 +1,18 @@
+{
+    "abstract": "This paper studies the rates of convergence for learning distributions implicitly with the adversarial framework and Generative Adversarial Networks (GANs), which subsume Wasserstein, Sobolev, MMD GAN, and Generalized/Simulated Method of Moments (GMM/SMM) as special cases. We study a wide range of parametric and nonparametric target distributions under a host of objective evaluation metrics. We investigate how to obtain valid statistical guarantees for GANs through the lens of regularization. On the nonparametric end, we derive the optimal minimax rates for distribution estimation under the adversarial framework. On the parametric end, we establish a theory for general neural network classes (including deep leaky ReLU networks) that characterizes the interplay on the choice of generator and discriminator pair. We discover and isolate a new notion of regularization, called the generator-discriminator-pair regularization, that sheds light on the advantage of GANs compared to classical parametric and nonparametric approaches for explicit distribution estimation. We develop novel oracle inequalities as the main technical tools for analyzing GANs, which are of independent interest.",
+    "authors": [
+        "Tengyuan Liang"
+    ],
+    "emails": [
+        "tengyuan.liang@chicagobooth.edu"
+    ],
+    "id": "20-911",
+    "issue": 228,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "How Well Generative Adversarial Networks Learn Distributions",
+    "volume": 22,
+    "year": 2021
+}

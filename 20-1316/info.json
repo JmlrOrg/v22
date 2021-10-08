@@ -1,0 +1,28 @@
+{
+    "abstract": "Researchers have proposed a wide variety of model explanation approaches, but it remains unclear how most methods are related or when one method is preferable to another. We describe a new unified class of methods, removal-based explanations, that are based on the principle of simulating feature removal to quantify each feature's influence. These methods vary in several respects, so we develop a framework that characterizes each method along three dimensions: 1) how the method removes features, 2) what model behavior the method explains, and 3) how the method summarizes each feature's influence. Our framework unifies 26 existing methods, including several of the most widely used approaches: SHAP, LIME, Meaningful Perturbations, and permutation tests. This newly understood class of explanation methods has rich connections that we examine using tools that have been largely overlooked by the explainability literature. To anchor removal-based explanations in cognitive psychology, we show that feature removal is a simple application of subtractive counterfactual reasoning. Ideas from cooperative game theory shed light on the relationships and trade-offs among different methods, and we derive conditions under which all removal-based explanations have information-theoretic interpretations. Through this analysis, we develop a unified framework that helps practitioners better understand model explanation tools, and that offers a strong theoretical foundation upon which future explainability research can build.",
+    "authors": [
+        "Ian Covert",
+        "Scott Lundberg",
+        "Su-In Lee"
+    ],
+    "emails": [
+        "icovert@cs.washington.edu",
+        "scott.lundberg@microsoft.com",
+        "suinlee@cs.washington.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/iancovert/removal-explanations/"
+        ]
+    ],
+    "id": "20-1316",
+    "issue": 209,
+    "pages": [
+        1,
+        90
+    ],
+    "title": "Explaining by Removing: A Unified Framework for Model Explanation",
+    "volume": 22,
+    "year": 2021
+}
