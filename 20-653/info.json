@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose a variance reduction framework for variational inference using the Multilevel Monte Carlo (MLMC) method. Our framework is built on reparameterized gradient estimators and ``recycles'' parameters obtained from past update history in optimization. In addition, our framework provides a new optimization algorithm based on stochastic gradient descent (SGD) that adaptively estimates the sample size used for gradient estimation according to the ratio of the gradient variance. We theoretically show that, with our method, the variance of the gradient estimator decreases as optimization proceeds and that a learning rate scheduler function helps improve the convergence. We also show that, in terms of the signal-to-noise ratio, our method can improve the quality of gradient estimation by the learning rate scheduler function without increasing the initial sample size. Finally, we confirm that our method achieves faster convergence and reduces the variance of the gradient estimator compared with other methods through experimental comparisons with baseline methods using several benchmark datasets.",
+    "authors": [
+        "Masahiro Fujisawa",
+        "Issei Sato"
+    ],
+    "emails": [
+        "fujisawa@ms.k.u-tokyo.ac.jp",
+        "sato@k.u-tokyo.ac.jp"
+    ],
+    "id": "20-653",
+    "issue": 278,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Multilevel Monte Carlo Variational Inference",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider the distributed learning setting where each agent or learner holds a specific parametric model and a data source. The goal is to integrate information across a set of learners and data sources to enhance the prediction accuracy of a given learner. A natural way to integrate information is to build a joint model across a group of learners that shares common parameters of interest. However, the underlying parameter sharing patterns across a set of learners may not be known a priori. Misspecifying the parameter sharing patterns or the parametric model for each learner often yields a biased estimator that degrades the prediction accuracy. We propose a general method to integrate information across a set of learners that is robust against misspecification of both models and parameter sharing patterns. The main crux of our proposed method is to sequentially incorporate additional learners that can enhance the prediction accuracy of an existing joint model based on user- specified parameter sharing patterns across a set of learners. Theoretically, we show that the proposed method can data-adaptively select a parameter sharing pattern that enhances the predictive performance of a given learner. Extensive numerical studies are conducted to assess the performance of the proposed method.",
+    "authors": [
+        "Jiaying Zhou",
+        "Jie Ding",
+        "Kean Ming Tan",
+        "Vahid Tarokh"
+    ],
+    "emails": [
+        "zhou1054@umn.edu",
+        "dingj@umn.edu",
+        "keanming@umich.edu",
+        "vahid.tarokh@duke.edu"
+    ],
+    "id": "20-1078",
+    "issue": 256,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Model Linkage Selection for Cooperative Learning",
+    "volume": 22,
+    "year": 2021
+}

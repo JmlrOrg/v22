@@ -1,0 +1,28 @@
+{
+    "abstract": "In this paper, we propose an analytical method for performing tractable approximate Gaussian inference (TAGI) in Bayesian neural networks. The method enables the analytical Gaussian inference of the posterior mean vector and diagonal covariance matrix for weights and biases. The method proposed has a computational complexity of $\\mathcal{O}(n)$ with respect to the number of parameters $n$, and the tests performed on regression and classification benchmarks confirm that, for a same network architecture, it matches the performance of existing methods relying on gradient backpropagation.",
+    "authors": [
+        "James-A. Goulet",
+        "Luong Ha Nguyen",
+        "Saeid Amiri"
+    ],
+    "emails": [
+        "james.goulet@polymtl.ca",
+        "luongha.nguyen@gmail.com",
+        "saeid.amiri1@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/CivML-PolyMtl/TAGI"
+        ]
+    ],
+    "id": "20-1009",
+    "issue": 251,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "Tractable Approximate Gaussian Inference for Bayesian Neural Networks",
+    "volume": 22,
+    "year": 2021
+}

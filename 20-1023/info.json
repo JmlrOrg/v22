@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose and analyze batch greedy heuristics for cardinality constrained maximization of non-submodular non-decreasing set functions.  We consider the standard greedy paradigm, along with its distributed greedy and stochastic greedy variants. Our theoretical guarantees are characterized by the combination of submodularity and supermodularity ratios. We argue how these parameters define tight modular bounds based on incremental gains, and provide a novel reinterpretation of the classical greedy algorithm using the minorize-maximize (MM) principle. Based on that analogy, we propose a new class of methods exploiting any plausible modular bound. In the context of optimal experimental design for linear Bayesian inverse problems, we bound the submodularity and supermodularity ratios when the underlying objective is based on mutual information. We also develop novel modular bounds for the mutual information in this setting, and describe certain connections to polyhedral combinatorics. We discuss how algorithms using these modular bounds relate to established statistical notions such as leverage scores and to more recent efforts such as volume sampling. We demonstrate our theoretical findings on synthetic problems and on a real-world climate monitoring example.",
+    "authors": [
+        "Jayanth Jagalur-Mohan",
+        "Youssef Marzouk"
+    ],
+    "emails": [
+        "jagalur@mit.edu",
+        "ymarz@mit.edu"
+    ],
+    "id": "20-1023",
+    "issue": 252,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Batch greedy maximization of non-submodular functions: Guarantees and applications to experimental design",
+    "volume": 22,
+    "year": 2021
+}

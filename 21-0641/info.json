@@ -1,0 +1,20 @@
+{
+    "abstract": "In this paper we consider optimization with relaxation, an ample paradigm to make data-driven designs. This approach was previously considered by the same authors of this work in Garatti and Campi (2019), a study that revealed a deep-seated connection between two concepts: risk (probability of not satisfying a new, out-of-sample, constraint) and complexity (according to a definition introduced in paper Garatti and Campi, 2019). This connection was shown to have profound implications in applications because it implied that the risk can be estimated from the complexity, a quantity that can be measured from the data without any knowledge of the data-generation mechanism. In the present work we establish new results. First, we expand the scope of Garatti and Campi (2019) so as to embrace a more general setup that covers various algorithms in machine learning. Then, we study classical support vector methods \u2013 including SVM (Support Vector Machine), SVR (Support Vector Regression) and SVDD (Support Vector Data Description) \u2013 and derive new results for the ability of these methods to generalize. All results are valid for any finite size of the data set. When the sample size tends to infinity, we establish the unprecedented result that the risk approaches the ratio between the complexity and the cardinality of the data sample, regardless of the value of the complexity.",
+    "authors": [
+        "Marco C. Campi",
+        "Simone Garatti"
+    ],
+    "emails": [
+        "marco.campi@unibs.it",
+        "simone.garatti@polimi.it"
+    ],
+    "id": "21-0641",
+    "issue": 288,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "A Theory of the Risk for Optimization with Relaxation and its Application to Support Vector Machines",
+    "volume": 22,
+    "year": 2021
+}

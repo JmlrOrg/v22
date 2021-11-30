@@ -1,0 +1,22 @@
+{
+    "abstract": "Fourier neural operators (FNOs) have recently been proposed as an effective framework for learning operators that map between infinite-dimensional spaces. We prove that FNOs are universal, in the sense that they can approximate any continuous operator to desired accuracy. Moreover, we suggest a mechanism by which FNOs can approximate operators associated with PDEs efficiently. Explicit error bounds are derived to show that the size of the FNO, approximating operators associated with a Darcy type elliptic PDE and with the incompressible Navier-Stokes equations of fluid dynamics, only increases sub (log)-linearly in terms of the reciprocal of the error. Thus, FNOs are shown to efficiently approximate operators arising in a large class of PDEs.",
+    "authors": [
+        "Nikola Kovachki",
+        "Samuel Lanthaler",
+        "Siddhartha Mishra"
+    ],
+    "emails": [
+        "nkovachki@caltech.edu",
+        "samuel.lanthaler@math.ethz.ch",
+        "siddhartha.mishra@math.ethz.ch"
+    ],
+    "id": "21-0806",
+    "issue": 290,
+    "pages": [
+        1,
+        76
+    ],
+    "title": "On Universal Approximation and Error Bounds for Fourier Neural Operators",
+    "volume": 22,
+    "year": 2021
+}

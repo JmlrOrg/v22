@@ -1,0 +1,24 @@
+{
+    "abstract": "Effective decision making requires understanding the uncertainty inherent in a prediction. In regression, this uncertainty can be estimated by a variety of methods; however, many of these methods are laborious to tune, generate overconfident uncertainty intervals, or lack sharpness (give imprecise intervals). We address these challenges by proposing a novel method to capture predictive distributions in regression by defining two neural networks with two distinct loss functions. Specifically, one network approximates the cumulative distribution function, and the second network approximates its inverse. We refer to this method as Collaborating Networks (CN). Theoretical analysis demonstrates that a fixed point of the optimization is at the idealized solution, and that the method is asymptotically consistent to the ground truth distribution. Empirically, learning is straightforward and robust. We benchmark CN against several common approaches on two synthetic and six real-world datasets, including forecasting A1c values in diabetic patients from electronic health records, where uncertainty is critical.  In the synthetic data, the proposed approach essentially matches ground truth. In the real-world datasets, CN improves results on many performance metrics, including log-likelihood estimates, mean absolute errors, coverage estimates, and prediction interval widths.",
+    "authors": [
+        "Tianhui Zhou",
+        "Yitong Li",
+        "Yuan Wu",
+        "David Carlson"
+    ],
+    "emails": [
+        "tianhui.zhou@duke.edu",
+        "lyt91222@outlook.com",
+        "yuan.wu@duke.edu",
+        "david.carlson@duke.edu"
+    ],
+    "id": "20-1100",
+    "issue": 257,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Estimating Uncertainty Intervals from Collaborating Networks",
+    "volume": 22,
+    "year": 2021
+}

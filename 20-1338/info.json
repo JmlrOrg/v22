@@ -1,0 +1,28 @@
+{
+    "abstract": "Bayesian networks are a powerful framework for studying the dependency structure of variables in a complex system. The problem of learning Bayesian networks is tightly associated with the given data type. Ordinal data, such as stages of cancer, rating scale survey questions, and letter grades for exams, are ubiquitous in applied research. However, existing solutions are mainly for continuous and nominal data. In this work, we propose an iterative score-and-search method - called the Ordinal Structural EM (OSEM) algorithm - for learning Bayesian networks from ordinal data. Unlike traditional approaches designed for nominal data, we explicitly respect the ordering amongst the categories. More precisely, we assume that the ordinal variables originate from marginally discretizing a set of Gaussian variables, whose structural dependence in the latent space follows a directed acyclic graph. Then, we adopt the Structural EM algorithm and derive closed-form scoring functions for efficient graph searching. Through simulation studies, we illustrate the superior performance of the OSEM algorithm compared to the alternatives and analyze various factors that may influence the learning accuracy. Finally, we demonstrate the practicality of our method with a real-world application on psychological survey data from 408 patients with co-morbid symptoms of obsessive-compulsive disorder and depression.",
+    "authors": [
+        "Xiang Ge Luo",
+        "Giusi Moffa",
+        "Jack Kuipers"
+    ],
+    "emails": [
+        "xiangge.luo@bsse.ethz.ch",
+        "giusi.moffa@unibas.ch",
+        "jack.kuipers@bsse.ethz.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/xgluo/OSEM"
+        ]
+    ],
+    "id": "20-1338",
+    "issue": 266,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Learning Bayesian Networks from Ordinal Data",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,34 @@
+{
+    "abstract": "One major obstacle hindering the ubiquitous use of CNNs for inference is their relatively high memory bandwidth requirements, which can be the primary energy consumer and throughput bottleneck in hardware accelerators. Inspired by quantization-aware training approaches, we propose a compression-aware training (CAT) method that involves training the model to allow better compression of weights and feature maps during neural network deployment. Our method trains the model to achieve low-entropy feature maps, enabling efficient compression at inference time using classical transform coding methods. CAT significantly improves the state-of-the-art results reported for quantization evaluated on various vision and NLP tasks, such as image classification (ImageNet), image detection (Pascal VOC), sentiment analysis (CoLa), and textual entailment (MNLI). For example, on ResNet-18, we achieve near baseline ImageNet accuracy with an average representation of only 1.5 bits per value with 5-bit quantization. Moreover, we show that entropy reduction of weights and activations can be applied together, further improving bandwidth reduction. Reference implementation is available.",
+    "authors": [
+        "Chaim Baskin",
+        "Brian Chmiel",
+        "Evgenii Zheltonozhskii",
+        "Ron Banner",
+        "Alex M. Bronstein",
+        "Avi Mendelson"
+    ],
+    "emails": [
+        "chaimbaskin@campus.technion.ac.il",
+        "brian.chmiel@intel.com",
+        "evgeniizh@campus.technion.ac.il",
+        "ron.banner@intel.com",
+        "bron@cs.technion.ac.il",
+        "avi.mendelson@technion.ac.il"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/CAT-teams/CAT"
+        ]
+    ],
+    "id": "20-1374",
+    "issue": 269,
+    "pages": [
+        1,
+        20
+    ],
+    "title": "CAT: Compression-Aware Training for bandwidth reduction",
+    "volume": 22,
+    "year": 2021
+}

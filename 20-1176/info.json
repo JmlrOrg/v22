@@ -1,0 +1,22 @@
+{
+    "abstract": "A crucial ability of human intelligence is to build up models of individual 3D objects from partial scene observations. Recent works either achieve object-centric generation but without the ability to infer the representation, or achieve 3D scene representation learning but without object-centric compositionality. Therefore, learning to both represent and render 3D scenes with object-centric compositionality remains elusive. In this paper, we propose a probabilistic generative model for learning to build modular and compositional 3D object models from partial observations of a multi-object scene. The proposed model can (i) infer the 3D object representations by learning to search and group object areas, and also (ii) render from an arbitrary viewpoint not only individual objects but also the full scene by compositing the objects. The entire learning process is unsupervised and end-to-end. In experiments, in addition to generation quality, we also demonstrate that the learned representation permits object-wise manipulation and novel scene generation, and generalizes to various settings. Results can be found on our project website: https://sites.google.com/view/roots3d",
+    "authors": [
+        "Chang Chen",
+        "Fei Deng",
+        "Sungjin Ahn"
+    ],
+    "emails": [
+        "chang.chen@rutgers.edu",
+        "fei.deng@rutgers.edu",
+        "sungjin.ahn@rutgers.edu"
+    ],
+    "id": "20-1176",
+    "issue": 259,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "ROOTS: Object-Centric Representation and Rendering of 3D Scenes",
+    "volume": 22,
+    "year": 2021
+}

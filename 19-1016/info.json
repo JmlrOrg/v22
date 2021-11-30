@@ -1,0 +1,22 @@
+{
+    "abstract": "We study the Personalized PageRank (PPR) algorithm, a local spectral method for clustering, which extracts clusters using locally-biased random walks around a given seed node.  In contrast to previous work, we adopt a classical statistical learning setup, where we obtain samples from an unknown nonparametric distribution, and aim to identify sufficiently salient clusters.  We introduce a trio of population-level functionals---the normalized cut, conductance, and local spread, analogous to graph-based functionals of the same name---and prove that PPR, run on a neighborhood graph, recovers clusters with small population normalized cut and large conductance and local spread. We apply our general theory to establish that PPR identifies connected regions of high density (density clusters) that satisfy a set of natural geometric conditions. We also show a converse result, that PPR can fail to recover geometrically poorly-conditioned density clusters, even asymptotically. Finally, we provide empirical support for our theory.",
+    "authors": [
+        "Alden Green",
+        "Sivaraman Balakrishnan",
+        "Ryan J. Tibshirani"
+    ],
+    "emails": [
+        "ajgreen@stat.cmu.edu",
+        "siva@stat.cmu.edu",
+        "ryantibs@stat.cmu.edu"
+    ],
+    "id": "19-1016",
+    "issue": 247,
+    "pages": [
+        1,
+        71
+    ],
+    "title": "Statistical Guarantees for Local Spectral Clustering on Random Neighborhood Graphs",
+    "volume": 22,
+    "year": 2021
+}

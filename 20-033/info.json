@@ -1,0 +1,21 @@
+{
+    "abstract": "Eigenvector computation is central to numerical algebra and often critical to many data analysis tasks nowadays. Most research on this problem has been focusing on projection methods like power iterations, such that this category of algorithms can achieve both optimal convergence rates and cheap per-iteration costs. In contrast, search methods belonging to another main category are less understood in this respect. In this work, we consider the leading eigenvector computation as a non-convex optimization problem on the (generalized) Stiefel manifold and covers the cases for both standard and generalized eigenvectors. It is shown that the inexact Riemannian gradient method induced by the shift-and-invert preconditioning is guaranteed to converge to one of the ground-truth eigenvectors at an optimal rate, e.g., $O(\\sqrt{\\kappa_{\\mathbf{B}}\\frac{\\lambda_{1}}{\\lambda_{1}-\\lambda_{p+1}}}\\log\\frac{1}{\\epsilon})$ for a pair of real symmetric matrices $(\\mathbf{A},\\mathbf{B})$ with $\\mathbf{B}$ being positive definite, where $\\lambda_{i}$ represents the $i$-th largest generalized eigenvalue of the matrix pair, $p$ is the multiplicity of $\\lambda_{1}$, and $\\kappa_{\\mathbf{B}}$ stands for the condition number of $\\mathbf{B}$. The standard eigenvector computation is recovered by setting $\\mathbf{B}$ to an identity matrix. Our analysis reduces the dependence on the eigengap, making it the first Riemannian eigensolver that achieves the optimal rate. Experiments demonstrate that the proposed search method is able to deliver significantly better performance than projection methods by taking advantages of step-size schemes.",
+    "authors": [
+        "Zhiqiang Xu",
+        "Ping Li"
+    ],
+    "emails": [
+        "xuzhiqiang04@baidu.com",
+        "liping11@baidu.com"
+    ],
+    "id": "20-033",
+    "issue": 249,
+    "pages": [
+        1,
+        46
+    ],
+    "special_issue": "MLOSS",
+    "title": "On the Riemannian Search for Eigenvector Computation",
+    "volume": 22,
+    "year": 2021
+}

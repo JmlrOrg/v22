@@ -1,0 +1,24 @@
+{
+    "abstract": "Detecting when the underlying distribution changes for the observed time series is a fundamental problem arising in a broad spectrum of applications. In this paper, we study multiple change-point localization in the high-dimensional regression setting, which is particularly challenging as no direct observations of the parameter of interest is available. Specifically, we assume we observe $\\{ x_t, y_t\\}_{t=1}^n$ where $ \\{ x_t\\}_{t=1}^n $ are $p$-dimensional covariates, $\\{y_t\\}_{t=1}^n$ are the univariate responses satisfying $\\mathbb{E}(y_t) = x_t^\\top \\beta_t^*  \\text{ for } 1\\le t \\le n $ and $\\{\\beta_t^*\\}_{t=1}^n $ are the  unobserved regression coefficients that change over time in a piecewise constant manner. We propose a novel projection-based algorithm, Variance Projected Wild Binary Segmentation~(VPWBS), which transforms the original (difficult) problem of change-point detection in $p$-dimensional regression to a simpler problem of change-point detection in mean of a one-dimensional time series. VPWBS is shown to achieve sharp localization rate $O_p(1/n)$ up to a log factor, a significant improvement from the best rate $O_p(1/\\sqrt{n})$ known in the existing literature for multiple change-point localization in high-dimensional regression. Extensive numerical experiments are conducted to demonstrate the robust and favorable performance of VPWBS over two state-of-the-art algorithms, especially when the size of change in the regression coefficients $\\{\\beta_t^*\\}_{t=1}^n $ is small.",
+    "authors": [
+        "Daren Wang",
+        "Zifeng Zhao",
+        "Kevin Z. Lin",
+        "Rebecca Willett"
+    ],
+    "emails": [
+        "dwang24@nd.edu",
+        "zifeng.zhao@nd.edu",
+        "kevinl1@wharton.upenn.edu",
+        "willett@uchicago.edu"
+    ],
+    "id": "19-531",
+    "issue": 248,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Statistically and Computationally Efficient Change Point Localization in Regression Settings",
+    "volume": 22,
+    "year": 2021
+}

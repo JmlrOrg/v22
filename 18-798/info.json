@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper presents new deviation inequalities that are valid uniformly in time under adaptive sampling in a multi-armed bandit model. The deviations are measured using the Kullback-Leibler divergence in a given one-dimensional exponential family, and take into account multiple arms at a time. They are obtained by constructing for each arm a mixture martingale based on a hierarchical prior, and by multiplying those martingales. Our deviation inequalities allow us to analyze stopping rules based on generalized likelihood ratios for a large class of sequential identification problems. We establish asymptotic optimality of sequential tests generalising the track-and-stop method to problems beyond best arm identification. We further derive sharper stopping thresholds, where the number of arms is replaced by the newly introduced pure exploration problem rank. We construct tight confidence intervals for linear functions and minima/maxima of the vector of arm means.",
+    "authors": [
+        "Emilie Kaufmann",
+        "Wouter M. Koolen"
+    ],
+    "emails": [
+        "emilie.kaufmann@univ-lille.fr",
+        "wmkoolen@cwi.nl"
+    ],
+    "id": "18-798",
+    "issue": 246,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Mixture Martingales Revisited with Applications to Sequential Tests and Confidence Intervals",
+    "volume": 22,
+    "year": 2021
+}

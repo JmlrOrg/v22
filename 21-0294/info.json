@@ -1,0 +1,24 @@
+{
+    "abstract": "In this article, we study the problem of high-dimensional conditional independence testing, a key building block in statistics and machine learning. We propose an inferential procedure based on double generative adversarial networks (GANs). Specifically, we first introduce a double GANs framework to learn two generators of the conditional distributions. We then integrate the two generators to construct a test statistic, which takes the form of the maximum of generalized covariance measures of multiple transformation functions. We also employ data-splitting and cross-fitting to minimize the conditions on the generators to achieve the desired asymptotic properties, and employ multiplier bootstrap to obtain the corresponding p-value. We show that the constructed test statistic is doubly robust, and the resulting test both controls type-I error and has the power approaching one asymptotically. Also notably, we establish those theoretical guarantees under much weaker and practically more feasible conditions compared to the existing tests, and our proposal gives a concrete example of how to utilize some state-of-the-art deep learning tools, such as GANs, to help address a classical but challenging statistical problem. We demonstrate the efficacy of our test through both simulations and an application to an anti-cancer drug dataset. A Python implementation of the proposed procedure is available at https://github.com/tianlinxu312/dgcit.",
+    "authors": [
+        "Chengchun Shi",
+        "Tianlin Xu",
+        "Wicher Bergsma",
+        "Lexin Li"
+    ],
+    "emails": [
+        "c.shi7@lse.ac.uk",
+        "T.Xu12@lse.ac.uk",
+        "w.p.bergsma@lse.ac.uk",
+        "lexinli@berkeley.edu"
+    ],
+    "id": "21-0294",
+    "issue": 285,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Double Generative Adversarial Networks for Conditional Independence Testing",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "Labeling patients in electronic health records with respect to their statuses of having a disease or condition, i.e. case or control statuses, has increasingly relied on prediction models using high-dimensional variables derived from structured and unstructured electronic health record data. A major hurdle currently is a lack of valid statistical inference methods for the case probability. In this paper, considering high-dimensional sparse logistic regression models for prediction, we propose a novel bias-corrected estimator for the case probability through the development of linearization and variance enhancement techniques. We establish asymptotic normality of the proposed estimator for any loading vector in high dimensions. We construct a confidence interval for the case probability and propose a hypothesis testing procedure for patient case-control labelling.  We demonstrate the proposed method via extensive simulation studies and application to real-world electronic health record data.",
+    "authors": [
+        "Zijian Guo",
+        "Prabrisha Rakshit",
+        "Daniel S. Herman",
+        "Jinbo Chen"
+    ],
+    "emails": [
+        "zijguo@stat.rutgers.edu",
+        "pr412@scarletmail.rutgers.edu",
+        "daniel.herman2@pennmedicine.upenn.edu",
+        "jinboche@upenn.edu"
+    ],
+    "id": "20-1050",
+    "issue": 254,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Inference for the Case Probability in High-dimensional Logistic Regression",
+    "volume": 22,
+    "year": 2021
+}

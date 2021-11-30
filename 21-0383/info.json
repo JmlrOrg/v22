@@ -1,0 +1,24 @@
+{
+    "abstract": "Tech companies (e.g., Google or Facebook) often use randomized online experiments and/or A/B testing primarily based on the average treatment effects to compare their new product with an old one. However, it is also critically important to detect qualitative treatment effects such that the new one may significantly outperform the existing one only under some specific circumstances. The aim of this paper is to develop a powerful testing procedure to efficiently detect such qualitative treatment effects. We propose a scalable online updating algorithm to implement our test procedure. It has three novelties including adaptive randomization, sequential monitoring, and online updating with guaranteed type-I error control. We also thoroughly examine the theoretical properties of our testing procedure including the limiting distribution of test statistics and the justification of an efficient bootstrap method. Extensive empirical studies are conducted to examine the finite sample performance of our test procedure.",
+    "authors": [
+        "Chengchun Shi",
+        "Shikai Luo",
+        "Hongtu Zhu",
+        "Rui Song"
+    ],
+    "emails": [
+        "c.shi7@lse.ac.uk",
+        "sluo198912@163.com",
+        "htzhu@email.unc.edu",
+        "rsong@ncsu.edu"
+    ],
+    "id": "21-0383",
+    "issue": 286,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "An Online Sequential Test for Qualitative Treatment Effects",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "High-dimensional data sets are often analyzed and explored via the construction of a latent low-dimensional space which enables convenient visualization and efficient predictive modeling or clustering. For complex data structures, linear dimensionality reduction techniques like PCA may not be sufficiently flexible to enable low-dimensional representation. Non-linear dimension reduction techniques, like kernel PCA and autoencoders, suffer from loss of interpretability since each latent variable is dependent of all input dimensions. To address this limitation, we here present path lasso penalized autoencoders. This structured regularization enhances interpretability by penalizing each path through the encoder from an input to a latent variable, thus restricting how many input variables are represented in each latent dimension. Our algorithm uses a group lasso penalty and non-negative matrix factorization to construct a sparse, non-linear latent representation. We compare the path lasso regularized autoencoder to PCA, sparse PCA, autoencoders and sparse autoencoders on real and simulated data sets. We show that the algorithm exhibits much lower reconstruction errors than sparse PCA and parameter-wise lasso regularized autoencoders for low-dimensional representations. Moreover, path lasso representations provide a more accurate reconstruction match, i.e. preserved relative distance between objects in the original and reconstructed spaces.",
+    "authors": [
+        "Oskar Allerbo",
+        "Rebecka J\u00f6rnsten"
+    ],
+    "emails": [
+        "allerbo@chalmers.se",
+        "jornsten@chalmers.se"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/allerbo/path_lasso"
+        ]
+    ],
+    "id": "21-0203",
+    "issue": 283,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Non-linear, Sparse Dimensionality Reduction via Path Lasso Penalized Autoencoders",
+    "volume": 22,
+    "year": 2021
+}

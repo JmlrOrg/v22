@@ -1,0 +1,26 @@
+{
+    "abstract": "Domain adaptation (DA) arises as an important problem in statistical machine learning when the source data used to train a model is different from the target data used to test the model. Recent advances in DA have mainly been application-driven and have largely relied on the idea of a common subspace for source and target data. To understand the empirical successes and failures of DA methods, we propose a theoretical framework via structural causal models that enables analysis and comparison of the prediction performance of DA methods. This framework also allows us to itemize the assumptions needed for the DA methods to have a low target error. Additionally, with insights from our theory, we propose a new DA method called CIRM that outperforms existing DA methods when both the covariates and label distributions are perturbed in the target data. We complement the theoretical analysis with extensive simulations to show the necessity of the devised assumptions. Reproducible synthetic and real data experiments are also provided to illustrate the strengths and weaknesses of DA methods when parts of the assumptions in our theory are violated.",
+    "authors": [
+        "Yuansi Chen",
+        "Peter B\u00fchlmann"
+    ],
+    "emails": [
+        "yuansi.chen@stat.math.ethz.ch",
+        "buhlmann@stat.math.ethz.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/yuachen/CausalDA"
+        ]
+    ],
+    "id": "20-1227",
+    "issue": 261,
+    "pages": [
+        1,
+        80
+    ],
+    "title": "Domain adaptation under structural causal models",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "Much of the theory for the lasso in the linear model $Y = \\boldsymbol{X} \\beta^* + \\varepsilon$ hinges on the quantity $2\\| \\boldsymbol{X}^\\top \\varepsilon \\|_\\infty / n$, which we call the lasso's effective noise. Among other things, the effective noise plays an important role in finite-sample bounds for the lasso, the calibration of the lasso's tuning parameter, and inference on the parameter vector $\\beta^*$. In this paper, we develop a bootstrap-based estimator of the quantiles of the effective noise. The estimator is fully data-driven, that is, does not require any additional tuning parameters. We equip our estimator with finite-sample guarantees and apply it to tuning parameter calibration for the lasso and to high-dimensional inference on the parameter vector $\\beta^*$.",
+    "authors": [
+        "Johannes Lederer",
+        "Michael Vogt"
+    ],
+    "emails": [
+        "johannes.lederer@rub.de",
+        "m.vogt@uni-ulm.de"
+    ],
+    "id": "20-539",
+    "issue": 276,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Estimating the Lasso's Effective Noise",
+    "volume": 22,
+    "year": 2021
+}

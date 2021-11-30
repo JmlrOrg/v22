@@ -1,0 +1,22 @@
+{
+    "abstract": "In this article, we investigate the problem of simultaneous change point inference and structure recovery in the context of high dimensional Gaussian graphical models with possible abrupt changes. In particular, motivated by neighborhood selection, we incorporate a threshold variable and an unknown threshold parameter into a joint sparse regression model which combines p l1-regularized  node-wise regression problems together. The change point estimator and the corresponding estimated coefficients of precision matrices are obtained together. Based on that, a classifier is introduced to distinguish whether a change point exists. To recover the graphical structure correctly, a data-driven thresholding procedure is proposed. In theory, under some sparsity conditions and regularity assumptions, our method can correctly choose a homogeneous or heterogeneous model with high accuracy. Furthermore, in the latter case with a change point, we establish estimation consistency of the change point estimator, by allowing the number of nodes being much larger than the sample size. Moreover, it is shown that, in terms of structure recovery of Gaussian graphical models, the proposed thresholding procedure achieves model selection consistency and controls the number of false positives. The validity of our proposed method is justified via extensive numerical studies. Finally, we apply our proposed method to the S&P 500 dataset to show its empirical usefulness.",
+    "authors": [
+        "Bin Liu",
+        "Xinsheng Zhang",
+        "Yufeng Liu"
+    ],
+    "emails": [
+        "liubin0145@gmail.com",
+        "xszhang@fudan.edu.cn",
+        "yfliu@email.unc.edu"
+    ],
+    "id": "20-327",
+    "issue": 274,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Simultaneous Change Point Inference and Structure Recovery for High Dimensional Gaussian Graphical Models",
+    "volume": 22,
+    "year": 2021
+}

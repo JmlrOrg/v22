@@ -1,0 +1,40 @@
+{
+    "abstract": "Trading off exploration and exploitation in an unknown environment is key to maximising expected online return during learning. A Bayes-optimal policy, which does so optimally, conditions its actions not only on the environment state but also on the agent's uncertainty about the environment. Computing a Bayes-optimal policy is however intractable for all but the smallest tasks. In this paper, we introduce variational Bayes-Adaptive Deep RL (variBAD), a way to meta-learn approximately Bayes-optimal policies for complex tasks. VariBAD simultaneously meta-learns a variational auto-encoder to perform approximate inference, and a policy that incorporates task uncertainty directly during action selection by conditioning on both the environment state and the approximate belief. In two toy domains, we illustrate how variBAD performs structured online exploration as a function of task uncertainty. We further evaluate variBAD on MuJoCo tasks widely used in meta-RL and show that it achieves higher online return than existing methods. On the recently proposed Meta-World ML1 benchmark, variBAD achieves state of the art results by a large margin, fully solving two out of the three ML1 tasks for the first time.",
+    "authors": [
+        "Luisa Zintgraf",
+        "Sebastian Schulze",
+        "Cong Lu",
+        "Leo Feng",
+        "Maximilian Igl",
+        "Kyriacos Shiarlis",
+        "Yarin Gal",
+        "Katja Hofmann",
+        "Shimon Whiteson"
+    ],
+    "emails": [
+        "luisa.zintgraf@cs.ox.ac.uk",
+        "sebastian.schulze@eng.ox.ac.uk",
+        "cong.lu@stats.ox.ac.uk",
+        "leo.feng@mila.quebec",
+        "migl@google.com",
+        "kyriacos@google.com",
+        "yarin@cs.ox.ac.uk",
+        "katja.hofmann@microsoft.com",
+        "shimon.whiteson@cs.ox.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/lmzintgraf/varibad"
+        ]
+    ],
+    "id": "21-0657",
+    "issue": 289,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "VariBAD: Variational Bayes-Adaptive Deep RL via Meta-Learning",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "This paper focuses on spectral graph convolutional neural networks (ConvNets), where filters are defined as elementwise multiplication in the frequency domain of a graph. In machine learning settings where the data set consists of signals defined on many different graphs, the trained ConvNet should generalize to signals on graphs unseen in the training set. It is thus important to transfer ConvNets between graphs. Transferability, which is a certain type of generalization capability, can be loosely defined as follows: if two graphs describe the same phenomenon, then a single filter or ConvNet should have similar repercussions on both graphs. This paper aims at debunking the common misconception that spectral filters are not transferable. We show that if two graphs discretize the same ``continuous'' space, then a spectral filter or ConvNet has approximately the same repercussion on both graphs. Our analysis is more permissive than the standard analysis. Transferability is typically described as the robustness of the filter to small graph perturbations and re-indexing of the vertices. Our analysis accounts also for large graph perturbations. We prove transferability between graphs that can have completely different dimensions and topologies, only requiring that both graphs discretize the same underlying space in some generic sense.",
+    "authors": [
+        "Ron Levie",
+        "Wei Huang",
+        "Lorenzo Bucci",
+        "Michael Bronstein",
+        "Gitta Kutyniok"
+    ],
+    "emails": [
+        "levie@math.lmu.de",
+        "wei.huang@usi.ch",
+        "lorenzo.bucci@usi.ch",
+        "m.bronstein@imperial.ac.uk",
+        "kutyniok@math.lmu.de"
+    ],
+    "id": "20-213",
+    "issue": 272,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Transferability of Spectral Graph Convolutional Neural Networks",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "The Private Aggregation of Teacher Ensembles (PATE) framework is one of the most promising recent approaches in differentially private learning. Existing theoretical analysis shows that PATE consistently learns any VC-classes in the realizable setting, but falls short in explaining its success in more general cases where the error rate of the optimal classifier is bounded away from zero. We fill in this gap by introducing the Tsybakov Noise Condition (TNC) and establish stronger and more interpretable learning bounds. These bounds provide new insights into when PATE works and improve over existing results even in the narrower realizable setting. We also investigate the compelling idea of using active learning for saving privacy budget, and empirical studies show the effectiveness of this new idea. The novel components in the proofs include a more refined analysis of the majority voting classifier --- which could be of independent interest --- and an observation that the synthetic \"student\" learning problem is nearly realizable by construction under the Tsybakov noise condition.",
+    "authors": [
+        "Chong Liu",
+        "Yuqing Zhu",
+        "Kamalika Chaudhuri",
+        "Yu-Xiang Wang"
+    ],
+    "emails": [
+        "chongliu@cs.ucsb.edu",
+        "yuqingzhu@ucsb.edu",
+        "kamalika@cs.ucsd.edu",
+        "yuxiangw@cs.ucsb.edu"
+    ],
+    "id": "20-1251",
+    "issue": 262,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Revisiting Model-Agnostic Private Learning: Faster Rates and Active Learning",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "As machine learning procedures become an increasingly popular modeling option among applied researchers, there has been a corresponding interest in developing valid tools for understanding their statistical properties and uncertainty.  Tree-based ensembles like random forests remain one such popular option for which several important theoretical advances have been made in recent years by drawing upon a connection between their natural subsampled structure and the classical theory of $U$-statistics.  Unfortunately, the procedures for estimating predictive variance resulting from these studies are plagued by severe bias and extreme computational overhead.  Here, we argue that the root of these problems lies in the use of subsampling without replacement and that with-replacement subsamples, resulting in $V$-statistics, substantially alleviates these problems. We develop a general framework for analyzing the asymptotic behavior of $V$-statistics, demonstrating asymptotic normality under precise regularity conditions and establishing previously unreported connections to $U$-statistics.  Importantly, these findings allow us to produce a natural and efficient means of estimating the variance of a conditional expectation, a problem of wide interest across multiple scientific domains that also lies at the heart of uncertainty quantification for supervised learning ensembles.",
+    "authors": [
+        "Zhengze Zhou",
+        "Lucas Mentch",
+        "Giles Hooker"
+    ],
+    "emails": [
+        "zz433@cornell.edu",
+        "lkm31@pitt.edu",
+        "ghooker@berkeley.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ZhengzeZhou/V-statistics-and-Variance-Estimation"
+        ]
+    ],
+    "id": "21-0575",
+    "issue": 287,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "V-statistics and Variance Estimation",
+    "volume": 22,
+    "year": 2021
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "We discuss some properties of generative models for word embeddings. Namely, (Arora & Al., 2016) proposed a latent discourse model implying the concentration of the partition function of the word vectors. This concentration phenomenon led to an asymptotic linear relation between the pointwise mutual information (PMI) of pairs of words and the scalar product of their vectors. Here, we first revisit this concentration phenomenon and prove it under slightly weaker assumptions, for a set of random vectors symmetrically distributed around the origin. Second, we empirically evaluate the relation between PMI and scalar products of word vectors satisfying the concentration property. Our empirical results  indicate that, in practice, this relation does not hold with arbitrarily small error. This observation is further supported by two theoretical results: (i) the error cannot be exactly zero because the corresponding shifted PMI matrix cannot be positive semidefinite; (ii) under mild assumptions, there exist pairs of words for which the error cannot be close to zero. We deduce that either natural language does not follow the assumptions of the considered generative model, or the current word vector generation methods do not allow the construction of the hypothesized word embeddings.",
+    "authors": [
+        "Sammy Khalife",
+        "Douglas Gon\u00e7alves",
+        "Youssef Allouah",
+        "Leo Liberti"
+    ],
+    "emails": [
+        "khalife@lix.polytechnique.fr",
+        "douglas@mtm.ufsc.br",
+        "youssef.allouah@polytechnique.edu",
+        "liberti@lix.polytechnique.fr"
+    ],
+    "id": "20-1413",
+    "issue": 270,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Further results on latent discourse models and word embeddings",
+    "volume": 22,
+    "year": 2021
+}

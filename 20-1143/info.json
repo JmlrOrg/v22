@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper considers fair probabilistic binary classification where the outputs of primary interest are predicted probabilities, commonly referred to as scores. We formulate the problem of transforming scores to satisfy fairness constraints that are linear in conditional means of scores while minimizing a cross-entropy objective. The formulation can be applied directly to post-process classifier outputs and we also explore a pre-processing extension, thus allowing maximum freedom in selecting a classification algorithm. We derive a closed-form expression for the optimal transformed scores and a convex optimization problem for the transformation parameters. In the population limit, the transformed score function is the fairness-constrained minimizer of cross-entropy with respect to the true conditional probability of the outcome. In the finite sample setting, we propose a method called FairScoreTransformer to approach this solution using a combination of standard probabilistic classifiers and ADMM. We provide several consistency and finite-sample guarantees for FairScoreTransformer, relating to the transformation parameters and transformed score function that it obtains. Comprehensive experiments comparing to 10 existing methods show that FairScoreTransformer has advantages for score-based metrics such as Brier score and AUC while remaining competitive for binary label-based metrics such as accuracy.",
+    "authors": [
+        "Dennis Wei",
+        "Karthikeyan Natesan Ramamurthy",
+        "Flavio P. Calmon"
+    ],
+    "emails": [
+        "dwei@us.ibm.com",
+        "knatesa@us.ibm.com",
+        "flavio@seas.harvard.edu"
+    ],
+    "id": "20-1143",
+    "issue": 258,
+    "pages": [
+        1,
+        78
+    ],
+    "title": "Optimized Score Transformation for Consistent Fair Classification",
+    "volume": 22,
+    "year": 2021
+}

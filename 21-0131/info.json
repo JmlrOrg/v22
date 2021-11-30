@@ -1,0 +1,28 @@
+{
+    "abstract": "We present Low Distortion Local Eigenmaps (LDLE), a manifold learning technique which constructs a set of low distortion local views of a data set in lower dimension and registers them to obtain a global embedding. The local views are constructed using the global eigenvectors of the graph Laplacian and are registered using Procrustes analysis. The choice of these eigenvectors may vary across the regions. In contrast to existing techniques, LDLE can embed closed and non-orientable manifolds into their intrinsic dimension by tearing them apart. It also provides gluing instruction on the boundary of the torn embedding to help identify the topology of the original manifold. Our experimental results will show that LDLE largely preserved distances up to a constant scale while other techniques produced higher distortion. We also demonstrate that LDLE produces high quality embeddings even when the data is noisy or sparse.",
+    "authors": [
+        "Dhruv Kohli",
+        "Alexander Cloninger",
+        "Gal Mishne"
+    ],
+    "emails": [
+        "dhkohli@ucsd.edu",
+        "acloninger@ucsd.edu",
+        "gmishne@ucsd.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/chiggum/pyLDLE"
+        ]
+    ],
+    "id": "21-0131",
+    "issue": 282,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "LDLE: Low Distortion Local Eigenmaps",
+    "volume": 22,
+    "year": 2021
+}

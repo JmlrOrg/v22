@@ -1,0 +1,22 @@
+{
+    "abstract": "Many modern data sets require inference methods that can estimate the shared and individual-specific components of variability in collections of matrices that change over time. Promising methods have been developed to analyze these types of data in static cases, but only a few approaches are available for dynamic settings. To address this gap, we consider novel models and inference methods for pairs of matrices in which the columns correspond to multivariate observations at different time points. In order to characterize common and individual features, we propose a Bayesian dynamic factor modeling framework called Time Aligned Common and Individual Factor Analysis (TACIFA) that includes uncertainty in time alignment through an unknown warping function.  We provide theoretical support for the proposed model, showing identifiability and posterior concentration.  The structure enables efficient computation through a Hamiltonian Monte Carlo (HMC) algorithm.  We show excellent performance in simulations, and illustrate the method through application to a social mimicry experiment.",
+    "authors": [
+        "Arkaprava Roy",
+        "Jana Schaich Borg",
+        "David B Dunson"
+    ],
+    "emails": [
+        "ark007@ufl.edu",
+        "js524@duke.edu",
+        "dunson@duke.edu"
+    ],
+    "id": "20-048",
+    "issue": 250,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "Bayesian time-aligned factor analysis of paired multivariate time series",
+    "volume": 22,
+    "year": 2021
+}

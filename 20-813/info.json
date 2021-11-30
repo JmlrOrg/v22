@@ -1,0 +1,18 @@
+{
+    "abstract": "This paper  considers online optimization of a renewal-reward system.  A controller performs a sequence of tasks back-to-back.  Each task has a random vector of parameters, called the task type vector, that affects the task processing options and also affects the resulting reward and time duration of the task. The probability distribution for the task type vector is unknown and the controller must learn to make efficient decisions so that time-average reward converges to optimality.  Prior work on such renewal optimization problems leaves open the question of optimal convergence time. This paper develops an algorithm with  an optimality gap that decays like $O(1/\\sqrt{k})$, where $k$ is the number of tasks processed. The same algorithm is shown to have faster $O(\\log(k)/k)$ performance when the system satisfies a strong concavity property.  The proposed algorithm uses an auxiliary variable that is updated according to a classic Robbins-Monro iteration. It makes online scheduling decisions at the start of each renewal frame based on this variable and  the observed task type. A matching converse is obtained for the strongly concave case by constructing an example system for which all algorithms have performance at best $\\Omega(\\log(k)/k)$. A matching $\\Omega(1/\\sqrt{k})$ converse is also shown for the general case without strong concavity.",
+    "authors": [
+        "Michael J. Neely"
+    ],
+    "emails": [
+        "mjneely@usc.edu"
+    ],
+    "id": "20-813",
+    "issue": 279,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Fast Learning for Renewal Optimization in Online Task Scheduling",
+    "volume": 22,
+    "year": 2021
+}

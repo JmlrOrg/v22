@@ -1,0 +1,30 @@
+{
+    "abstract": "Temporal-Difference off-policy algorithms are among the building blocks of reinforcement learning (RL). Within this family, Q-Learning is arguably the most famous one, which has been widely studied and extended. The update rule of Q-learning involves the use of the maximum operator to estimate the maximum expected value of the return. However, this estimate is positively biased, and may hinder the learning process, especially in stochastic environments and when function approximation is used. We introduce the Weighted Estimator as an effective solution to mitigate the negative effects of overestimation in Q-Learning. The Weighted Estimator estimates the maximum expected value as a weighted sum of the action values, with the weights being the probabilities that each action value is the maximum. In this work, we study the problem from the statistical perspective of estimating the maximum expected value of a set of random variables and provide bounds to the bias and the variance of the Weighted Estimator, showing its advantages over other estimators present in literature. Then, we derive algorithms to enable the use of the Weighted Estimator, in place of the Maximum Estimator, in online and batch RL, and we introduce a novel algorithm for deep RL. Finally, we empirically evaluate our algorithms in a large set of heterogeneous problems, encompassing discrete and continuous, low and high dimensional, deterministic and stochastic environments. Experimental results show the effectiveness of the Weighted Estimator in controlling the bias of the estimate, resulting in better performance than representative baselines and robust learning w.r.t. a large set of diverse environments.",
+    "authors": [
+        "Carlo D'Eramo",
+        "Andrea Cini",
+        "Alessandro Nuara",
+        "Matteo Pirotta",
+        "Cesare Alippi",
+        "Jan Peters",
+        "Marcello Restelli"
+    ],
+    "emails": [
+        "carlo.deramo@tu-darmstadt.de",
+        "andrea.cini@usi.ch",
+        "alessandro.nuara@polimi.it",
+        "pirotta@fb.com",
+        "cesare.alippi@usi.ch",
+        "mail@jan-peters.net",
+        "marcello.restelli@polimi.it"
+    ],
+    "id": "20-633",
+    "issue": 277,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Gaussian Approximation for Bias Reduction in Q-Learning",
+    "volume": 22,
+    "year": 2021
+}

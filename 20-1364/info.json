@@ -1,0 +1,35 @@
+{
+    "abstract": "Stable-Baselines3 provides open-source implementations of deep reinforcement learning (RL) algorithms in Python. The implementations have been benchmarked against reference codebases, and automated unit tests cover 95% of the code. The algorithms follow a consistent interface and are accompanied by extensive documentation, making it simple to train and compare different RL algorithms. Our documentation, examples, and source-code are available at https://github.com/DLR-RM/stable-baselines3.",
+    "authors": [
+        "Antonin Raffin",
+        "Ashley Hill",
+        "Adam Gleave",
+        "Anssi Kanervisto",
+        "Maximilian Ernestus",
+        "Noah Dormann"
+    ],
+    "emails": [
+        "antonin.raffin@dlr.de",
+        "ashley.hill@cea.fr",
+        "gleave@berkeley.edu",
+        "anssk@cs.uef.fi",
+        "maximilian@ernestus.com",
+        "noah.dormann@dlr.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/DLR-RM/stable-baselines3"
+        ]
+    ],
+    "id": "20-1364",
+    "issue": 268,
+    "pages": [
+        1,
+        8
+    ],
+    "special_issue": "MLOSS",
+    "title": "Stable-Baselines3: Reliable Reinforcement Learning Implementations",
+    "volume": 22,
+    "year": 2021
+}

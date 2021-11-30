@@ -1,0 +1,28 @@
+{
+    "abstract": "Robust Markov decision processes (MDPs) compute reliable solutions for dynamic decision problems with partially-known transition probabilities. Unfortunately, accounting for uncertainty in the transition probabilities significantly increases the computational complexity of solving robust MDPs, which limits their scalability. This paper describes new, efficient algorithms for solving the common class of robust MDPs with s- and sa-rectangular ambiguity sets defined by weighted L1 norms. We propose partial policy iteration, a new, efficient, flexible, and general policy iteration scheme for robust MDPs. We also propose fast methods for computing the robust Bellman operator in quasi-linear time, nearly matching the ordinary Bellman operator's linear complexity. Our experimental results indicate that the proposed methods are many orders of magnitude faster than the state-of-the-art approach, which uses linear programming solvers combined with a robust value iteration.",
+    "authors": [
+        "Chin Pang Ho",
+        "Marek Petrik",
+        "Wolfram Wiesemann"
+    ],
+    "emails": [
+        "clint.ho@cityu.edu.hk",
+        "mpetrik@cs.unh.edu",
+        "ww@imperial.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/marekpetrik/craam2"
+        ]
+    ],
+    "id": "20-445",
+    "issue": 275,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Partial Policy Iteration for L1-Robust Markov Decision Processes",
+    "volume": 22,
+    "year": 2021
+}

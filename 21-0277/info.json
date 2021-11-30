@@ -1,0 +1,24 @@
+{
+    "abstract": "Linear bandit algorithms yield $\\tilde{\\mathcal{O}}(n\\sqrt{T})$ pseudo-regret bounds on compact convex action sets $\\mathcal{K}\\subset\\mathbb{R}^n$ and two types of structural assumptions lead to better pseudo-regret bounds.\r\nWhen $\\mathcal{K}$ is the simplex or an $\\ell_p$ ball with $p\\in]1,2]$, there exist bandits algorithms with $\\tilde{\\mathcal{O}}(\\sqrt{nT})$ pseudo-regret bounds.\r\nHere, we derive bandit algorithms for some strongly convex sets beyond $\\ell_p$ balls that enjoy pseudo-regret bounds of $\\tilde{\\mathcal{O}}(\\sqrt{nT})$.\r\nThis result provides new elements for the open question in Bubeck and Cesa-Bianchi, 2012.\r\nWhen the action set is $q$-uniformly convex but not necessarily strongly convex ($q >2$), we obtain pseudo-regret bounds $\\tilde{\\mathcal{O}}(n^{1/q}T^{1/p})$ with $p$ s.t. $1/p + 1/q=1$. \r\nThese pseudo-regret bounds are competitive with the general $\\tilde{\\mathcal{O}}(n\\sqrt{T})$ for a time horizon range that depends on the degree $q>2$ of the set's uniform convexity and the dimension $n$ of the problem.",
+    "authors": [
+        "Thomas Kerdreux",
+        "Christophe Roux",
+        "Alexandre d'Aspremont",
+        "Sebastian Pokutta"
+    ],
+    "emails": [
+        "thomaskerdreux@gmail.com",
+        "roux@zib.de",
+        "aspremon@ens.fr",
+        "pokutta@zib.de"
+    ],
+    "id": "21-0277",
+    "issue": 284,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "Linear Bandits on Uniformly Convex Sets",
+    "volume": 22,
+    "year": 2021
+}

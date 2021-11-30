@@ -1,0 +1,26 @@
+{
+    "abstract": "Recent progress in reinforcement learning has led to remarkable performance in a range of applications, but its deployment in high-stakes settings remains quite rare. One reason is a limited understanding of the behavior of reinforcement algorithms, both in terms of their regret and their ability to learn the underlying system dynamics---existing work is focused almost exclusively on characterizing rates, with little attention paid to the constants multiplying those rates that can be critically important in practice. To start to address this challenge, we study perhaps the simplest non-bandit reinforcement learning problem: linear quadratic adaptive control (LQAC). By carefully combining recent finite-sample performance bounds for the LQAC problem with a particular (less-recent) martingale central limit theorem, we are able to derive asymptotically exact expressions for the regret, estimation error, and prediction error of a rate-optimal stepwise-updating LQAC algorithm. In simulations on both stable and unstable systems, we find that our asymptotic theory also describes the algorithm's finite-sample behavior remarkably well.",
+    "authors": [
+        "Feicheng Wang",
+        "Lucas Janson"
+    ],
+    "emails": [
+        "feicheng_wang@fas.harvard.edu",
+        "ljanson@fas.harvard.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Feicheng-Wang/LQAC_code"
+        ]
+    ],
+    "id": "20-1292",
+    "issue": 265,
+    "pages": [
+        1,
+        112
+    ],
+    "title": "Exact Asymptotics for Linear Quadratic Adaptive Control",
+    "volume": 22,
+    "year": 2021
+}

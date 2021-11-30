@@ -1,0 +1,22 @@
+{
+    "abstract": "Spiking neural networks (SNNs) have attracted much attention due to their great potential for modeling time-dependent signals. The performance of SNNs depends not only on picking an apposite architecture and searching optimal connection weights as well as conventional deep neural networks, but also on the careful tuning of many hyper-parameters within fundamental spiking neural models. However, so far, there has been less systematic work on analyzing SNNs' dynamical characteristics, especially ones relative to these internal hyper-parameters, which leads to whether SNNs are adequate for modeling actual data relies on fortune. In this work, we provide a theoretical framework for investigating spiking neural models from the perspective of dynamical systems. As a result, we point out that the LIF model with control rate hyper-parameters is a bifurcation dynamical system. This point explains why the performance of SNNs is so sensitive to the setting of control rate hyper-parameters, leading to a recommendation that diverse and adaptive eigenvalues are beneficial to improve the performance of SNNs. Inspired by this insight, we develop the Bifurcation Spiking Neural Network (BSNN) with supervised implementation, and theoretically show that BSNN is an adaptive dynamical system. Experiments validate the effectiveness of BSNN on several benchmark data sets, showing that BSNN achieves superior performance to existing SNNs and is robust to the setting of control rates.",
+    "authors": [
+        "Shao-Qun Zhang",
+        "Zhao-Yu Zhang",
+        "Zhi-Hua Zhou"
+    ],
+    "emails": [
+        "zhangsq@lamda.nju.edu.cn",
+        "zhangzhaoyu@lamda.nju.edu.cn",
+        "zhouzh@lamda.nju.edu.cn"
+    ],
+    "id": "20-1031",
+    "issue": 253,
+    "pages": [
+        1,
+        21
+    ],
+    "title": "Bifurcation Spiking Neural Network",
+    "volume": 22,
+    "year": 2021
+}

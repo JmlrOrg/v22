@@ -1,0 +1,22 @@
+{
+    "abstract": "Contrastive learning is an approach to representation learning that utilizes naturally occurring similar and dissimilar pairs of data points to find useful embeddings of data. In the context of document classification under topic modeling assumptions, we prove that contrastive learning is capable of recovering a representation of documents that reveals their underlying topic posterior information to linear models. We apply this procedure in a semi-supervised setup and demonstrate empirically that linear classifiers trained on these representations perform well in document classification tasks with very few training examples.",
+    "authors": [
+        "Christopher Tosh",
+        "Akshay Krishnamurthy",
+        "Daniel Hsu"
+    ],
+    "emails": [
+        "toshc@mskcc.org",
+        "akshaykr@microsoft.com",
+        "djhsu@cs.columbia.edu"
+    ],
+    "id": "21-0089",
+    "issue": 281,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Contrastive Estimation Reveals Topic Posterior Information to Linear Models",
+    "volume": 22,
+    "year": 2021
+}

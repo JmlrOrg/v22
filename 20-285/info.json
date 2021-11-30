@@ -1,0 +1,24 @@
+{
+    "abstract": "It is becoming increasingly important to understand the vulnerability of machine learning models to adversarial attacks. In this paper we study the feasibility of adversarially robust learning from the perspective of computational learning theory, considering both sample and computational complexity. In particular, our definition of robust learnability requires polynomial sample complexity. We start with two negative results. We show that no non-trivial concept class can be robustly learned in the distribution-free setting against an adversary who can perturb just a single input bit. We show, moreover, that the  class of monotone conjunctions cannot be robustly learned under the uniform distribution against an adversary who can perturb $\\omega(\\log n)$ input bits. However, we also show that if the adversary is restricted to perturbing $O(\\log n)$ bits, then  one can robustly learn the class of $1$-decision lists (which subsumes monotone conjunctions) with respect to the class of log-Lipschitz distributions. We then extend this result to show learnability of 2-decision lists and monotone $k$-decision lists in the same distributional and adversarial setting. Finally, we provide a simple proof of the computational hardness of robust learning on the boolean hypercube. Unlike previous results of this nature, our result does not rely on a more restricted model of learning, such as the statistical query model, nor on any hardness assumption other than the existence of an (average-case) hard learning problem in the PAC framework; this allows us to have a clean proof of the reduction, and the assumption is no stronger than assumptions that are used to build cryptographic primitives.",
+    "authors": [
+        "Pascale Gourdeau",
+        "Varun Kanade",
+        "Marta Kwiatkowska",
+        "James Worrell"
+    ],
+    "emails": [
+        "pascale.gourdeau@cs.ox.ac.uk",
+        "varunk@cs.ox.ac.uk",
+        "marta.kwiatkowska@cs.ox.ac.uk",
+        "james.worrell@cs.ox.ac.uk"
+    ],
+    "id": "20-285",
+    "issue": 273,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "On the Hardness of Robust Classification",
+    "volume": 22,
+    "year": 2021
+}

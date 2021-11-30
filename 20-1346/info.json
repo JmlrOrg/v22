@@ -1,0 +1,28 @@
+{
+    "abstract": "Kernel methods have been among the most popular techniques in machine learning, where learning tasks are solved using the property of reproducing kernel Hilbert space (RKHS). In this paper, we propose a novel data analysis framework with reproducing kernel Hilbert $C^*$-module (RKHM) and kernel mean embedding (KME) in RKHM. Since RKHM contains richer information than RKHS or vector-valued RKHS (vvRKHS), analysis with RKHM enables us to capture and extract structural properties in such as functional data. We show a branch of theories for RKHM to apply to data analysis, including the representer theorem, and the injectivity and universality of the proposed KME. We also show RKHM generalizes RKHS and vvRKHS. Then, we provide concrete procedures for employing RKHM and the proposed KME to data analysis.",
+    "authors": [
+        "Yuka Hashimoto",
+        "Isao Ishikawa",
+        "Masahiro Ikeda",
+        "Fuyuta Komura",
+        "Takeshi Katsura",
+        "Yoshinobu Kawahara"
+    ],
+    "emails": [
+        "yuka.hashimoto.rw@hco.ntt.co.jp",
+        "ishikawa.isao.zx@ehime-u.ac.jp",
+        "masahiro.ikeda@riken.jp",
+        "fuyuta.k@keio.jp",
+        "katsura@math.keio.ac.jp",
+        "kawahara@imi.kyushu-u.ac.jp"
+    ],
+    "id": "20-1346",
+    "issue": 267,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Reproducing kernel Hilbert C*-module and kernel mean embeddings",
+    "volume": 22,
+    "year": 2021
+}
